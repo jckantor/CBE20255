@@ -2,6 +2,7 @@ CBE20255
 ========
 
 ## Matlab Functions and Scripts ##
+These Matlab files can be downloaded individually. Click on the filename to show the Matlab file in the browser, then `Save As..` in the browser File menu to save on your computer.
 
 | m-file| Description |
 | :---: | :--- |  
@@ -9,6 +10,8 @@ CBE20255
 | [`displaytable.m`](https://raw.github.com/jckantor/CBE20255/master/matlab/displaytable.m) | Format a matrix as a table with optional row and column labels, with optional export to plain text, latex, html, or csv output.|
 
 ## IPython Notebooks ##
+These IPython notebooks can be downloaded individually. Click on the link to open the notebook in `nbviewer`, then click on the `nbviewer` download button to save on your computer.
+
 * [Adiabatic Flame Temperature](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adiabatic%20Flame%20Temperature.ipynb)
 * [Symbolic Solution of Material Balances using Sympy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Material%20Balances%20using%20Sympy.ipynb)
 * [Raoult's Law](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Raoult's%20Law.ipynb)
