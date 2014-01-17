@@ -7,7 +7,7 @@ These Matlab files can be downloaded individually. Click on the filename to show
 | m-file| Description |
 | :---: | :--- |  
 | [`molweight.m`](https://raw.github.com/jckantor/CBE20255/master/matlab/molweight.m) | Given a string representing a chemical formula, calculate the molecular weight of a species.|  
-| [`displaytable.m`](https://raw.github.com/jckantor/CBE20255/master/matlab/displaytable.m) | Format a matrix as a table with optional row and column labels, with optional export to plain text, latex, html, or csv output.|
+| [`displaytable.m`](https://raw.github.com/jckantor/CBE20255/master/matlab/displaytable.m) | Format a matrix as a table with optional row and column labels, and optional export to plain text, latex, html, or csv output. Used to format output from many of the example scripts.|
 
 ## IPython Notebooks ##
 These IPython notebooks can be downloaded individually. Click on the link to open the notebook in `nbviewer`, then click on the `nbviewer` download button to save on your computer.
