@@ -14,7 +14,7 @@ These IPython notebooks can be downloaded individually. Click on the link to ope
 
 * [Adiabatic Flame Temperature](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adiabatic%20Flame%20Temperature.ipynb)
 * [Balancing Reactions. Combustion of Methane](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.%20Combustion%20of%20Methane.ipynb)
-* [Symbolic Solution of Material Balances using SymPy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Material%20Balances%20using%20SymPy.ipynb)
+* [Solving Material Balances using SymPy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving$20Material%20Balances%20using%20SymPy.ipynb)
 * [Raoult's Law](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Raoult's%20Law.ipynb)
 * [Steam Reforming of Methane](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb)
 * [Vapor-Liquid Equilibrium for Pure Components](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid%20Equilibrium%20for%20a%20Pure%20Component.ipynb)
