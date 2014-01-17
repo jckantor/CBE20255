@@ -13,7 +13,7 @@ These Matlab files can be downloaded individually. Click on the filename to show
 These IPython notebooks can be downloaded individually. Click on the link to open the notebook in `nbviewer`, then click on the `nbviewer` download button to save on your computer.
 
 * [Adiabatic Flame Temperature](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adiabatic%20Flame%20Temperature.ipynb)
-* [Balancing Reactions. Combustion of Methane](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.%20Combustion%20of%20Methane.ipynb)
+* [Balancing Reactions](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
 * [Solving Material Balances using SymPy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving%20Material%20Balances%20using%20SymPy.ipynb)
 * [Raoult's Law](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Raoult's%20Law.ipynb)
 * [Steam Reforming of Methane](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb)
