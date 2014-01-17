@@ -5,8 +5,8 @@ CBE20255
 
 | m-file| Description |
 | :---: | :--- |  
-| `molweight.m` | Given a string representing a chemical formula, calculate the molecular weight of a species.|  
-| `displaytable.m` | Format a matrix as a table with optional row and column labels, with optional export to plain text, latex, html, or csv output.|
+| [`molweight.m`](https://raw.github.com/jckantor/CBE20255/master/matlab/molweight.m) | Given a string representing a chemical formula, calculate the molecular weight of a species.|  
+| [`displaytable.m`](https://raw.github.com/jckantor/CBE20255/master/matlab/displaytable.m) | Format a matrix as a table with optional row and column labels, with optional export to plain text, latex, html, or csv output.|
 
 ## IPython Notebooks ##
 * [Adiabatic Flame Temperature](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adiabatic%20Flame%20Temperature.ipynb)
