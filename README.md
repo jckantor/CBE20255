@@ -17,6 +17,7 @@ These IPython notebooks can be downloaded individually. Click on the link to ope
 
 ### 1. Stoichiometry ###
 * [Balancing Reactions](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
+* [Generation/Consumption Analysis for the Production of Ammonia](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Generation%20Consumption%20Analysis%20for%20Ammonia.ipynb)
 
 ### 2. Process Flows ###
 
