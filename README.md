@@ -11,19 +11,16 @@ These IPython notebooks can be downloaded individually. Click on the link to ope
 * [Balancing Reactions](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
 * [Generation/Consumption Analysis for the Production of Ammonia](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Generation%20Consumption%20Analysis%20for%20Ammonia.ipynb)
 
-### 2. Process Flows ###
-
+### 2. Process Flows and Balances ###
+* [Global $CO_2$ Budget]()
 
 ### 3. Material Balances ###
-
 * [Solving Material Balances using SymPy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving%20Material%20Balances%20using%20SymPy.ipynb)
 
 ### 4. Reactors ###
-
 * [Steam Reforming of Methane](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb)
 
 ### 5. Separations ###
-
 * [Vapor-Liquid Equilibrium for Pure Components](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid%20Equilibrium%20for%20a%20Pure%20Component.ipynb)
 * [Raoult's Law](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Raoult's%20Law.ipynb)
 
@@ -31,7 +28,6 @@ These IPython notebooks can be downloaded individually. Click on the link to ope
 * [Adiabatic Flame Temperature](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adiabatic%20Flame%20Temperature.ipynb)
 
 ### 7. Projects ###
-
 * [West Virginia Chemical Spill](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/West%20Virginia%20Chemical%20Spill.ipynb)
 
 ## Matlab Functions and Scripts ##
