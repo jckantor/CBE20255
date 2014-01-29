@@ -12,7 +12,7 @@ These IPython notebooks can be downloaded individually. Click on the link to ope
 * [Generation/Consumption Analysis for the Production of Ammonia](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Generation%20Consumption%20Analysis%20for%20Ammonia.ipynb)
 
 ### 2. Process Flows and Balances ###
-* [Global $CO_2$ Budget]()
+* [Global $CO_2$ Budget](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Global%20CO2%20Budget.ipynb)
 
 ### 3. Material Balances ###
 * [Solving Material Balances using SymPy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving%20Material%20Balances%20using%20SymPy.ipynb)
