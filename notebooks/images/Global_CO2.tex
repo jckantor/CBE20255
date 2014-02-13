@@ -1,0 +1,33 @@
+\documentclass[tikz]{standalone}
+\usepackage{helvet}
+\usepackage[T1]{sansmath}
+\renewcommand{\familydefault}{\sfdefault}
+\normalfont
+
+\begin{document}
+\begin{sansmath}
+
+\tikzstyle{system} = [
+    draw,very thick,
+    minimum height = 2cm,
+    minimum width = 3cm,
+    fill=blue!05,
+    rectangle,
+    rounded corners,
+    text centered]
+
+\begin{tikzpicture}[node distance = 2cm, auto, thick,
+                    text height=1.5ex,text depth=0.25ex]
+  %\draw[help lines] (0,0) grid (10,6);
+  \draw (5,3) node [system] (sys) {Atmosphere};
+
+  \draw (1.75,3) node [left,align=center, text height = 3ex] {Global $CO_2$\\Emissions};
+  \draw [<-,very thick] (sys) -- ++ (-3,0) ;
+
+  \draw (8.25,3) node [right] {$CO_2$ Sinks};
+  \draw [->,very thick] (sys) -- ++ (3,0) ;
+
+\end{tikzpicture}
+
+\end{sansmath}
+\end{document}
