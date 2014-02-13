@@ -93,5 +93,7 @@ flows = [ ...
       0,  0,  0,  0,  0, A6,  0,  0,  0,   0];
 
 displaytable(flows,Comps,'S','%6.0f');
+displaytable(Z1,'Extent 1 = ');
+displaytable(Z2,'Extent 2 = ');
 
     
