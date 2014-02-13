@@ -1,0 +1,74 @@
+\documentclass[tikz]{standalone}
+\usepackage{helvet}
+\usepackage[T1]{sansmath}
+\renewcommand{\familydefault}{\sfdefault}
+\normalfont
+
+\begin{document}
+
+\begin{sansmath}
+\tikzstyle{unit} = [
+  draw, thick, minimum height = 1.8cm, minimum width = 2cm,
+  fill = blue!05, rectangle, rounded corners, text centered]
+
+\begin{tikzpicture}[node distance = 2cm, auto,
+                    text height=1.5ex,text depth=0.25ex]
+  %\draw[help lines] (-2,-4) grid (22,4);
+
+  \draw (2,0) node [unit] (mixr1) {Mixer 1};
+  \draw (6,0) node [unit,align=center] (rctr1) 
+    {\shortstack{Fermentor\\$X_1$}};
+  \draw (10,0) node [unit] (sepr) {Separator};
+  \draw (14,0) node [unit] (mixr2) {Mixer 2};
+  \draw (18,0) node [unit,align=center] (rctr2) 
+    {\shortstack{Reactor\\$X_2$}};
+    
+  \draw [<-,thick] (1,0.4) --++(-1,0) 
+    node [above,midway,circle,draw] {1}
+    node [left] {$O_1$, $N_1$} ;
+  \draw [<-,thick] (1,-0.5) --++(-1,0) 
+    node [below,midway,circle,draw] {2}
+    node [left] {$G_2$, $W_2$} ;
+    
+  \draw (6,-1.8) node {\shortstack{
+    $\frac{7}{3}G + \frac{17}{2}O \rightarrow M + 8 C + 11 W$}} ;
+    
+  \draw (18,-1.8) node {\shortstack{
+    $M + 2 H \rightarrow A$}} ;
+
+  \draw [->,thick] (mixr1) -- (rctr1)
+    node [below,midway,circle,draw] {7}
+    node [above,midway] {\shortstack{$O_7$\\$N_7$\\$G_7$\\$W_7$}} ;
+      
+  \draw [->,thick] (rctr1) -- (sepr)
+    node [below,midway,circle,draw] {8}
+    node [above,midway] {\shortstack{$N_8$\\$C_8$\\$M_8$\\$W_8$}} ;
+      
+  \draw [->,thick] (sepr) -- ++(0,2) -- ++(1,0)
+    node [below,midway,circle,draw] {4}
+    node [right] {\shortstack{$N_4$\\$C_4$}} ;
+
+  \draw [->,thick] (sepr) -- ++(0,-2) -- ++(1,0)
+    node [above,midway,circle,draw] {5}
+    node [right] {\shortstack{$W_5$}} ;
+  
+  \draw [->,thick] (sepr) -- (mixr2) 
+    node [below,midway,circle,draw] {9}
+    node [above,midway] {\shortstack{$M_9$}} ;
+    
+  \draw [<-,thick] (mixr2) -- ++(0,2) 
+    node [right,midway,circle,draw] {3}
+    node [above] {$H_3$};
+  
+  \draw [->,thick] (mixr2) -- (rctr2) 
+    node [below,midway,circle,draw] {10}
+    node [above,midway] {\shortstack{$H_{10}$\\$M_{10}$}};
+
+  \draw [->,thick] (rctr2) -- ++(2,0) 
+    node [below,midway,circle,draw] {6}
+    node [right] {\shortstack{$A_6$}} ;
+ 
+\end{tikzpicture}
+\end{sansmath}
+\end{document}
+

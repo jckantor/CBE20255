@@ -1,0 +1,13 @@
+\documentclass{standalone}
+\usepackage{chemfig}
+\begin{document}
+
+\setdoublesep{0.35700 em}               % 'Bond Spacing'
+\setatomsep{1.78500 em}                 % 'Fixed Length'
+\setbondoffset{0.18265 em}              % 'Margin Width'
+\newcommand{\bondwidth}{0.06642 em}     % 'Line Width'
+\setbondstyle{line width = \bondwidth}
+
+\chemfig{C(-[:90]H)(-[:180]H)(-[:270]H)-C(-[:90]H)(-[:270]H)-O-H}
+
+\end{document}

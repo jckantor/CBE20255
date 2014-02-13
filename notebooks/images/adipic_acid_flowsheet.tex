@@ -1,0 +1,71 @@
+\documentclass[tikz]{standalone}
+\usepackage{helvet}
+\usepackage[T1]{sansmath}
+\renewcommand{\familydefault}{\sfdefault}
+\normalfont
+
+\begin{document}
+
+\begin{sansmath}
+\tikzstyle{unit} = [
+  draw, thick, minimum height = 1.8cm, minimum width = 2cm,
+  fill = blue!05, rectangle, rounded corners, text centered]
+
+\begin{tikzpicture}[node distance = 2cm, auto,
+                    text height=1.5ex,text depth=0.25ex]
+  %\draw[help lines] (-2,-4) grid (22,4);
+
+  \draw (2,0) node [unit] (mixr1) {Mixer 1};
+  \draw (6,0) node [unit,align=center] (rctr1) 
+    {Fermentor};
+  \draw (10,0) node [unit] (sepr) {Separator};
+  \draw (14,0) node [unit] (mixr2) {Mixer 2};
+  \draw (18,0) node [unit,align=center] (rctr2) 
+    {Reactor};
+    
+  \draw [<-,thick] (1,0.75) --++(-1,0) 
+    node [left] {Air ($O_2$, $N_2$)} ;
+  \draw [<-,thick] (1,0.25) --++(-1,0) 
+    node [left] {Glucose} ;
+  \draw [<-,thick] (1,-0.25) --++(-1,0) 
+    node [left] {Water} ;
+  \draw [<-,thick] (1,-0.75) --++(-1,0) 
+    node [left] {\em E. coli} ;
+    
+  \draw (6,-1.8) node {\shortstack{
+    $\frac{7}{3}C_6H_{12}O_6 + \frac{17}{2}O_2 \longrightarrow$
+    \\ $ C_6H_6O_4 + 8 CO_2 + 11 H_2O$}} ;
+    
+  \draw (18,-1.8) node {\shortstack{
+    $C_6H_6O_4 + 2 H_2 \longrightarrow$ \\ $ C_6H_{10}O_4$}} ;
+
+  \draw [->,thick] (mixr1) -- (rctr1)
+    node [above,midway] {\shortstack{Air ($O_2$, $N_2$)\\
+      Glucose\\Water\\{\em E. coli}}} ;
+      
+  \draw [->,thick] (rctr1) -- (sepr)
+    node [above,midway] {\shortstack{
+      Muconic Acid\\$N_2$\\$CO_2$\\Water\\{\em E. coli}}} ;
+      
+  \draw [->,thick] (sepr) -- ++(0,2) -- ++(1,0)
+    node [right] {\shortstack{$N_2$\\$CO_2$}} ;
+
+  \draw [->,thick] (sepr) -- ++(0,-2) -- ++(1,0)
+    node [right] {\shortstack{Water\\{\em E. coli}}} ;
+  
+  \draw [->,thick] (sepr) -- (mixr2) 
+    node [above,midway] {\shortstack{Muconic\\Acid}} ;
+    
+  \draw [<-,thick] (mixr2) -- ++(0,2) 
+    node [above] {Hydrogen ($H_2$)};
+  
+  \draw [->,thick] (mixr2) -- (rctr2) 
+    node [above,midway] {\shortstack{$H_2$\\Muconic\\Acid}};
+
+  \draw [->,thick] (rctr2) -- ++(2,0) 
+    node [right] {\shortstack{Adipic\\Acid}} ;
+ 
+\end{tikzpicture}
+\end{sansmath}
+\end{document}
+

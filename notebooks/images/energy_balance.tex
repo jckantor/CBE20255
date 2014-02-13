@@ -1,0 +1,39 @@
+\documentclass[tikz]{standalone}
+\begin{document}
+
+\tikzstyle{system} = [
+    draw,thick,
+    minimum height = 1.5cm,
+    minimum width = 2.5cm,
+    fill=yellow!40,
+    rectangle,
+    rounded corners,
+    text centered]
+
+\begin{tikzpicture}[node distance = 2cm, auto, thick,
+                    text height=1.5ex,text depth=0.25ex]
+  %\draw[help lines] (0,0) grid (10,6);
+  \draw (5,3) node [system] (sys) {System};
+
+  \draw (1.75,3) node [left] {Inflows};
+  \draw [<-,thick] (sys) -- ++ (-2,0.75) node [left] {$\vdots$};
+  \draw [<-,thick] (sys) -- ++ (-2,0) node [left] {$\dot{m}_j\hat{H}_j$};
+  \draw [<-,thick] (sys) -- ++ (-2,-0.75) node [left] {$\vdots$};
+
+  \draw (8.25,3) node [right] {Outflows};
+  \draw [->,thick] (sys) -- ++ (2,0.75) node [right] {$\vdots$};
+  \draw [->,thick] (sys) -- ++ (2,0) node [right] {$\dot{m}_j\hat{H}_j$};
+  \draw [->,thick] (sys) -- ++ (2,-0.75) node [right] {$\vdots$};
+
+  \draw (5,0.5) node {Heat Sources};
+  \draw [<-] (sys) -- ++(-0.75,-1.5) node [below] {$\cdots$};
+  \draw [<-] (sys) -- ++(-0,-1.5) node [below] {$\dot{Q}_j$};
+  \draw [<-] (sys) -- ++(0.75,-1.5) node [below] {$\cdots$};
+
+  \draw (5,5.5) node {Shaft Work};
+  \draw [<-] (sys) -- ++(-0.75,1.5) node [above] {$\cdots$};
+  \draw [<-] (sys) -- ++(0,1.5) node [above] {$\dot{W}_j$};
+  \draw [<-] (sys) -- ++(0.75,1.5) node [above] {$\cdots$};
+
+\end{tikzpicture}
+\end{document}
