@@ -15,6 +15,7 @@ These IPython notebooks can be downloaded individually. Click on the link to ope
 
 ### 2. Process Flows and Balances ###
 * [Global CO<sub>2</sub> Budget](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Global%20CO2%20Budget.ipynb)
+* [Adipic Acid Flowsheet](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adipic%20Acid%20Flowsheet.ipynb)
 
 ### 3. Material Balances ###
 * [Solving Set of Linear Equations](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving%20Set%20of%20Linear%20Equations.ipynb)
