@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  13 FEB 2014 20:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  13 FEB 2014 21:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -336,15 +336,15 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/Jeff/Dropbox/Git/CBE20255/notebooks/images/.texpadtmp/ethylene_oxide_flowsheet.aux) ) 
 Here is how much of TeX's memory you used:
- 10364 strings out of 493315
- 199616 string characters out of 6137904
+ 10367 strings out of 493315
+ 199682 string characters out of 6137904
  242207 words of memory out of 5000000
- 13607 multiletter control sequences out of 15000+600000
+ 13610 multiletter control sequences out of 15000+600000
  33005 words of font info for 34 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,12n,57p,437b,659s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on /Users/Jeff/Dropbox/Git/CBE20255/notebooks/images/.texpadtmp/ethylene_oxide_flowsheet.pdf (1 page, 28340 bytes).
+Output written on /Users/Jeff/Dropbox/Git/CBE20255/notebooks/images/.texpadtmp/ethylene_oxide_flowsheet.pdf (1 page, 28662 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream

@@ -9,7 +9,7 @@
 
 \tikzstyle{box} = [
     draw,
-    minimum height = 1.75cm,
+    minimum height = 2cm,
     minimum width = 2cm, 
     fill=blue!05,
     rectangle, 
@@ -24,8 +24,13 @@
 	\draw (2.5,3) node [box] (mixer) {\shortstack{Mixer}};
 	\draw (6,3) node [box] (reactor)
 		{\shortstack{Reactor\\$ $\\6\% Conversion}};
-	\draw (10,3) node [box] (separator)
-		{\shortstack{Separator\\$ $\\97+\% Selectivity}};
+	\draw (9.5,3) node [box] (separator)
+		{\shortstack{
+		    Separator\\
+		    $ $\\
+		    99.5\% O $\uparrow$\\
+		    98\% E $\uparrow$\\
+		    97\% EO $\downarrow$}};
  
 	\draw [<-] (mixer) -- ++(-3.25,0) 
 		node [midway,below] {\shortstack{$\dot{n}_{O,1}=84.5$
@@ -41,13 +46,13 @@
 	\draw [->] (separator) -- ++(3.25,0)
 		node [midway,below] {\shortstack{$O$\\$E$\\$EO$}}
 		node [midway,above,draw,circle] {4};
-	\draw [->] (separator) -- ++(0,2.5) -- ++(-7.5,0)
-		node [midway,below] {\shortstack{$O$\\$E$\\$EO$}}
+	\draw [->] (separator) -- ++(0,2) -- ++(-7,0)
+		node [midway,below] {\shortstack{$O$, $E$, $EO$}}
 		node [midway,above,draw,circle] {5}
 		-- (mixer);
 	\path (reactor) -- ++(0,-1.5) node [below]  
 	    {$2\,\underbrace{C_{2}H_{4}}_{E}+
-			\underbrace{O_{2}}_{O}\longrightarrow2
+			\underbrace{O_{2}}_{O}\rightarrow2
 			\,\underbrace{C_{2}H_{4}O}_{EO} $};
 
 \end{tikzpicture}
