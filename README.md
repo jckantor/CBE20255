@@ -8,6 +8,8 @@ These IPython notebooks can be downloaded individually. Click on the link to ope
 
 ### 0. Getting Started ###
 * [Getting Started with IPython](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20IPython.ipynb)
+* [Solving Set of Linear Equations with Sympy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving%20Set%20of%20Linear%20Equations%20with%20Sympy.ipynb)
+
 
 ### 1. Stoichiometry ###
 * [Balancing Reactions](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
@@ -15,7 +17,6 @@ These IPython notebooks can be downloaded individually. Click on the link to ope
 
 ### 2. Process Flows and Balances ###
 * [Global CO<sub>2</sub> Budget](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Global%20CO2%20Budget.ipynb)
-* [Solving Set of Linear Equations with Sympy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving%20Set%20of%20Linear%20Equations%20with%20Sympy.ipynb)
 * [Adipic Acid Flowsheet](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adipic%20Acid%20Flowsheet.ipynb)
 
 ### 3. Material Balances ###
