@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  13 FEB 2014 20:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  13 FEB 2014 20:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Global_CO2.tex
-(./Global_CO2.tex
+**adipic_acid_flowsheet.tex
+(./adipic_acid_flowsheet.tex
 LaTeX2e <2011/06/27>
 Babel <3.9f> and hyphenation patterns for 78 languages loaded.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/standalone/standalone.cls
@@ -247,15 +247,6 @@ File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
 )))
 \sa@box=\box35
-runsystem(pdflatex  -shell-escape  -jobname 'Global_CO2' '\expandafter\def\csname sa@internal@run\endcsname{1}\input{Global_CO2}')...disabled (restricted).
-
-runsystem(convert -density 300 Global_CO2.pdf  -quality 90 Global_CO2-%d.png)...disabled (restricted).
-
-
-
-Class standalone Warning: Conversion failed! Please ensure that shell escape
-(standalone)              is enabled (e.g. use '-shell-escape').
-
 ) (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 ) (/usr/local/texlive/2013/texmf-dist/tex/latex/sansmath/sansmath.sty
@@ -277,8 +268,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsfbf' in version `sans'
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 5.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
-) (/Users/Jeff/Dropbox/Git/CBE20255/notebooks/images/.texpadtmp/Global_CO2.aux)
-\openout1 = `Global_CO2.aux'.
+) (/Users/Jeff/Dropbox/Git/CBE20255/notebooks/images/.texpadtmp/adipic_acid_flowsheet.aux)
+\openout1 = `adipic_acid_flowsheet.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
@@ -335,28 +326,31 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 24.
+(Font)              <7> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 24.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 24.
+(Font)              <5> on input line 27.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 27.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
-) [1
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 33.
+ [1
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/Jeff/Dropbox/Git/CBE20255/notebooks/images/.texpadtmp/Global_CO2.aux) ) 
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/Jeff/Dropbox/Git/CBE20255/notebooks/images/.texpadtmp/adipic_acid_flowsheet.aux) ) 
 Here is how much of TeX's memory you used:
- 10343 strings out of 493315
- 199024 string characters out of 6137904
- 236281 words of memory out of 5000000
- 13586 multiletter control sequences out of 15000+600000
- 19777 words of font info for 26 fonts, out of 8000000 for 9000
+ 10363 strings out of 493315
+ 199405 string characters out of 6137904
+ 244207 words of memory out of 5000000
+ 13606 multiletter control sequences out of 15000+600000
+ 27060 words of font info for 31 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 63i,7n,57p,423b,676s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on /Users/Jeff/Dropbox/Git/CBE20255/notebooks/images/.texpadtmp/Global_CO2.pdf (1 page, 9590 bytes).
+ 63i,13n,57p,434b,663s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on /Users/Jeff/Dropbox/Git/CBE20255/notebooks/images/.texpadtmp/adipic_acid_flowsheet.pdf (1 page, 21282 bytes).
 PDF statistics:
- 20 PDF objects out of 1000 (max. 8388607)
- 14 compressed objects within 1 object stream
+ 24 PDF objects out of 1000 (max. 8388607)
+ 17 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
