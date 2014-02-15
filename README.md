@@ -36,6 +36,7 @@ These IPython notebooks can be downloaded individually. Click on the link to ope
 
 ### 7. Projects ###
 * [West Virginia Chemical Spill](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/West%20Virginia%20Chemical%20Spill.ipynb)
+*  [Pyrotechnic Design for Airbags](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Pyrotechnic%20Design%20for%20Airbags.ipynb)
 
 ## Matlab Functions and Scripts ##
 These Matlab files can be downloaded individually. Click on the filename to show the Matlab file in the browser, then `Save As..` in the browser File menu to save on your computer.
