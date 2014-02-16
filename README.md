@@ -37,6 +37,7 @@ These IPython notebooks can be downloaded individually. Click on the link to ope
 ### 7. Projects ###
 * [West Virginia Chemical Spill](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/West%20Virginia%20Chemical%20Spill.ipynb)
 * [Diesel Engine Emissions Control](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Diesel%20Engine%20Emissions%20Control.ipynb)
+**  [Ajka Alumina Plant Spill](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ajka%20Alumina%20Plant%20Spill.ipynb)
 *  [Pyrotechnic Design for Airbags](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Pyrotechnic%20Design%20for%20Airbags.ipynb)
 
 ## Matlab Functions and Scripts ##
