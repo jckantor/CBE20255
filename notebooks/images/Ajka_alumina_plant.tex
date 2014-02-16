@@ -1,0 +1,39 @@
+\documentclass[tikz]{standalone}
+\usepackage{helvet}
+\usepackage[T1]{sansmath}
+\renewcommand{\familydefault}{\sfdefault}
+\normalfont
+
+\begin{document}
+\begin{sansmath}
+
+\tikzstyle{tallunit} = [
+    draw, minimum height = 2cm, minimum width = 2cm, fill=blue!05,
+    rectangle, rounded corners, text centered]
+
+\tikzstyle{unit} = [
+    draw, minimum height = 1cm, minimum width = 2cm, fill=blue!05,
+    rectangle, rounded corners, text centered]
+
+\begin{tikzpicture}[auto]
+  %  \draw[help lines] (0,-3) grid (12,6);
+    \draw (-1,-2.25) {};
+    \draw (2,0) node [tallunit] (mix) {Mixer};
+    \draw (5,0) node [unit] (digester) {Digester};
+    \draw (8,0) node [unit] (separator) {Separator};
+    \draw (11,0) node [unit] (crystallizer) {Crystallizer};
+    \draw [->] (-1,0.75) -- (1,0.75) node [above,midway] {(1) Bauxite};
+    \draw [->] (-1,0) -- (mix) node [above,midway] {(2) $H_2O$};
+    \draw [->] (-1,-0.75) -- (1,-0.75) node [above,midway] {(3) $NaOH$};
+    \draw [->] (mix) -- (digester) node [above,midway] {(4)};
+    \draw [->] (digester)--(separator) node [above,midway] {(5)};
+    \draw [->] (separator)--(crystallizer) node [above,midway] {(6)};
+    \draw [->] (crystallizer)--(11,1.75)--(2,1.75) node [above,midway]
+               {(7) $H_2O$, $Na^+$, $OH^-$, $Al(OH)_4^-$} -- (mix);
+    \draw [->] (separator)--(8,-2)--(11,-2) node [above,midway] {(8) Red Mud};
+    \draw [->] (crystallizer)--(11,-1.25)--(14,-1.25) node [above,midway] 
+               {(9) $Al(OH)_3(s)$};
+\end{tikzpicture}
+
+\end{sansmath}
+\end{document}
