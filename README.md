@@ -3,7 +3,6 @@
 CBE20255
 ========
 
-## IPython Notebooks ##
 These IPython notebooks can be downloaded individually. Click on the link to open the notebook in `nbviewer`, then click on the download button to save on your computer.
 
 ### 0. Getting Started ###
