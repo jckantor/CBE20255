@@ -6,7 +6,6 @@ CBE20255
 ## IPython Notebooks ##
 These IPython notebooks can be downloaded individually. Click on the link to open the notebook in `nbviewer`, then click on the download button to save on your computer.
 
-### 0. Getting Started ###
 * [Getting Started with IPython](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20IPython.ipynb)
 * [Solving Set of Linear Equations with Sympy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving%20Set%20of%20Linear%20Equations%20with%20Sympy.ipynb)
 
