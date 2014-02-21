@@ -1,6 +1,6 @@
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
-Contents
+Topics
 ========
 
 These IPython notebooks can be downloaded individually. Click on the link to open the notebook in `nbviewer`, then click on the download button to save on your computer.
