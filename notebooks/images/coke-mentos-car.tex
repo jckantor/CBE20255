@@ -19,22 +19,18 @@
 
   % Drum outline. Given location of the feed port, draws a drum with
   % stubs for the liquid and vapor lines located at ++(1,2) and ++(1,-2)
-  \draw[fill=blue!25] (drum) ++(0,-1) arc (240:300:2cm) -- ++(0,1)
-    arc(-60:-120:0.333cm) arc(-60:-120:0.334cm) arc(-60:-120:0.333cm) 
-    arc(-60:-120:0.333cm) arc(-60:-120:0.334cm) arc(-60:-120:0.333cm);
-  \draw[thick] (drum) --++(0,-1) arc (240:300:2cm)
+  \draw[thick,fill=blue!10] (drum) --++(0,-1) arc (240:300:2cm)
     -- ++(0,2) arc (60:120:2cm) -- ++(0,-1);
   \draw[ultra thick] (drum) ++(1,-1.268) --++ (0,-0.232);
   
   % connecting the units
   %\draw[->,thick] (feed) node [left] {$\dot{m}_1 = \unitfrac[4]{kg}{s}$} -- (drum);
   \draw[->,ultra thick] (drum) ++ (1,-1.5) -- ++(1.25,0) 
-    node [right] {$v_w$};
-  \draw[<->] (drum) ++ (-0.3,0) -- ++(0,-1.5) node [midway,left] {$h_w$};
+    node [right] {$v_a$};
   
   % label units
-  \draw (drum) ++ (1,-0.5) node {$\rho_w, m_w$};
-  \draw (drum) ++ (1,+0.5) node {$P_{b}$};
+  \draw (drum) ++ (1,-0.5) node {$m_b = \rho_b V_b$};
+  \draw (drum) ++ (1,+0.5) node {$P_{b}, \rho_b$};
   
 \end{tikzpicture}
 \end{sansmath}
