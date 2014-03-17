@@ -31,7 +31,7 @@ These IPython notebooks can be downloaded individually. Click on the link to ope
 
 ### 6. Energy Balances ###
 * [Adiabatic Flame Temperature](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adiabatic%20Flame%20Temperature.ipynb)
-* [Torpedo Propulsion]
+* [Torpedo Propulsion](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Torpedo%20Propulsion.ipynb)
 
 ### 7. Projects ###
 * [West Virginia Chemical Spill](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/West%20Virginia%20Chemical%20Spill.ipynb)
