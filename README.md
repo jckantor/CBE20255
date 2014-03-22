@@ -28,6 +28,8 @@ These IPython notebooks can be downloaded individually. Click on the link to ope
 ### 5. Separations ###
 * [Vapor-Liquid Equilibrium for Pure Components](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid%20Equilibrium%20for%20a%20Pure%20Component.ipynb)
 * [Raoult's Law](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Raoult's%20Law.ipynb)
+* [Txy and xy Diagrams for Binary Mixtures]()
+* [Bubble and Dew Point Calculations]()
 
 ### 6. Energy Balances ###
 * [Adiabatic Flame Temperature](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adiabatic%20Flame%20Temperature.ipynb)
