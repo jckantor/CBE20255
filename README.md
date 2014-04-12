@@ -31,6 +31,7 @@ These IPython notebooks can be downloaded individually. Click on the link to ope
 * [Txy and xy Diagrams for Binary Mixtures](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Txy%20and%20xy%20Diagrams%20for%20Binary%20Mixtures.ipynb)
 * [Bubble and Dew Point Calculations](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Bubble%20and%20Dew%20Point%20Calculations.ipynb)
 * [Isothermal Flash](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Isothermal%20Flash.ipynb)
+* [Binary Distillation with McCabe-Thiele]()
 
 ### 6. Energy Balances ###
 * [Adiabatic Flame Temperature](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adiabatic%20Flame%20Temperature.ipynb)
