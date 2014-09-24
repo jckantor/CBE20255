@@ -4,7 +4,7 @@
 % R. Murphy, "Introduction to Chemical Engineering Analysis"
 %
 % Jeffrey Kantor
-% February 10, 2014
+% September 24, 2014
 
 %% Requirements
 %
@@ -18,20 +18,20 @@ cvx_begin quiet
     % Declare unknown mass flows
 
     %         Oxy   Nit   Glu   Wat   Hyd   CO2   AdA   MuA
-    variables  X1    N1
+    variables  O1    N1
     variables              G2    W2
     variables                          H3
     variables        N4                      C4
     variables                    W5
     variables                                      A6
-    variables  X7    N7    G7    W7
+    variables  O7    N7    G7    W7
     variables        N8          W8          C8          M8
     variables                                            M9
     variables                          H10               M10
     
     % Mixer 1
     
-    0 == X1 - X7;
+    0 == O1 - O7;
     0 == N1 - N7;
     0 == G2 - G7;
     0 == W2 - W7;
@@ -41,7 +41,7 @@ cvx_begin quiet
     
     variables Z1
         
-    0 == X7       - (17/2)*Z1;
+    0 == O7       - (17/2)*Z1;
     0 == N7 - N8;
     0 == G7       -  (7/3)*Z1;
     0 ==    - C8  +      8*Z1;
@@ -72,7 +72,7 @@ cvx_begin quiet
     % Problem Specifications
     
     A6 == 82.2;
-    N1 == (.79/.21)*X1;
+    N1 == (.79/.21)*O1;
     G2 == 0.001006*W2;   
     
 cvx_end
@@ -83,7 +83,7 @@ cvx_end
 disp('Stream Table');
 Comps = {'O2','N2','Glu','H2O','H2','CO2','M Acid','A Acid'};
 flows = [ ...
-     X1,  0,  0,  0,  0,  0, X7,  0,  0,   0;
+     O1,  0,  0,  0,  0,  0, O7,  0,  0,   0;
      N1,  0,  0, N4,  0,  0, N7, N8,  0,   0;
       0, G2,  0,  0,  0,  0, G7,  0,  0,   0;
       0, W2,  0,  0, W5,  0, W7, W8,  0,   0;
