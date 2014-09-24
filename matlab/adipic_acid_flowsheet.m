@@ -58,7 +58,7 @@ cvx_begin quiet
     
     % Reactor 2
     % Extent of Reaction M + 2H -> A   
-    0 == H10      - 2*X2;
+    0 == H10      - 2*Extent2;
     0 == M10      -   Extent2;
     0 ==     - A6 +   Extent2;
     
