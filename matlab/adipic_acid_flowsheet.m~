@@ -39,12 +39,12 @@ cvx_begin quiet
     
     % Reactor 1
     % Extent of Reaction (7/3)G + (17/2)X -> M + 8C + 11W
-    0 == O7       - (17/2)*Extent1;
+    0 == O7       - (17/2)*X1;
     0 == N7 - N8;
-    0 == G7       -  (7/3)*Extent1;
-    0 ==    - C8  +      8*Extent1;
-    0 ==    - M8  +        Extent1;
-    0 == W7 - W8  +     11*Extent1;
+    0 == G7       -  (7/3)*X1;
+    0 ==    - C8  +      8*X1;
+    0 ==    - M8  +        X1;
+    0 == W7 - W8  +     11*X1;
     
     % Separator
     0 == N8 - N4;
@@ -59,8 +59,8 @@ cvx_begin quiet
     % Reactor 2
     % Extent of Reaction M + 2H -> A   
     0 == H10      - 2*X2;
-    0 == M10      -   Extent2;
-    0 ==     - A6 +   Extent2;
+    0 == M10      -   X2;
+    0 ==     - A6 +   X2;
     
     % Problem Specifications
     A6 == 82.2;
@@ -72,7 +72,7 @@ cvx_end
 %%
 % Display Stream Table
 
-disp('Stream Table (flows in kg-moles/hour)');
+disp('Stream Table');
 Comps = {'O2','N2','Glu','H2O','H2','CO2','M Acid','A Acid'};
 flows = [ ...
      O1,  0,  0,  0,  0,  0, O7,  0,  0,   0;
@@ -85,7 +85,7 @@ flows = [ ...
       0,  0,  0,  0,  0, A6,  0,  0,  0,   0];
 
 displaytable(flows,Comps,'S','%6.0f');
-displaytable(Extent1,'Extent 1 = ');
-displaytable(Extent2,'Extent 2 = ');
+displaytable(X1,'Extent 1 = ');
+displaytable(X2,'Extent 2 = ');
 
     
