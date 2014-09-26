@@ -20,6 +20,7 @@ These IPython notebooks can be downloaded individually. Click on the link to ope
 
 ### 3. Material Balances ###
 * [Ethylene Oxide Flowsheet](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ethylene%20Oxide%20Flowsheet.ipynb)
+* Ethylene Oxide Flowsheet [[.m]()][[.pdf]()][[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ethylene%20Oxide%20Flowsheet.ipynb)]
 * [Unsteady-State Material Balances](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Unsteady-State%20Material%20Balances.ipynb)
 
 ### 4. Reactors ###
