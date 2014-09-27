@@ -50,7 +50,6 @@ These Matlab files can be downloaded individually. Click on the filename to show
 
 | m-file| Description |
 | :---: | :--- |  
-| [`Adipic_Acid_Flowsheet.m`](https://raw.github.com/jckantor/CBE20255/master/matlab/Adipic_Acid_Flowsheet.m) | Solving material balances for the production of adipic acid from glucose, Example 2.15 from the Murphy textbook. | 
 | [`displaytable.m`](https://raw.github.com/jckantor/CBE20255/master/matlab/displaytable.m) | Format a matrix as a table with optional row and column labels, and optional export to plain text, latex, html, or csv output. Used to format output from many of the example scripts.|  
 | [`molweight.m`](https://raw.github.com/jckantor/CBE20255/master/matlab/molweight.m) | Given a string representing a chemical formula, calculate the molecular weight of a species.|  
 
