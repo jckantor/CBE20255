@@ -8,20 +8,18 @@
 % encountered in this course.
 
 %% Downloading and Installing CVX
-%
-% CVX is easy to download and install.
 % 
 % *Step 1* If you haven't already done so, download and install the current
-% version of Matlab. (these notes were prepared with Matlab 2012a). Follow
-% the instructions at <https://oit.nd.edu/software-downloads/>
+% version of Matlab. Follow the instructions at 
+% <https://oit.nd.edu/software-downloads/>
 %
 % *Step 2* Download CVX from <http://cvxr.com/cvx/download>. Download 
-% |cvx-rd.zip| which is the redistributable version for  Windows and Mac 
-% platforms. Double-click to unpack the package into a folder. Once
-% complete, you should have a folder name |cvx|. Move that folder into your 
-% Matlab working directory.
+% |cvx-rd.zip| which is the redistributable version for Mac and PC
+% systems. Double-click to unpack the downloaded package into a folder.
+% Once complete you should have a folder name |cvx|. Move that folder into 
+% your Matlab working directory.
 %
-% *Step 3* Start Matlab, and in Matlab navigate to the |cvx| directory you
+% *Step 3* Start Matlab, then in Matlab navigate to the |cvx| directory you
 % created in the previous step. Run the command |cvx_setup| in the Matlab 
 % command window. Depending on your setup, you'll see a report describing 
 % the installation and testing of CVX.
@@ -39,10 +37,11 @@
 %
 % CVX consists of specialized statements that are contained between
 % |cvx_begin| and |cvx_end|.  The |variables| statement identifies the
-% problem unknowns for CVX. Then the equations are written using a double
-% 'equals' sign |==| to distinguish equations from standard Matlab
-% assignments.  CVX attempts to find values for the unknowns that satisfy
-% the given equations.
+% mathematical unknowns you wish to compute with CVX. Then the equations 
+% are written with a double 'equals' sign |==| to distinguish them from 
+% standard Matlab assignments. Following the |cvx_end| statement, CVX
+% attempts to find a solution for the unknowns that satisfy the given
+% equations.
 
 cvx_begin
     variables x y 
