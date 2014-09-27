@@ -1,5 +1,4 @@
 .texpadtmp/
-development/
 notebooks/.ipynb_checkpoints/
 *.aux
 *.log

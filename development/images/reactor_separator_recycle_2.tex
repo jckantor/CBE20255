@@ -1,0 +1,46 @@
+\documentclass[tikz,convert={density=300,outext=.png}]{standalone}
+\begin{document}
+
+\tikzstyle{unit} = [
+  draw, minimum height = 1.75cm, minimum width = 2cm,
+  fill = blue!05, rectangle, rounded corners, text centered]
+
+\begin{tikzpicture}[node distance = 2cm, auto,
+                    text height=1.5ex,text depth=0.25ex]
+  %\draw[help lines] (-2,0) grid (14,4);
+
+  \draw (2,1) node [unit] (mix) {Mixer};
+  \draw (5,1) node [unit,align=center] (reactor) 
+    {Reactor\\$\dot{\xi}_1,\dot{\xi}_2$};
+  \draw (8,1) node [unit] (sep1) {Separator 1};
+  \draw (11,1) node [unit] (sep2) {Separator 2};
+
+  \draw [<-] (mix) -- ++(-2.5,0) 
+    node [below,midway,draw,circle] {1}
+    node [above,midway] {$A_1$} 
+    node [left] {Feed} ;
+  \draw [->] (mix) -- (reactor)
+    node [below,midway,draw,circle] {2}
+    node [above,midway] {$A_2$} ;
+  \draw [->] (reactor) -- (sep1)
+    node [below,midway,draw,circle] {3}
+    node [above,midway] {\shortstack{$A_3$\\$P_3$\\$D_3$}} ;
+  \draw [->] (sep1) -- (sep2)
+    node [below,midway,draw,circle] {5}
+    node [above,midway] {\shortstack{$P_5$\\$D_5$}} ;
+  \draw [->] (sep1) -- ++(0,2.25) -- ++(-6,0)
+    node [below,midway,draw,circle] {4}
+    node [above,midway] {$A_4$} 
+    -- (mix);
+  \draw [->] (sep2) -- ++(0,-1.5) -- ++ (1.5,0)
+    node [below,midway,draw,circle] {6}
+    node [above,midway] {$D_6$} 
+    node [right] {By-Product} ;
+  \draw [->] (sep2) -- ++(2,0)
+    node [below,midway,draw,circle] {7}
+    node [above,midway] {$P_7$}
+    node [right] {Product} ;
+
+\end{tikzpicture}
+
+\end{document}
