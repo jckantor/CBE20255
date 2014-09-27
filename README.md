@@ -17,7 +17,7 @@ These IPython notebooks can be downloaded individually. Click on the link to ope
 * [Global CO<sub>2</sub> Budget](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Global%20CO2%20Budget.ipynb)
 * [General Mass Balance on a Single Tank](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb)
 * Adipic Acid Flowsheet
-[[.m](https://raw.github.com/jckantor/CBE20255/master/matlab/Adipic_Acid_Flowsheet.m)][[.pdf](http://jckantor.github.io/CBE20255/pdf/Adipic_Acid_Flowsheet.pdf)][[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adipic%20Acid%20Flowsheet.ipynb)]
+[[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Adipic_Acid_Flowsheet.m)][[.pdf](http://jckantor.github.io/CBE20255/pdf/Adipic_Acid_Flowsheet.pdf)][[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adipic%20Acid%20Flowsheet.ipynb)]
 
 ### 3. Material Balances ###
 * Ethylene Oxide Flowsheet [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Ethylene_Oxide_Flowsheet.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Ethylene_Oxide_Flowsheet.pdf)][[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ethylene%20Oxide%20Flowsheet.ipynb)]
