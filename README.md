@@ -3,11 +3,15 @@
 Resources
 ========
 
-These IPython notebooks can be downloaded individually. Click on the link to open the notebook in `nbviewer`, then click on the download button to save on your computer.
+These IPython notebooks and Matlab scripts can be downloaded individually. 
+
+For IPython notebooks (marked with filetype .ipynb), click on the .ipynb link to open the  in `nbviewer`, then click on the download icon to save on your computer.
+
+For Matlab scripts (marked with filetype .m), click on the .m link to view the file, then click on the "Raw" button to open and save from your browswer.
 
 ### 0. Getting Started ###
-* [Getting Started with IPython](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20IPython.ipynb)
-* [Solving Set of Linear Equations with Sympy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving%20Set%20of%20Linear%20Equations%20with%20Sympy.ipynb)
+* Getting Started with IPython [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20IPython.ipynb)]
+* Solving Set of Linear Equations with Sympy [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving%20Set%20of%20Linear%20Equations%20with%20Sympy.ipynb)]
 
 ### 1. Stoichiometry ###
 * [Balancing Reactions](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
