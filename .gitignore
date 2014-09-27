@@ -1,4 +1,5 @@
 .texpadtmp/
+matlab/html/
 notebooks/.ipynb_checkpoints/
 *.aux
 *.log

@@ -16,10 +16,10 @@ These IPython notebooks can be downloaded individually. Click on the link to ope
 ### 2. Process Flows and Balances ###
 * [Global CO<sub>2</sub> Budget](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Global%20CO2%20Budget.ipynb)
 * [General Mass Balance on a Single Tank](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb)
-* [Adipic Acid Flowsheet](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adipic%20Acid%20Flowsheet.ipynb)
+* Adipic Acid Flowsheet
+[[.m](https://raw.github.com/jckantor/CBE20255/master/matlab/Adipic_Acid_Flowsheet.m)][[.pdf](http://jckantor.github.io/CBE20255/pdf/Adipic_Acid_Flowsheet.pdf)][[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adipic%20Acid%20Flowsheet.ipynb)]
 
 ### 3. Material Balances ###
-* [Ethylene Oxide Flowsheet](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ethylene%20Oxide%20Flowsheet.ipynb)
 * Ethylene Oxide Flowsheet [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Ethylene_Oxide_Flowsheet.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Ethylene_Oxide_Flowsheet.pdf)][[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ethylene%20Oxide%20Flowsheet.ipynb)]
 * [Unsteady-State Material Balances](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Unsteady-State%20Material%20Balances.ipynb)
 
@@ -50,7 +50,7 @@ These Matlab files can be downloaded individually. Click on the filename to show
 
 | m-file| Description |
 | :---: | :--- |  
-| [`adipic_acid_flowsheet.m`](https://raw.github.com/jckantor/CBE20255/master/matlab/adipic_acid_flowsheet.m) | Solving material balances for the production of adipic acid from glucose, Example 2.15 from the Murphy textbook. | 
+| [`Adipic_Acid_Flowsheet.m`](https://raw.github.com/jckantor/CBE20255/master/matlab/Adipic_Acid_Flowsheet.m) | Solving material balances for the production of adipic acid from glucose, Example 2.15 from the Murphy textbook. | 
 | [`displaytable.m`](https://raw.github.com/jckantor/CBE20255/master/matlab/displaytable.m) | Format a matrix as a table with optional row and column labels, and optional export to plain text, latex, html, or csv output. Used to format output from many of the example scripts.|  
 | [`molweight.m`](https://raw.github.com/jckantor/CBE20255/master/matlab/molweight.m) | Given a string representing a chemical formula, calculate the molecular weight of a species.|  
 
