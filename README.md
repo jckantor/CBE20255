@@ -5,17 +5,17 @@ Resources
 
 These IPython notebooks and Matlab scripts can be downloaded individually. 
 
-For IPython notebooks (marked with filetype .ipynb), click on the .ipynb link to open the  in `nbviewer`, then click on the download icon to save on your computer.
+IPython notebooks are marked with filetype `.ipynb`. Click on the link to open the  in `nbviewer`. Then click on the download icon to in the upper right corner to save on your computer.
 
-For Matlab scripts (marked with filetype .m), click on the .m link to view the file, then click on the "Raw" button to open and save from your browswer.
+Matlab scripts are marked with filetype `.m`. Click on the link to view in the github file viewer. To download, click on the "Raw" button to open in the browser, then save from your browswer.
 
 ### 0. Getting Started ###
 * Getting Started with IPython [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20IPython.ipynb)]
 * Solving Set of Linear Equations with Sympy [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving%20Set%20of%20Linear%20Equations%20with%20Sympy.ipynb)]
 
 ### 1. Stoichiometry ###
-* [Balancing Reactions](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
-* [Generation/Consumption Analysis for the Production of Ammonia](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Generation%20Consumption%20Analysis%20for%20Ammonia.ipynb)
+* Balancing Reactions [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)]
+* Generation/Consumption Analysis for the Production of Ammonia [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Generation%20Consumption%20Analysis%20for%20Ammonia.ipynb)]
 
 ### 2. Process Flows and Balances ###
 * [Global CO<sub>2</sub> Budget](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Global%20CO2%20Budget.ipynb)
