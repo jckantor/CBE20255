@@ -1,4 +1,5 @@
 matlab/html/
+*.m~
 
 *.aux
 *.log
