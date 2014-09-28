@@ -224,7 +224,7 @@ function str = displaytable(A,rnames,cnames,fmt,tableformat,fname)
             suffix = sprintf('\n</table>');
             rnamefmt = ['\n    <td align="left">%s</td>'];
             cnamefmt = ['\n    <th align="center">%s</th>'];
-            datafmt = ['\n    <td align="right">',datafmt,'</td>']
+            datafmt = ['\n    <td align="right">',datafmt,'</td>'];
 
         case 'csv'
             hline = '';
