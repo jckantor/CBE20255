@@ -1,4 +1,4 @@
-%% Format Results with displaytable
+%% Format Matlab Results with displaytable
 %
 % A time consuming aspect of using Matlab for routine homework
 % solution is formatting tablular results for display.  The function
