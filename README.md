@@ -22,6 +22,7 @@ Matlab scripts are marked with filetype `.m`. Click to view in the `GitHub` file
 ### 2. Process Flows and Balances ###
 * Global CO<sub>2</sub> Budget [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Global%20CO2%20Budget.ipynb)]
 * General Mass Balance on a Single Tank [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb)]
+* Ammonia Synthesis Reactor [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Ammonia_Synthesis_Reactor.m)][[.pdf](http://jckantor.github.io/CBE20255/pdf/Ammonia_Synthesis_Reactor.pdf)]
 * Adipic Acid Flowsheet
 [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Adipic_Acid_Flowsheet.m)][[.pdf](http://jckantor.github.io/CBE20255/pdf/Adipic_Acid_Flowsheet.pdf)][[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adipic%20Acid%20Flowsheet.ipynb)]
 
