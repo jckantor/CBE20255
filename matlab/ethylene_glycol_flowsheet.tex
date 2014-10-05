@@ -16,7 +16,7 @@
   draw, thick, minimum height = 1.8cm, minimum width = 2cm,
   fill = blue!10, rectangle, rounded corners, text centered]
 
-\begin{tikzpicture}[node distance = 2cm, auto, thick,
+\begin{tikzpicture}[node distance = 2cm, auto, very thick,
                     text height=1.5ex,text depth=0.25ex]
   %\draw[help lines] (0,0) grid (22,16);
   
@@ -30,6 +30,11 @@
   \draw (2,10) node [circle,draw,fill=blue!10] (mixer) {};
   \draw (4,13) node [circle,draw,fill=blue!10] (purge) {};
   
+  \draw (4.5,8.5) node {$E + \frac{1}{2} O \longrightarrow EO$};
+  \draw (4.5,7.75) node {$E + 3 O \longrightarrow 2 C + 2 W$};
+  \draw (15,1.5) node {$EO + W \longrightarrow EG$};
+  \draw (15,0.75) node {$EG + EO \longrightarrow ED$};
+ 
   \draw [<-] (mixer) -- ++(-2,0) 
     node [below,midway,circle,draw] {1}
     node [above,midway] {$E_1$}
