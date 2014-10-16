@@ -36,6 +36,7 @@ Matlab scripts are marked with filetype `.m`. Click to view in the `GitHub` file
 
 ### 4. Reactors ###
 * Steam Reforming of Methane [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb)]
+* Contact Process for Sulfuric Acid [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Contact_Process_for_Sulfuric_Acid.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Contact_Process_for_Sulfuric_Acid.pdf)]
 
 ### 5. Separations ###
 * Vapor-Liquid Equilibrium for Pure Components [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid%20Equilibrium%20for%20a%20Pure%20Component.ipynb)]
