@@ -40,6 +40,7 @@ Matlab scripts are marked with filetype `.m`. Click to view in the `GitHub` file
 
 ### 5. Separations ###
 * Vapor-Liquid Equilibrium for Pure Components [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid%20Equilibrium%20for%20a%20Pure%20Component.ipynb)]
+* Antoine's Equation [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Antoine_Equation.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Antoine_Equation.pdf)]
 * Raoult's Law [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Raoult's%20Law.ipynb)]
 * Txy and xy Diagrams for Binary Mixtures [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Txy%20and%20xy%20Diagrams%20for%20Binary%20Mixtures.ipynb)]
 * Bubble and Dew Point Calculations [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Bubble%20and%20Dew%20Point%20Calculations.ipynb)]
