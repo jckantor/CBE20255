@@ -43,7 +43,7 @@ Matlab scripts are marked with filetype `.m`. Click to view in the `GitHub` file
 * Antoine's Equation [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Antoine_Equation.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Antoine_Equation.pdf)]
 * Raoult's Law [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Raoult's%20Law.ipynb)]
 * Txy and xy Diagrams for Binary Mixtures [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Txy%20and%20xy%20Diagrams%20for%20Binary%20Mixtures.ipynb)]
-* Bubble and Dew Point Calculations [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Bubble%20and%20Dew%20Point%20Calculations.ipynb)]
+* Bubble and Dew Point Calculations [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Bubble%20and%20Dew%20Point%20Calculations.ipynb)][[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Bubble_and_Dew_Point_Calculations.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Bubble_and_Dew_Point_Calculations.pdf)]
 * Isothermal Flash [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Isothermal%20Flash.ipynb)]
 * Binary Distillation with McCabe-Thiele [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Binary%20Distillation%20with%20McCabe-Thiele.ipynb)]
 
