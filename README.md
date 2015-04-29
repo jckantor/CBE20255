@@ -1,6 +1,6 @@
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
-Introduction to Chemical Engineernig Analysis
+Introduction to Chemical Engineering Analysis
 =============================================
 
 These IPython notebooks and Matlab scripts can be downloaded individually. 
