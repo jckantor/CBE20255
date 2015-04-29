@@ -57,6 +57,7 @@ Matlab scripts are marked with filetype `.m`. Click to view in the `GitHub` file
 * Ajka Alumina Plant Spill [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ajka%20Alumina%20Plant%20Spill.ipynb)]
 * Pyrotechnic Design for Airbags [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Pyrotechnic%20Design%20for%20Airbags.ipynb)]
 * Coke-Mentos Car [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Coke-Mentos%20Car.ipynb)]
+* Flameless Cooking [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Flameless%20Cooking.ipynb)]
 
 ## Matlab Functions and Scripts ##
 These Matlab files can be downloaded individually. Click on the filename to show the Matlab file in the browser, then `Save As..` in the browser File menu to save on your computer.
