@@ -46,7 +46,7 @@ div.cell.border-box-sizing.code_cell.running {
 /* Put a solid color box around each code cell and its output,
      visually linking them together */
 div.cell.code_cell {
-    background-color: #fff /*rgba(171,165,131,0.2)*/;
+    background-color: /*#fff*/ rgba(171,165,131,0.2);
     border-radius: 10px; /* rounded borders */
     padding: 1em;
     margin-top: 1em;
