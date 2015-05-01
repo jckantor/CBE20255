@@ -3,7 +3,7 @@
 Introduction to Chemical Engineering Analysis
 =============================================
 
-_Introduction to Chemical Engineering Analysis_ introduces students to use of mass and energy balances to analyze chemical processes and products. Students will learn how to prepare and analyze flowsheets for chemical products and processes, perform generation-consumption analysis, and perform basic engineering calculations for stoichiometry, reactor performance, separations, and energy analysis. This course prepares students for further coursework in Chemical and Biomolecular Engineering.
+_Introduction to Chemical Engineering Analysis_ introduces the use of mass and energy balances to analyze chemical processes and products. You will learn how to prepare and analyze conceptual flowsheets for chemical processes, perform generation-consumption analysis, and perform basic engineering calculations for stoichiometry, reactor performance, separations, and energy analysis. This course prepares students for  coursework in Chemical and Biomolecular Engineering.
 
 These materials are available at [http://github.com/jckantor/CBE20255](http://github.com/jckantor/CBE20255) for noncommercial use under terms of the [Creative Commons Attribution Noncommericial ShareAlike License](http://creativecommons.org/licenses/by-nc-sa/4.0/). You are invited to use, download, share, adapt, remix these material for non-commericial purposes so long as you provide attribution, and share your work under the same terms.
 
@@ -11,7 +11,6 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * [Getting Started with IPython](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20IPython.ipynb)
 * [Solving Linear Equations with Sympy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving%20Linear%20Equations%20with%20Sympy.ipynb)
 * Solving Linear Equations with CVX [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Solving_Linear_Equations_with_CVX.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Solving_Linear_Equations_with_CVX.pdf)]
-* Format Matlab Results with [displaytable](https://gist.github.com/jckantor/8436117) [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Format_Matlab_Results_with_displaytable.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Format_Matlab_Results_with_displaytable.pdf)]
 
 ### 1. Stoichiometry ###
 * [Balancing Reactions](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
@@ -21,11 +20,10 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * [Global CO<sub>2</sub> Budget](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Global%20CO2%20Budget.ipynb)
 * [General Mass Balance on a Single Tank](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb)
 * Ammonia Synthesis Reactor [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Ammonia_Synthesis_Reactor.m)][[.pdf](http://jckantor.github.io/CBE20255/pdf/Ammonia_Synthesis_Reactor.pdf)]
-* Adipic Acid Flowsheet
-[[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Adipic_Acid_Flowsheet.m)][[.pdf](http://jckantor.github.io/CBE20255/pdf/Adipic_Acid_Flowsheet.pdf)][[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adipic%20Acid%20Flowsheet.ipynb)]
+* [Adipic Acid Flowsheet](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adipic%20Acid%20Flowsheet.ipynb) [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Adipic_Acid_Flowsheet.m)][[.pdf](http://jckantor.github.io/CBE20255/pdf/Adipic_Acid_Flowsheet.pdf)]
 
 ### 3. Material Balances ###
-* Ethylene Oxide Flowsheet [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Ethylene_Oxide_Flowsheet.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Ethylene_Oxide_Flowsheet.pdf)][[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ethylene%20Oxide%20Flowsheet.ipynb)]
+* [Ethylene Oxide Flowsheet](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ethylene%20Oxide%20Flowsheet.ipynb) [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Ethylene_Oxide_Flowsheet.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Ethylene_Oxide_Flowsheet.pdf)]
 * [Unsteady-State Material Balances](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Unsteady-State%20Material%20Balances.ipynb)
 * SIS Model for an Infectious Disease [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/SIS_Model_for_an_Infectious_Disease.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/SIS_Model_for_an_Infectious_Disease.pdf)]
 * Methanol Production [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Methanol_Production.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Methanol_Production.pdf)]
@@ -36,11 +34,11 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * [Steam Reforming of Methane](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb)
 * Contact Process for Sulfuric Acid [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Contact_Process_for_Sulfuric_Acid.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Contact_Process_for_Sulfuric_Acid.pdf)]
 
-### 5. Separations ###]
+### 5. Separations ###
 * [Vapor-Liquid Equilibrium for Pure Components](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid%20Equilibrium%20for%20a%20Pure%20Component.ipynb)
 * Antoine's Equation [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Antoine_Equation.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Antoine_Equation.pdf)]
 * [Raoult's Law](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Raoult's%20Law.ipynb)
-* Txy and xy Diagrams for Binary Mixtures [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Txy%20and%20xy%20Diagrams%20for%20Binary%20Mixtures.ipynb)]
+* [Txy and xy Diagrams for Binary Mixtures](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Txy%20and%20xy%20Diagrams%20for%20Binary%20Mixtures.ipynb)
 * [Bubble and Dew Point Calculations](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Bubble%20and%20Dew%20Point%20Calculations.ipynb)[[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Bubble_and_Dew_Point_Calculations.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Bubble_and_Dew_Point_Calculations.pdf)]
 * [Isothermal Flash](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Isothermal%20Flash.ipynb)
 * [Binary Distillation with McCabe-Thiele](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Binary%20Distillation%20with%20McCabe-Thiele.ipynb)
