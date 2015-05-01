@@ -1,0 +1,154 @@
+<link href='http://fonts.googleapis.com/css?family=Fenix' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,
+    900,100italic,300italic,400italic,500italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Kameron' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:200' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+
+<style>
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+}
+
+#notebook_panel { /* establish main background and color */
+    background: #fff;
+    color: #ff0000;
+}
+
+div.cell { /* set cell width */
+    width:800px;
+    margin-left:0%;
+    margin-right:auto;
+}
+
+div #notebook { /* centers the content */
+    background: #fff;
+    width: 1000px;
+    margin: auto;
+    padding-left: 1em;
+}
+
+#notebook li { /* more space between bullet points */
+    margin-top:0.8em;
+}
+
+/* draw border around running cells */
+div.cell.border-box-sizing.code_cell.running {
+    border: 3px solid #111;
+}
+
+/* Put a solid color box around each code cell and its output,
+     visually linking them together */
+div.cell.code_cell {
+    background-color: rgba(171,165,131,0.2);
+    border-radius: 10px; /* rounded borders */
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.CodeMirror {
+    font-family: "Source Code Pro";
+    font-size: 90%;
+}
+
+div.text_cell_render code {
+    font-family: "Source Code Pro";
+    font-size: 90%;
+    color: red;
+}
+
+pre {
+    font-family: "Source Code Pro";
+    font-size: 90%;
+}
+
+div.text_cell_render { /* rendering of basic text cell */
+    font-family: 'Alegreya Sans', Computer Modern, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    line-height: 135%;
+    font-size: 120%;
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.text_cell_render h1 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 300;
+    font-size: 32pt;
+    line-height: 100%;
+    color:#CD2305;
+    margin-bottom: 0.4em;
+    margin-top: 0em;
+    display: block;
+}
+
+h2 {
+    font-family: 'Fenix', serif;
+}
+
+h3 {
+    font-family: 'Fenix', serif;
+    margin-top:12px;
+    margin-bottom: 3px;
+}
+
+h4 {
+    font-family: 'Fenix', serif;
+}
+
+.text_cell_render h5 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 100;
+    font-size: 16pt;
+    color: #CD2305;
+    font-style: italic;
+    margin-bottom: .5em;
+    margin-top: 0.5em;
+    display: block;
+}
+
+.text_cell_render h6 { /*use this for copyright note*/
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10pt;
+    font-style: normal;
+    line-height: 120%;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.MathJax, .MathJax_Display  {
+    font-family: 'Alegreya Sans', sans-serif  !important;
+    font-size: 90%  !important;
+    vertical-align: 0px  !important;
+}
+
+.warning{
+    color: rgb( 240, 20, 20 )
+}
+
+</style>
+
+<script>
+MathJax.Hub.Config({
+    TeX: {
+        extensions: ["AMSmath.js"]
+    },
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+    },
+    displayAlign: 'center', // Change this to 'center' to center equations.
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 4}}
+    }
+});
+</script>
+
