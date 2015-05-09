@@ -9,6 +9,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 
 ### 0. Getting Started ###
 * [Getting Started with IPython](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20IPython.ipynb)
+* [Getting Started with Engineering Calculations](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20Engineering%20Calculations.ipynb)
 * [Solving Linear Equations with Sympy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving%20Linear%20Equations%20with%20Sympy.ipynb)
 * Solving Linear Equations with CVX [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Solving_Linear_Equations_with_CVX.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Solving_Linear_Equations_with_CVX.pdf)]
 
