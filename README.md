@@ -9,22 +9,25 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 
 ### 0. Getting Started ###
 * [Getting Started with IPython](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20IPython.ipynb)
+
+### 1. Units, Quantities, and Engineering Calculations
+
 * [Getting Started with Engineering Calculations](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20Engineering%20Calculations.ipynb)
 * [Solving Linear Equations with Sympy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving%20Linear%20Equations%20with%20Sympy.ipynb)
 * Solving Linear Equations with CVX [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Solving_Linear_Equations_with_CVX.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Solving_Linear_Equations_with_CVX.pdf)]
 
-### 1. Stoichiometry ###
+### 2. Stoichiometry ###
 * [Balancing Reactions](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
 * [Generation/Consumption Analysis for the Production of Ammonia](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Generation%20Consumption%20Analysis%20for%20Ammonia.ipynb)
 
-### 2. Process Flows and Balances ###
+### 3. Process Flows and Balances ###
 * [Global CO<sub>2</sub> Budget](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Global%20CO2%20Budget.ipynb)
 * [General Mass Balance on a Single Tank](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb)
 * Ammonia Synthesis Reactor [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Ammonia_Synthesis_Reactor.m)][[.pdf](http://jckantor.github.io/CBE20255/pdf/Ammonia_Synthesis_Reactor.pdf)]
 * [Separating Milk](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Separating%20Milk.ipynb)
 * [Adipic Acid Flowsheet](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adipic%20Acid%20Flowsheet.ipynb) [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Adipic_Acid_Flowsheet.m)][[.pdf](http://jckantor.github.io/CBE20255/pdf/Adipic_Acid_Flowsheet.pdf)]
 
-### 3. Material Balances ###
+### 4. Material Balances ###
 * [Ethylene Oxide Flowsheet](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ethylene%20Oxide%20Flowsheet.ipynb) [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Ethylene_Oxide_Flowsheet.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Ethylene_Oxide_Flowsheet.pdf)]
 * [Unsteady-State Material Balances](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Unsteady-State%20Material%20Balances.ipynb)
 * SIS Model for an Infectious Disease [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/SIS_Model_for_an_Infectious_Disease.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/SIS_Model_for_an_Infectious_Disease.pdf)]
@@ -32,11 +35,11 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * Ethylene Glycol Flowsheet Material Balances [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Ethylene_Glycol_Flowsheet_Material_Balances.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Ethylene_Glycol_Flowsheet_Material_Balances.pdf)]
 * Fed Batch Fermentation Reactor [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Fed_Batch_Fermentation_Reactor.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Fed_Batch_Fermentation_Reactor.pdf)]
 
-### 4. Reactors ###
+### 5. Reactors ###
 * [Steam Reforming of Methane](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb)
 * Contact Process for Sulfuric Acid [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Contact_Process_for_Sulfuric_Acid.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Contact_Process_for_Sulfuric_Acid.pdf)]
 
-### 5. Separations ###
+### 6. Separations ###
 * [Vapor-Liquid Equilibrium for Pure Components](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid%20Equilibrium%20for%20a%20Pure%20Component.ipynb)
 * Antoine's Equation [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Antoine_Equation.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Antoine_Equation.pdf)]
 * [Raoult's Law](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Raoult's%20Law.ipynb)
@@ -45,16 +48,18 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * [Isothermal Flash](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Isothermal%20Flash.ipynb)
 * [Binary Distillation with McCabe-Thiele](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Binary%20Distillation%20with%20McCabe-Thiele.ipynb)
 
-### 6. Energy Balances ###
+### 7. Energy Balances ###
 * [Adiabatic Flame Temperature](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adiabatic%20Flame%20Temperature.ipynb)
 * [Torpedo Propulsion](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Torpedo%20Propulsion.ipynb)
 
-### 7. Projects ###
-* [West Virginia Chemical Spill](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/West%20Virginia%20Chemical%20Spill.ipynb)
+### Projects: Product Design and Analysis ###
 * [Diesel Engine Emissions Control](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Diesel%20Engine%20Emissions%20Control.ipynb)
-* [Ajka Alumina Plant Spill](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ajka%20Alumina%20Plant%20Spill.ipynb)
 * [Pyrotechnic Design for Airbags](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Pyrotechnic%20Design%20for%20Airbags.ipynb)
 * [Coke-Mentos Car](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Coke-Mentos%20Car.ipynb)
 * [Flameless Cooking](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Flameless%20Cooking.ipynb)
+
+### Projects: Product Design and Analysis ###
+* [West Virginia Chemical Spill](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/West%20Virginia%20Chemical%20Spill.ipynb)
+* [Ajka Alumina Plant Spill](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ajka%20Alumina%20Plant%20Spill.ipynb)
 
 
