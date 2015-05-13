@@ -57,6 +57,8 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * [Pyrotechnic Design for Airbags](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Pyrotechnic%20Design%20for%20Airbags.ipynb)
 * [Coke-Mentos Car](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Coke-Mentos%20Car.ipynb)
 * [Flameless Cooking](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Flameless%20Cooking.ipynb)
+* [Air Bag Landing Systems](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Air%20Bag%20Landing%20Systems.ipynb)
+
 
 ### Projects: Product Design and Analysis ###
 * [West Virginia Chemical Spill](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/West%20Virginia%20Chemical%20Spill.ipynb)
