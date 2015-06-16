@@ -7,8 +7,6 @@ _Introduction to Chemical Engineering Analysis_ introduces the use of mass and e
 
 These materials are available at [http://github.com/jckantor/CBE20255](http://github.com/jckantor/CBE20255) for noncommercial use under terms of the [Creative Commons Attribution Noncommericial ShareAlike License](http://creativecommons.org/licenses/by-nc-sa/4.0/). You are invited to fork this repository, and to use, download, share, adapt, remix these material for non-commericial purposes so long as you provide attribution, and share your work under the same terms. You are also invited to send pull requests for corrections and additions to these materials.
 
-Made this change on Mac.
-
 ### 0. Getting Started ###
 * [Getting Started with IPython](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20IPython.ipynb)
 
