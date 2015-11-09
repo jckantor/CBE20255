@@ -1,0 +1,47 @@
+\documentclass[tikz]{standalone}
+\usepackage{helvet}
+\usepackage[T1]{sansmath}
+\renewcommand{\familydefault}{\sfdefault}
+\normalfont
+
+\begin{document}
+\begin{sansmath}
+
+\tikzstyle{box} = [rectangle,rounded corners, draw,thick,fill=blue!20,minimum size = 1.5cm,thick]
+
+\begin{tikzpicture}[auto]
+	%\draw[help lines] (0,0) grid (10,6);
+	
+	\node [box] (reactor) at (5,5) {\shortstack{$A \longrightarrow P$\\
+	\\ $A \longrightarrow \mbox{by-products}$}};
+	
+	\draw [->,thick] (reactor) --++ (5,0) 
+		node[midway,above] {$A_{out}$}
+		node[midway,below] {\shortstack{$P_{out}$ + byproducts}};
+	\draw [<-,thick] (reactor) --++ (-3,0)
+		node[midway,above] {$A_{in}$};
+		
+	\node (Yield) at (3.5,3) 
+		{\shortstack{Yield\\ $Y = \frac{P_{out}}{A_{in}} = S C$}};
+	\node (Selectivity) at (1.5,1)
+		{\shortstack{Selectivity\\ $S = \frac{P_{out}}{A_{in}-A_{out}} = \frac{Y}{C}$}};
+	\node (Conversion) at (5.5,1)
+		{\shortstack{Conversion\\ $C = \frac{A_{in}-A_{out}}{A_{in}}=\frac{Y}{S}$}};
+
+	\draw (Selectivity) -- (Yield) -- (Conversion) -- (Selectivity);
+	
+	\node[rectangle,fill=yellow!20] (txt1) at (9,2) {\shortstack{
+		\small {\bf Conversion:} The fraction\ \\ 
+		\small of feed A that is converted.
+		\\ \\ \\ \\
+		\small {\bf Yield:} The fraction of feed\ \\ 
+		\small A converted to product.
+		\\ \\ \\ \\
+		\small {\bf Selectivity:} The fraction of\ \\ 
+		 \small converted A that is product.}};
+    
+    
+\end{tikzpicture}
+
+\end{sansmath}
+\end{document}
