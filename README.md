@@ -44,8 +44,8 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * Antoine's Equation [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Antoine_Equation.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Antoine_Equation.pdf)]
 * [Operating Limits for a Methanol Fueled Lighter](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Operating%20Limits%20for%20a%20Methanol%20Fueled Lighter.ipynb)
 * [Raoult's Law](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Raoult's%20Law.ipynb)
-* [Txy and xy Diagrams for Binary Mixtures](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Txy%20and%20xy%20Diagrams%20for%20Binary%20Mixtures.ipynb)
 * [Bubble and Dew Point Calculations](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Bubble%20and%20Dew%20Point%20Calculations.ipynb)[[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Bubble_and_Dew_Point_Calculations.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Bubble_and_Dew_Point_Calculations.pdf)]
+* [Txy and xy Diagrams for Binary Mixtures](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Txy%20and%20xy%20Diagrams%20for%20Binary%20Mixtures.ipynb)
 * [Isothermal Flash and the Rachford-Rice Equation](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Isothermal%20Flash%20and%20the%20Rachford-Rice%20Equation.ipynb)
 * [Binary Distillation with McCabe-Thiele](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Binary%20Distillation%20with%20McCabe-Thiele.ipynb)
 
