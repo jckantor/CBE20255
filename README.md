@@ -40,8 +40,6 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * Contact Process for Sulfuric Acid [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Contact_Process_for_Sulfuric_Acid.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Contact_Process_for_Sulfuric_Acid.pdf)]
 * [Reactor Performance Metrics](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Reactor%20Performance%20Metrics.ipynb)
 
-ReactorPerformanceSpecifications
-
 ### 6. Separations ###
 * [Vapor-Liquid Equilibrium for Pure Components](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid%20Equilibrium%20for%20a%20Pure%20Component.ipynb)
 * Antoine's Equation [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Antoine_Equation.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Antoine_Equation.pdf)]
