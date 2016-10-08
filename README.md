@@ -36,6 +36,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * Fed Batch Fermentation Reactor [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Fed_Batch_Fermentation_Reactor.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Fed_Batch_Fermentation_Reactor.pdf)]
 
 ### 5. Reactors ###
+* Equilibrium Ammonia Reactor [[.gsheet](https://docs.google.com/spreadsheets/d/1TgRZrD4q5hI6nxXqT3IzzRmz05-vC5A0UTuimDnZgoA/edit#gid=0)]
 * [Steam Reforming of Methane](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb)
 * Contact Process for Sulfuric Acid [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Contact_Process_for_Sulfuric_Acid.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Contact_Process_for_Sulfuric_Acid.pdf)]
 * [Reactor Performance Metrics](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Reactor%20Performance%20Metrics.ipynb)
