@@ -28,7 +28,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * [Adipic Acid Flowsheet](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adipic%20Acid%20Flowsheet.ipynb) [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Adipic_Acid_Flowsheet.m)][[.pdf](http://jckantor.github.io/CBE20255/pdf/Adipic_Acid_Flowsheet.pdf)]
 
 ### 4. Material Balances ###
-* [Ethylene Oxide Flowsheet](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ethylene%20Oxide%20Flowsheet.ipynb) [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Ethylene_Oxide_Flowsheet.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Ethylene_Oxide_Flowsheet.pdf)]
+* [Ethylene Oxide Flowsheet](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ethylene%20Oxide%20Flowsheet.ipynb) [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Ethylene_Oxide_Flowsheet.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Ethylene_Oxide_Flowsheet.pdf)][[.gsheet](https://docs.google.com/spreadsheets/d/1rBTXiBzP8stVV2TErjX17FI8prli-l9fL32SCyuWj5E/edit?usp=sharing)]
 * [Unsteady-State Material Balances](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Unsteady-State%20Material%20Balances.ipynb)
 * SIS Model for an Infectious Disease [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/SIS_Model_for_an_Infectious_Disease.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/SIS_Model_for_an_Infectious_Disease.pdf)]
 * Methanol Production [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Methanol_Production.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Methanol_Production.pdf)]
