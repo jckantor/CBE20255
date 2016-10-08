@@ -18,7 +18,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 
 ### 2. Stoichiometry ###
 * [Balancing Reactions](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
-* [Generation/Consumption Analysis for Ammonia Production](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Generation%20Consumption%20Analysis%20for%20Ammonia%20Production.ipynb)[[Google Sheet](https://docs.google.com/spreadsheets/d/1k0XlZjiZ_bNr3NmOdDi8zbM4H2qZn2LuACePeRzL1nU/edit?usp=sharing)]
+* [Generation/Consumption Analysis for Ammonia Production](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Generation%20Consumption%20Analysis%20for%20Ammonia%20Production.ipynb)[[.gsheet](https://docs.google.com/spreadsheets/d/1k0XlZjiZ_bNr3NmOdDi8zbM4H2qZn2LuACePeRzL1nU/edit?usp=sharing)]
 
 ### 3. Process Flows and Balances ###
 * [Global CO<sub>2</sub> Budget](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Global%20CO2%20Budget.ipynb)
