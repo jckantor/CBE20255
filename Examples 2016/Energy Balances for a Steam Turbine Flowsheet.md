@@ -16,7 +16,7 @@ Steam tables are provided. If needed, you can assume the heat capacity of liquid
 
 The first step in the analysis is to draw a flowsheet showing what is known and what is unknown.
 
-![](images/test.svg)
+![](images/Energy-Balances-for-a-Steam-Turbine-Flowsheet.svg)
 
 The problem requires an energy balance for each process unit. The generic energy balance reads
 
@@ -72,7 +72,7 @@ $$\hat{H}_{out} - \hat{H}_{in} = \Delta\hat{H}_{50^\circ C\rightarrow T_{sat}} +
 
 The steam table provides the essential information on saturation temperature and enthalpy of vaporization at 10 bar. 
 
-<img src="images/Image_2016111701.png" width="200"/>
+<img src="images/Energy-Balances-for-a-Steam-Turbine-Flowsheet-2.png" width="200"/>
 
 Calculating each of the three terms
 
