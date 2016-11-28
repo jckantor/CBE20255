@@ -68,3 +68,4 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * [Ajka Alumina Plant Spill](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ajka%20Alumina%20Plant%20Spill.ipynb)
 
 
+
