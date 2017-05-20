@@ -18,7 +18,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 ## 2. Stoichiometry
 
 * [Balancing Reactions](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
-* [Generation/Consumption Analysis for the Production of Ammonia](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Generation%20Consumption%20Analysis%20for%20Ammonia.ipynb)
+* [Generation/Consumption Analysis for Ammonia Production](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Generation%20Consumption%20Analysis%20for%20Ammonia%20Production.ipynb)
 
 ## 3. Process Flows and Balances
 
@@ -31,6 +31,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 ## 4. Material Balances
 
 * [Ethylene Oxide Flowsheet](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ethylene%20Oxide%20Flowsheet.ipynb)
+* [General Mass Balance on a Single Tank](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb)
 * [Unsteady-State Material Balances](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Unsteady-State%20Material%20Balances.ipynb)
 * SIS Model for an Infectious Disease [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/SIS_Model_for_an_Infectious_Disease.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/SIS_Model_for_an_Infectious_Disease.pdf)]
 * Methanol Production [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Methanol_Production.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Methanol_Production.pdf)]
@@ -45,10 +46,11 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 ## 6. Separations
 
 * [Vapor-Liquid Equilibrium for Pure Components](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid%20Equilibrium%20for%20a%20Pure%20Component.ipynb)
-* [Operating Temperature Limits for a Methanol Fueled Lighter]()
+* [Operating Temperature Limits for a Methanol Fueled Lighter](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Operating%20Temperature%20Limits%20for%20a%20Methanol%20Fueled%20Lighter.ipynb)
 * [Raoult's Law](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Raoult's%20Law.ipynb)
 * [Txy and xy Diagrams for Binary Mixtures](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Txy%20and%20xy%20Diagrams%20for%20Binary%20Mixtures.ipynb)
 * [Bubble and Dew Point Calculations](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Bubble%20and%20Dew%20Point%20Calculations.ipynb)
+* [Bubble and Dew Point Calculations for Multicomponent Mixtures]()
 * [Isothermal Flash and the Rachford-Rice Equation](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Isothermal%20Flash%20and%20the%20Rachford-Rice%20Equation.ipynb)
 * [Binary Distillation with McCabe-Thiele](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Binary%20Distillation%20with%20McCabe-Thiele.ipynb)
 
@@ -62,7 +64,6 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 
 * [Diesel Engine Emissions Control](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Diesel%20Engine%20Emissions%20Control.ipynb)
 * [Pyrotechnic Design for Airbags](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Pyrotechnic%20Design%20for%20Airbags.ipynb)
-* [Coke-Mentos Car](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Coke-Mentos%20Car.ipynb)
 * [Flameless Cooking](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Flameless%20Cooking.ipynb)
 
 ## Projects: Product Design and Analysis
