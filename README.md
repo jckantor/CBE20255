@@ -28,7 +28,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * [Global CO<sub>2</sub> Budget](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Global%20CO2%20Budget.ipynb)
 * [CO2 Production by Automobiles](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/CO2%20Production%20by%20Automobiles.ipynb)
 * [General Mass Balance on a Single Tank](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb)
-* Ammonia Synthesis Reactor [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Ammonia_Synthesis_Reactor.m)][[.pdf](http://jckantor.github.io/CBE20255/pdf/Ammonia_Synthesis_Reactor.pdf)]
+* Ammonia Synthesis Reactor [[matlab](https://github.com/jckantor/CBE20255/blob/master/matlab/Ammonia_Synthesis_Reactor.m)][[.pdf](http://jckantor.github.io/CBE20255/pdf/Ammonia_Synthesis_Reactor.pdf)]
 * [Separating Milk](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Separating%20Milk.ipynb)
 * [Adipic Acid Flowsheet](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adipic%20Acid%20Flowsheet.ipynb)
 
@@ -38,15 +38,15 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * [Ethylene Oxide Flowsheet](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ethylene%20Oxide%20Flowsheet.ipynb)
 * [General Mass Balance on a Single Tank](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb)
 * [Unsteady-State Material Balances](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Unsteady-State%20Material%20Balances.ipynb)
-* SIS Model for an Infectious Disease [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/SIS_Model_for_an_Infectious_Disease.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/SIS_Model_for_an_Infectious_Disease.pdf)]
-* Methanol Production [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Methanol_Production.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Methanol_Production.pdf)]
-* Ethylene Glycol Flowsheet Material Balances [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Ethylene_Glycol_Flowsheet_Material_Balances.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Ethylene_Glycol_Flowsheet_Material_Balances.pdf)]
-* Fed Batch Fermentation Reactor [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Fed_Batch_Fermentation_Reactor.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Fed_Batch_Fermentation_Reactor.pdf)]
+* SIS Model for an Infectious Disease [[matlab](https://github.com/jckantor/CBE20255/blob/master/matlab/SIS_Model_for_an_Infectious_Disease.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/SIS_Model_for_an_Infectious_Disease.pdf)]
+* Methanol Production [[matlab](https://github.com/jckantor/CBE20255/blob/master/matlab/Methanol_Production.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Methanol_Production.pdf)]
+* Ethylene Glycol Flowsheet Material Balances [[matlab](https://github.com/jckantor/CBE20255/blob/master/matlab/Ethylene_Glycol_Flowsheet_Material_Balances.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Ethylene_Glycol_Flowsheet_Material_Balances.pdf)]
+* Fed Batch Fermentation Reactor [[matlab](https://github.com/jckantor/CBE20255/blob/master/matlab/Fed_Batch_Fermentation_Reactor.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Fed_Batch_Fermentation_Reactor.pdf)]
 
 ## 5. Reactors
 
 * [Steam Reforming of Methane](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb)
-* Contact Process for Sulfuric Acid [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Contact_Process_for_Sulfuric_Acid.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Contact_Process_for_Sulfuric_Acid.pdf)]
+* Contact Process for Sulfuric Acid [[matlab](https://github.com/jckantor/CBE20255/blob/master/matlab/Contact_Process_for_Sulfuric_Acid.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Contact_Process_for_Sulfuric_Acid.pdf)]
 
 ## 6. Vapor/Liquid Equilibrium
 
