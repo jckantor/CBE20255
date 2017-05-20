@@ -68,7 +68,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * [Pyrotechnic Design for Airbags](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Pyrotechnic%20Design%20for%20Airbags.ipynb)
 * [Flameless Cooking](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Flameless%20Cooking.ipynb)
 
-## Projects: Product Design and Analysis
+## Projects: Process Systems Analysis
 
 * [West Virginia Chemical Spill](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/West%20Virginia%20Chemical%20Spill.ipynb)
 * [Ajka Alumina Plant Spill](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ajka%20Alumina%20Plant%20Spill.ipynb)
