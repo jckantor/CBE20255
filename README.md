@@ -25,6 +25,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 ## 3. Process Flows and Balances
 
 * [Global CO<sub>2</sub> Budget](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Global%20CO2%20Budget.ipynb)
+* [CO2 Production by Automobiles]()
 * [General Mass Balance on a Single Tank](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb)
 * Ammonia Synthesis Reactor [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Ammonia_Synthesis_Reactor.m)][[.pdf](http://jckantor.github.io/CBE20255/pdf/Ammonia_Synthesis_Reactor.pdf)]
 * [Separating Milk](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Separating%20Milk.ipynb)
@@ -58,6 +59,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 
 ## 7. Energy Balances
 
+* [Energy Balances for a Steam Turbine Flowsheet]()
 * [Humidity and Psychrometrics](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Humidity%20and%20Psychrometrics.ipynb)
 * [Adiabatic Flame Temperature](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adiabatic%20Flame%20Temperature.ipynb)
 * [Torpedo Propulsion](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Torpedo%20Propulsion.ipynb)
