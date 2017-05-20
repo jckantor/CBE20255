@@ -1,7 +1,6 @@
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
-Introduction to Chemical Engineering Analysis
-=============================================
+# Introduction to Chemical Engineering Analysis
 
 _Introduction to Chemical Engineering Analysis_ introduces the use of mass and energy balances to analyze chemical processes and products. You will learn how to prepare and analyze conceptual flowsheets for chemical processes, perform generation-consumption analysis, and perform basic engineering calculations for stoichiometry, reactor performance, separations, and energy analysis. This course prepares students for  coursework in Chemical and Biomolecular Engineering.
 
@@ -48,8 +47,8 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * [Vapor-Liquid Equilibrium for Pure Components](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid%20Equilibrium%20for%20a%20Pure%20Component.ipynb)
 * [Raoult's Law](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Raoult's%20Law.ipynb)
 * [Txy and xy Diagrams for Binary Mixtures](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Txy%20and%20xy%20Diagrams%20for%20Binary%20Mixtures.ipynb)
-* [Bubble and Dew Point Calculations](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Bubble%20and%20Dew%20Point%20Calculations.ipynb)[[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Bubble_and_Dew_Point_Calculations.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Bubble_and_Dew_Point_Calculations.pdf)]
-* [Isothermal Flash](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Isothermal%20Flash.ipynb)
+* [Bubble and Dew Point Calculations](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Bubble%20and%20Dew%20Point%20Calculations.ipynb)
+* [Isothermal Flash and the Rachford-Rice Equation](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Isothermal%20Flash%20and%20the%20Rachford-Rice%20Equation.ipynb)
 * [Binary Distillation with McCabe-Thiele](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Binary%20Distillation%20with%20McCabe-Thiele.ipynb)
 
 ## 7. Energy Balances
@@ -63,7 +62,6 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * [Pyrotechnic Design for Airbags](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Pyrotechnic%20Design%20for%20Airbags.ipynb)
 * [Coke-Mentos Car](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Coke-Mentos%20Car.ipynb)
 * [Flameless Cooking](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Flameless%20Cooking.ipynb)
-
 
 ## Projects: Product Design and Analysis
 
