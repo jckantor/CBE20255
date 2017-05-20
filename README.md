@@ -53,6 +53,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 
 ## 7. Energy Balances
 
+* [Psychrometrics](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Psychrometrics.ipynb)
 * [Adiabatic Flame Temperature](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adiabatic%20Flame%20Temperature.ipynb)
 * [Torpedo Propulsion](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Torpedo%20Propulsion.ipynb)
 
