@@ -10,11 +10,11 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 
 ## 0. Getting Started
 
-* [Getting Started with Jupyter and Python](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20IPython.ipynb)
+* [Getting Started with Jupyter Notebooks and Python](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%Jupyter%20Notebooks%20and%20Python.ipynb)
 
 ## 1. Units, Quantities, and Engineering Calculations
 
-* [Getting Started with Engineering Calculations](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20Engineering%20Calculations.ipynb)
+* [Getting Started with Units and Engineering Calculations](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20Units%20and%20Engineering%20Calculations.ipynb)
 * [Solving Linear Equations with Sympy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving%20Linear%20Equations%20with%20Sympy.ipynb)
 
 ## 2. Stoichiometry
