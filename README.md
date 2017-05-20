@@ -10,7 +10,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 
 ## 0. Getting Started
 
-* [Getting Started with Jupyter Notebooks and Python](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%Jupyter%20Notebooks%20and%20Python.ipynb)
+* [Getting Started with Jupyter Notebooks and Python](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20Jupyter%20Notebooks%20and%20Python.ipynb)
 
 ## 1. Units, Quantities, and Engineering Calculations
 
