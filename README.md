@@ -4,6 +4,8 @@
 
 _Introduction to Chemical Engineering Analysis_ introduces the use of mass and energy balances to analyze chemical processes and products. You will learn how to prepare and analyze conceptual flowsheets for chemical processes, perform generation-consumption analysis, and perform basic engineering calculations for stoichiometry, reactor performance, separations, and energy analysis. This course prepares students for  coursework in Chemical and Biomolecular Engineering.
 
+The following notebooks illustrate computational methods for chemical engineering analysis. These are primarily in the form of Jupyter/Python notebooks along with some older Matlab materials. You will need a current distribution of Python, such as the excellect Anaconda distribution avaiable at no cost from Continuum Analytics, to execute the notebooks. These materials were recently updated for Python 3.
+
 These materials are available at [http://github.com/jckantor/CBE20255](http://github.com/jckantor/CBE20255) for noncommercial use under terms of the [Creative Commons Attribution Noncommericial ShareAlike License](http://creativecommons.org/licenses/by-nc-sa/4.0/). You are invited to fork this repository, and to use, download, share, adapt, remix these material for non-commericial purposes so long as you provide attribution, and share your work under the same terms. You are also invited to send pull requests for corrections and additions to these materials.
 
 ## 0. Getting Started
