@@ -43,13 +43,13 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * [Steam Reforming of Methane](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb)
 * Contact Process for Sulfuric Acid [[.m](https://github.com/jckantor/CBE20255/blob/master/matlab/Contact_Process_for_Sulfuric_Acid.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Contact_Process_for_Sulfuric_Acid.pdf)]
 
-## 6. Separations
+## 6. Vapor/Liquid Equilibrium
 
 * [Vapor-Liquid Equilibrium for Pure Components](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid%20Equilibrium%20for%20a%20Pure%20Component.ipynb)
 * [Operating Temperature Limits for a Methanol Fueled Lighter](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Operating%20Temperature%20Limits%20for%20a%20Methanol%20Fueled%20Lighter.ipynb)
 * [Raoult's Law](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Raoult's%20Law.ipynb)
 * [Txy and xy Diagrams for Binary Mixtures](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Txy%20and%20xy%20Diagrams%20for%20Binary%20Mixtures.ipynb)
-* [Bubble and Dew Point Calculations](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Bubble%20and%20Dew%20Point%20Calculations.ipynb)
+* [Bubble and Dew Point Calculations for Binary Mixtures](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Bubble%20and%20Dew%20Point%20Calculations.ipynb)
 * [Bubble and Dew Point Calculations for Multicomponent Mixtures]()
 * [Isothermal Flash and the Rachford-Rice Equation](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Isothermal%20Flash%20and%20the%20Rachford-Rice%20Equation.ipynb)
 * [Binary Distillation with McCabe-Thiele](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Binary%20Distillation%20with%20McCabe-Thiele.ipynb)
