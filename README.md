@@ -33,7 +33,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 
 ## 4. Material Balances
 
-* [Lean NOx Trap]()
+* [Lean NOx Trap](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Lean%20NOx%20Trap.ipynb)
 * [Ethylene Oxide Flowsheet](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ethylene%20Oxide%20Flowsheet.ipynb)
 * [General Mass Balance on a Single Tank](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb)
 * [Unsteady-State Material Balances](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Unsteady-State%20Material%20Balances.ipynb)
