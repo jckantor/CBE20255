@@ -1,0 +1,27 @@
+\documentclass[tikz]{standalone}
+\usepackage{helvet}
+\usepackage[T1]{sansmath}
+\renewcommand{\familydefault}{\sfdefault}
+\normalfont
+
+\begin{document}
+\begin{sansmath}
+\tikzstyle{unit} = [
+  draw, thick, minimum height = 1.5cm, minimum width = 2cm, fill = blue!10, rectangle, rounded corners, text centered]
+  
+\tikzstyle{mixer} = [fill=blue!10, circle, baseline=-0.5ex, radius=3, draw, thick]
+
+\begin{tikzpicture}[node distance = 2cm, auto,
+  text height=1.5ex,text depth=0.25ex, thick]
+  %\draw[help lines] (0,0) grid (16,12);
+  
+  \draw ( 6,2) node [unit] (reactor) {$A \rightarrow B$};
+  
+  \draw [<-] (reactor)--++(-2,0)
+    node [above,midway]{\shortstack{$A_1$}};
+  \draw [->] (reactor)--++(2,0)
+    node [above,midway]{\shortstack{$B_2$}};
+     
+\end{tikzpicture}
+\end{sansmath}
+\end{document}

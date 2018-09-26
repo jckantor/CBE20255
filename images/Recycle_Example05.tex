@@ -1,0 +1,42 @@
+\documentclass[tikz]{standalone}
+\usepackage{helvet}
+\usepackage[T1]{sansmath}
+\renewcommand{\familydefault}{\sfdefault}
+\normalfont
+
+\begin{document}
+\begin{sansmath}
+\tikzstyle{unit} = [
+  draw, thick, minimum height = 1.5cm, minimum width = 2cm, fill = blue!10, rectangle, rounded corners, text centered]
+  
+\tikzstyle{mixer} = [fill=blue!10, circle, baseline=-0.5ex, radius=3, draw, thick]
+
+\begin{tikzpicture}[node distance = 2cm, auto,
+  text height=1.5ex,text depth=0.25ex, thick]
+  %\draw[help lines] (0,0) grid (16,12);
+  
+  \draw ( 3,2) node [mixer] (mixer) {};
+  \draw ( 6,2) node [unit] (reactor) {$A \rightarrow B$};
+  \draw (10,2) node [unit] (sep) {Separator};
+  \draw ( 3,6) node {};
+  
+  \draw [<-] (mixer)--++(-2,0)
+    node [above,midway]{\shortstack{$A_0$\\$I_0$}};
+  \draw [->] (mixer)--(reactor)
+    node [above,midway]{\shortstack{$A_1$\\$B_1$\\$I_1$}};
+  \draw [->] (reactor)--(sep)
+    node [above,midway]{\shortstack{$A_2$\\$B_2$\\$I_2$}};
+  \draw [->] (sep)--++(3,0)
+    node [above,midway]{\shortstack{$A_3$\\$B_3$}};
+  \draw [->] (sep)++(0,3)--++(-7,0)
+    node [above,midway]{\shortstack{$A_4$\\$B_4$\\$I_4$}}
+    --(mixer);
+  \draw [->] (sep)--++(0,3)
+    node [left,midway]{\shortstack{$A_5$\\$B_5$\\$I_5$}};
+  \draw [->] (sep)++(0,3)--++(2,0)
+    node [above,midway]{\shortstack{$A_6$\\$B_6$\\$I_6$}}
+    node [right]{purge};
+     
+\end{tikzpicture}
+\end{sansmath}
+\end{document}
