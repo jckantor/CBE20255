@@ -15,12 +15,13 @@
   text height=1.5ex,text depth=0.25ex, thick]
   %\draw[help lines] (0,0) grid (16,12);
   
+  \draw ( 6,2.6) node {};
   \draw ( 6,2) node [unit] (reactor) {$A \rightarrow B$};
   
   \draw [<-] (reactor)--++(-2,0)
     node [above,midway]{\shortstack{$A_1$}};
   \draw [->] (reactor)--++(2,0)
-    node [above,midway]{\shortstack{$B_2$}};
+    node [above,midway]{\shortstack{$A_2$\\$B_2$}};
      
 \end{tikzpicture}
 \end{sansmath}
