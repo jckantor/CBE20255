@@ -1,3 +1,5 @@
+.DS_Store/
+.ipynb_checkpoints/
 .texpadtmp/
 matlab/html/
 notebooks/.ipynb_checkpoints/
