@@ -49,7 +49,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 ## 6. Vapor/Liquid Equilibrium
 
 * [Vapor-Liquid Equilibrium for Pure Components](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid%20Equilibrium%20for%20a%20Pure%20Component.ipynb)
-* [Operating Limits for a Methanol Fueled Lighter](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Operating%20Limits%20for%20a%20Methanol%20Fueled%20Lighter.ipynb)
+* [Operating Limits for a Methanol Fueled Lighter](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Operating_Limits_for_a_Methanol_Fueled_Lighter.ipynb)
 * [Raoult's Law](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Raoult's%20Law.ipynb)
 * [Txy and xy Diagrams for Binary Mixtures](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Txy%20and%20xy%20Diagrams%20for%20Binary%20Mixtures.ipynb)
 * [Bubble and Dew Point Calculations for Binary Mixtures](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Bubble%20and%20Dew%20Point%20Calculations%20for%20Binary%20Mixtures.ipynb)
