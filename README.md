@@ -1,5 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
 # Introduction to Chemical Engineering Analysis
 
 _Introduction to Chemical Engineering Analysis_ introduces the use of mass and energy balances to analyze chemical processes and products. You will learn how to prepare and analyze conceptual flowsheets for chemical processes, perform generation-consumption analysis, and perform basic engineering calculations for stoichiometry, reactor performance, separations, and energy analysis. This course prepares students for  coursework in Chemical and Biomolecular Engineering.
