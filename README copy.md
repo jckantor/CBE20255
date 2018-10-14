@@ -9,12 +9,12 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 ## 0. Getting Started
 
 * [Getting Started with Jupyter Notebooks and Python](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20Jupyter%20Notebooks%20and%20Python.ipynb)
+* [Solving Linear Equations with Sympy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving_Linear_Equations_with_Sympy.ipynb)
 
 ## 1. Units, Quantities, and Engineering Calculations
 
 * [Getting Started with Units and Engineering Calculations](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20Units%20and%20Engineering%20Calculations.ipynb)
 * [Units and Conversions - Home Heating Example](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Units%20and%20Conversions%20-%20Home%20Heating%20Example.ipynb)
-* [Solving Linear Equations with Sympy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving%20Linear%20Equations%20with%20Sympy.ipynb)
 
 ## 2. Stoichiometry
 
@@ -51,10 +51,10 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * [Vapor-Liquid Equilibrium for Pure Components](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid%20Equilibrium%20for%20a%20Pure%20Component.ipynb)
 * [Operating Temperature Limits for a Methanol Fueled Lighter](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Operating%20Temperature%20Limits%20for%20a%20Methanol%20Fueled%20Lighter.ipynb)
 * [Raoult's Law for Ideal Mixtures](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Raoult's_Law_for_Ideal_Mixtures.ipynb)
-* [Txy and xy Diagrams for Binary Mixtures](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Txy%20and%20xy%20Diagrams%20for%20Binary%20Mixtures.ipynb)
+* [Txy and xy Diagrams for Binary Mixtures](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Txy_and_xy_Diagrams_for_Binary_Mixtures.ipynb)
 * [Bubble and Dew Point Calculations for Binary Mixtures](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Bubble%20and%20Dew%20Point%20Calculations%20for%20Binary%20Mixtures.ipynb)
 * [Bubble and Dew Point Calculations for Multicomponent Mixtures](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Bubble%20and%20Dew%20Point%20Calculations%20for%20Multicomponent%20Mixtures.ipynb)
-* [Isothermal Flash and the Rachford-Rice Equation](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Isothermal%20Flash%20and%20the%20Rachford-Rice%20Equation.ipynb)
+* [Isothermal Flash and the Rachford-Rice Equation](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Isothermal_Flash_and_the_Rachford-Rice_Equation.ipynb)
 * [Binary Distillation with McCabe-Thiele](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Binary%20Distillation%20with%20McCabe-Thiele.ipynb)
 
 ## 7. Energy Balances
