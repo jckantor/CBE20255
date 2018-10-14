@@ -27,7 +27,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * [CO2 Production by Automobiles](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/CO2%20Production%20by%20Automobiles.ipynb)
 * [General Mass Balance on a Single Tank](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb)
 * Ammonia Synthesis Reactor [[matlab](https://github.com/jckantor/CBE20255/blob/master/matlab/Ammonia_Synthesis_Reactor.m)][[.pdf](http://jckantor.github.io/CBE20255/pdf/Ammonia_Synthesis_Reactor.pdf)]
-* [Separating Milk](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Separating%20Milk.ipynb)
+* [Separating Milk](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Separating_Milk.ipynb)
 * [Adipic Acid Flowsheet](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adipic%20Acid%20Flowsheet.ipynb)
 
 ## 4. Material Balances
