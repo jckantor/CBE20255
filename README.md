@@ -8,13 +8,15 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 
 ## 0. Getting Started
 
-* Getting Started with Jupyter Notebooks and Python[nbviewer](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20Jupyter%20Notebooks%20and%20Python.ipynb)
-[Colab](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Getting_Started_with_Jupyter_Notebooks_and_Python.ipynb)
+* Getting Started with Jupyter Notebooks and Python 
+[[View in Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Getting_Started_with_Jupyter_Notebooks_and_Python.ipynb)]
+
 * [Solving Linear Equations with Sympy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving_Linear_Equations_with_Sympy.ipynb)
 
 ## 1. Units, Quantities, and Engineering Calculations
 
 * [Getting Started with Units and Engineering Calculations](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20Units%20and%20Engineering%20Calculations.ipynb)
+
 * [Units and Conversions - Home Heating Example](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Units%20and%20Conversions%20-%20Home%20Heating%20Example.ipynb)
 
 ## 2. Stoichiometry
