@@ -10,7 +10,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 
 * [Getting Started with Jupyter Notebooks and Python](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Getting_Started_with_Jupyter_Notebooks_and_Python.ipynb)
 
-* [Solving Linear Equations with Sympy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving_Linear_Equations_with_Sympy.ipynb)
+* [Solving Linear Equations with Sympy](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Solving_Linear_Equations_with_Sympy.ipynb)
 
 ## 1. Units, Quantities, and Engineering Calculations
 
