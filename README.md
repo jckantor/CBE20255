@@ -14,7 +14,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 
 ## 1. Units, Quantities, and Engineering Calculations
 
-* [Getting Started with Units and Engineering Calculations](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20Units%20and%20Engineering%20Calculations.ipynb)
+* [Getting Started with Units and Engineering Calculations](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Engineering_Calculations.ipynb)
 
 * [Units and Conversions - Home Heating Example](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Units%20and%20Conversions%20-%20Home%20Heating%20Example.ipynb)
 
