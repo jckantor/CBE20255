@@ -8,8 +8,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 
 ## 0. Getting Started
 
-* Getting Started with Jupyter Notebooks and Python 
-[[View in Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Getting_Started_with_Jupyter_Notebooks_and_Python.ipynb)]
+* [Getting Started with Jupyter Notebooks and Python](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Getting_Started_with_Jupyter_Notebooks_and_Python.ipynb)
 
 * [Solving Linear Equations with Sympy](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Solving_Linear_Equations_with_Sympy.ipynb)
 
