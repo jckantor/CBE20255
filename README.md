@@ -16,7 +16,7 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 
 * [Getting Started with Units and Engineering Calculations](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Engineering_Calculations.ipynb)
 
-* [Units and Conversions - Home Heating Example](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/Units_and_Conversions_-_Home_Heating_Example.ipynb)
+* [Units and Conversions - Home Heating Example](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/Units_and_Conversions_Home_Heating_Example.ipynb)
 
 ## 2. Stoichiometry
 
