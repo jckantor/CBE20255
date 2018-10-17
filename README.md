@@ -18,7 +18,9 @@ Pull requests for corrections and additions to these materials are welcome.
 
 ## 0. Getting Started
 
-* Getting Started with Jupyter Notebooks and Python [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Getting_Started_with_Jupyter_Notebooks_and_Python.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Getting_Started_with_Jupyter_Notebooks_and_Python.ipynb)
+<div style="text-align: right"> your-text-here </div>
+
+* Getting Started with Jupyter Notebooks and Python [![Open In Colab]<div style="text-align: right">(https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Getting_Started_with_Jupyter_Notebooks_and_Python.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Getting_Started_with_Jupyter_Notebooks_and_Python.ipynb)</div>
 * Solving Linear Equations with Sympy [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Solving_Linear_Equations_with_Sympy.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Solving_Linear_Equations_with_Sympy.ipynb) 
 
 ## 1. Units, Quantities, and Engineering Calculations
