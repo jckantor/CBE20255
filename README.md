@@ -18,7 +18,7 @@ Pull requests for corrections and additions to these materials are welcome.
 ## 1. Units, Quantities, and Engineering Calculations
 
 * Getting Started with Units and Engineering Calculations [[Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Engineering_Calculations.ipynb)][[nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Engineering_Calculations.ipynb)]
-* Units and Conversions - Home Heating Example [[Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/Units_and_Conversions_Home_Heating_Example.ipynb)][[nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/Units_and_Conversions_Home_Heating_Example.ipynb)] 
+* Units and Conversions - Home Heating Example [[Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Conversions_Home_Heating_Example.ipynb)][[nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Conversions_Home_Heating_Example.ipynb)] 
 
 ## 2. Stoichiometry
 
