@@ -51,14 +51,10 @@ Pull requests for corrections and additions to these materials are welcome.
 ]
 * General Mass Balance on a Single Tank [[Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb)][[nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb)]
 * Unsteady-State Material Balances [[Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Unsteady-State%20Material%20Balances.ipynb)][[nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Unsteady-State%20Material%20Balances.ipynb)]
-* Methanol Production [[matlab](https://github.com/jckantor/CBE20255/blob/master/matlab/Methanol_Production.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Methanol_Production.pdf)]
-* Ethylene Glycol Flowsheet Material Balances [[matlab](https://github.com/jckantor/CBE20255/blob/master/matlab/Ethylene_Glycol_Flowsheet_Material_Balances.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Ethylene_Glycol_Flowsheet_Material_Balances.pdf)]
-* Fed Batch Fermentation Reactor [[matlab](https://github.com/jckantor/CBE20255/blob/master/matlab/Fed_Batch_Fermentation_Reactor.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Fed_Batch_Fermentation_Reactor.pdf)]
 
 ## 5. Reactors
 
 * Steam Reforming of Methane [[Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb)][[nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb)]
-* Contact Process for Sulfuric Acid [[matlab](https://github.com/jckantor/CBE20255/blob/master/matlab/Contact_Process_for_Sulfuric_Acid.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Contact_Process_for_Sulfuric_Acid.pdf)]
 
 ## 6. Vapor/Liquid Equilibrium
 
@@ -73,7 +69,6 @@ Pull requests for corrections and additions to these materials are welcome.
 
 ## 7. Energy Balances
 
-* Energy Balances for a Steam Turbine Flowsheet [[Colaboratory]()][[nbviewer]()]
 * Humidity and Psychrometrics [[Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Humidity%20and%20Psychrometrics.ipynb)][[nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Humidity%20and%20Psychrometrics.ipynb)]
 * Adiabatic Flame Temperature [[Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Adiabatic%20Flame%20Temperature.ipynb)][[nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Adiabatic%20Flame%20Temperature.ipynb)]
 * Torpedo Propulsion [[Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Torpedo%20Propulsion.ipynb)
