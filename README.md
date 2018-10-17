@@ -37,6 +37,9 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 * [Ethylene Oxide Flowsheet](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Ethylene%20Oxide%20Flowsheet.ipynb)
 * [General Mass Balance on a Single Tank](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb)
 * [Unsteady-State Material Balances](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Unsteady-State%20Material%20Balances.ipynb)
+* Methanol Production [[matlab](https://github.com/jckantor/CBE20255/blob/master/matlab/Methanol_Production.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Methanol_Production.pdf)]
+* Ethylene Glycol Flowsheet Material Balances [[matlab](https://github.com/jckantor/CBE20255/blob/master/matlab/Ethylene_Glycol_Flowsheet_Material_Balances.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Ethylene_Glycol_Flowsheet_Material_Balances.pdf)]
+* Fed Batch Fermentation Reactor [[matlab](https://github.com/jckantor/CBE20255/blob/master/matlab/Fed_Batch_Fermentation_Reactor.m)][[.pdf](http://jckantor.github.com/CBE20255/pdf/Fed_Batch_Fermentation_Reactor.pdf)]
 
 ## 5. Reactors
 
@@ -45,29 +48,29 @@ These materials are available at [http://github.com/jckantor/CBE20255](http://gi
 
 ## 6. Vapor/Liquid Equilibrium
 
-* [Vapor-Liquid Equilibrium for Pure Components](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid%20Equilibrium%20for%20a%20Pure%20Component.ipynb)
-* [Operating Temperature Limits for a Methanol Fueled Lighter](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Operating%20Temperature%20Limits%20for%20a%20Methanol%20Fueled%20Lighter.ipynb)
-* [Raoult's Law for Ideal Mixtures](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Raoult's_Law_for_Ideal_Mixtures.ipynb)
-* [Txy and xy Diagrams for Binary Mixtures](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Txy_and_xy_Diagrams_for_Binary_Mixtures.ipynb)
-* [Bubble and Dew Point Calculations for Binary Mixtures](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Bubble%20and%20Dew%20Point%20Calculations%20for%20Binary%20Mixtures.ipynb)
-* [Bubble and Dew Point Calculations for Multicomponent Mixtures](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Bubble%20and%20Dew%20Point%20Calculations%20for%20Multicomponent%20Mixtures.ipynb)
-* [Isothermal Flash and the Rachford-Rice Equation](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Isothermal_Flash_and_the_Rachford-Rice_Equation.ipynb)
-* [Binary Distillation with McCabe-Thiele](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Binary%20Distillation%20with%20McCabe-Thiele.ipynb)
+* [Vapor-Liquid Equilibrium for Pure Components](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid%20Equilibrium%20for%20a%20Pure%20Component.ipynb)
+* [Operating Temperature Limits for a Methanol Fueled Lighter](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Operating%20Temperature%20Limits%20for%20a%20Methanol%20Fueled%20Lighter.ipynb)
+* [Raoult's Law for Ideal Mixtures](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Raoult's_Law_for_Ideal_Mixtures.ipynb)
+* [Txy and xy Diagrams for Binary Mixtures](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Txy_and_xy_Diagrams_for_Binary_Mixtures.ipynb)
+* [Bubble and Dew Point Calculations for Binary Mixtures](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Bubble%20and%20Dew%20Point%20Calculations%20for%20Binary%20Mixtures.ipynb)
+* [Bubble and Dew Point Calculations for Multicomponent Mixtures](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Bubble%20and%20Dew%20Point%20Calculations%20for%20Multicomponent%20Mixtures.ipynb)
+* [Isothermal Flash and the Rachford-Rice Equation](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Isothermal_Flash_and_the_Rachford-Rice_Equation.ipynb)
+* [Binary Distillation with McCabe-Thiele](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Binary%20Distillation%20with%20McCabe-Thiele.ipynb)
 
 ## 7. Energy Balances
 
 * [Energy Balances for a Steam Turbine Flowsheet]()
-* [Humidity and Psychrometrics](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Humidity%20and%20Psychrometrics.ipynb)
-* [Adiabatic Flame Temperature](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Adiabatic%20Flame%20Temperature.ipynb)
-* [Torpedo Propulsion](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Torpedo%20Propulsion.ipynb)
+* [Humidity and Psychrometrics](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Humidity%20and%20Psychrometrics.ipynb)
+* [Adiabatic Flame Temperature](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Adiabatic%20Flame%20Temperature.ipynb)
+* [Torpedo Propulsion](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Torpedo%20Propulsion.ipynb)
 
 ## Projects: Product Design and Analysis
 
-* [Diesel Engine Emissions Control](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Diesel%20Engine%20Emissions%20Control.ipynb)
-* [Pyrotechnic Design for Airbags](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Pyrotechnic%20Design%20for%20Airbags.ipynb)
-* [Flameless Cooking](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Flameless%20Cooking.ipynb)
+* [Diesel Engine Emissions Control](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Diesel%20Engine%20Emissions%20Control.ipynb)
+* [Pyrotechnic Design for Airbags](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Pyrotechnic%20Design%20for%20Airbags.ipynb)
+* [Flameless Cooking](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Flameless%20Cooking.ipynb)
 
 ## Projects: Process Systems Analysis
 
-* [West Virginia Chemical Spill](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/West%20Virginia%20Chemical%20Spill.ipynb)
-* [Ajka Alumina Plant Spill](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Ajka%20Alumina%20Plant%20Spill.ipynb)
+* [West Virginia Chemical Spill](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/West%20Virginia%20Chemical%20Spill.ipynb)
+* [Ajka Alumina Plant Spill](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Ajka%20Alumina%20Plant%20Spill.ipynb)
