@@ -1,10 +1,14 @@
 # Introduction to Chemical Engineering Analysis
 
-_Introduction to Chemical Engineering Analysis_ introduces mass and energy balances for chemical processes and products. These notebooks show how to prepare and analyze conceptual flowsheets for chemical processes, perform generation-consumption analysis, and perform basic engineering calculations for stoichiometry, reactor performance, separations, and energy analysis. This course prepares students for coursework in Chemical and Biomolecular Engineering.
+_Introduction to Chemical Engineering Analysis_ demonstrates the use of mass and energy balances for the analysis of chemical processes and products. These notebooks in the repository show how to prepare and analyze conceptual flowsheets for chemical processes, perform generation-consumption analysis, and perform basic engineering calculations for stoichiometry, reactor performance, separations, and energy analysis. Study of these topics prepares students for subsequent coursework in Chemical and Biomolecular Engineering.
 
-The notebooks include executable Python 3 code demonstrating basic chemical engineering calculations. These notebooks can be opened and executed in a browser window using Google CoLaboratory. With Google CoLaboratory all you need is a web browser, there is no need to download and install any software. Alternatively, these notebooks can be downloaded and executed using a current distribution of Jupyter notebooks and Python, such as the excellect Anaconda distribution.
+The notebooks include executable Python 3 code demonstrating basic chemical engineering calculations. Clicking the links to these notebooks opens them in a browser window hosted by Google CoLaboratory. Google CoLaboratory and a web browser is all you need to execute these notebooks, there is no need to download and install any other software. 
 
-These materials are available at [http://github.com/jckantor/CBE20255](http://github.com/jckantor/CBE20255) for noncommercial use under terms of the [Creative Commons Attribution Noncommericial ShareAlike License](http://creativecommons.org/licenses/by-nc-sa/4.0/). You are invited to fork this repository, and to use, download, share, adapt, remix these material for non-commericial purposes provided that you give attribution and share your work under the same terms. You are also invited to send pull requests for corrections and additions to these materials.
+Alternatively, these notebooks can be downloaded and executed in a Python development environment that includes Jupyter notebooks. In particular, these notebooks were developed and tested using the [Anaconda distribution](https://www.anaconda.com/download/).
+
+The materials in this repository are available at [http://github.com/jckantor/CBE20255](http://github.com/jckantor/CBE20255) for noncommercial use under terms of the [Creative Commons Attribution Noncommericial ShareAlike License](http://creativecommons.org/licenses/by-nc-sa/4.0/). You are invited to fork this repository, and to use, download, share, adapt, remix these material for non-commericial purposes. The terms require you to give attribution and share your work under the same terms. 
+
+You are also invited to send pull requests for corrections and additions to these materials.
 
 ## 0. Getting Started
 
