@@ -47,13 +47,13 @@ Pull requests for corrections and additions to these materials are welcome.
 
 | 5. Reactors | |
 | :--- | ---: |
-| PVT Calculations for Non-Ideal Gases | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Hydrogen_Storage_for_a_Fuel_Cell_Vehicle.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Hydrogen_Storage_for_a_Fuel_Cell_Vehicle.ipynb) |
-| Hydrogen Storage for a Fuel Cell Vehicle | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Hydrogen_Storage_for_a_Fuel_Cell_Vehicle.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Hydrogen_Storage_for_a_Fuel_Cell_Vehicle.ipynb) |
+| Steam Reforming of Methane | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb) |
 |<img width=500/>| |
 
 | 6. Vapors and Gases | |
 | :--- | ---: |
-| Steam Reforming of Methane | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb) |
+| PVT Calculations for Non-Ideal Gases | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Hydrogen_Storage_for_a_Fuel_Cell_Vehicle.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Hydrogen_Storage_for_a_Fuel_Cell_Vehicle.ipynb) |
+| Hydrogen Storage for a Fuel Cell Vehicle | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Hydrogen_Storage_for_a_Fuel_Cell_Vehicle.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Hydrogen_Storage_for_a_Fuel_Cell_Vehicle.ipynb) |
 |<img width=500/>| |
 
 | 7. Vapor/Liquid Equilibrium | |
