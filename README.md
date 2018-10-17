@@ -21,6 +21,7 @@ Pull requests for corrections and additions to these materials are welcome.
 | Units and Conversions - Home Heating Example | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Conversions_Home_Heating_Example.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Conversions_Home_Heating_Example.ipynb) |
 
 | **2. Stoichiometry** | |
+| :-- | --: |
 | Balancing Reactions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb) |
 | Generation-Consumption Analysis for Ammonia Production | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Generation_Consumption_Analysis_for_Ammonia_Production.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Generation_Consumption_Analysis_for_Ammonia_Production.ipynb) |
 
