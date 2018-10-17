@@ -52,7 +52,7 @@ Pull requests for corrections and additions to these materials are welcome.
 
 | 6. Vapors and Gases | |
 | :--- | ---: |
-| PVT Calculations for Non-Ideal Gases | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Hydrogen_Storage_for_a_Fuel_Cell_Vehicle.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Hydrogen_Storage_for_a_Fuel_Cell_Vehicle.ipynb) |
+| PVT Calculations for Non-Ideal Gases | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/PVT_Calculations_for_Non-Ideal_Gases.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/PVT_Calculations_for_Non-Ideal_Gases.ipynb) |
 | Hydrogen Storage for a Fuel Cell Vehicle | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Hydrogen_Storage_for_a_Fuel_Cell_Vehicle.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Hydrogen_Storage_for_a_Fuel_Cell_Vehicle.ipynb) |
 |<img width=500/>| |
 
