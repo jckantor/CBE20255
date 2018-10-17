@@ -47,10 +47,16 @@ Pull requests for corrections and additions to these materials are welcome.
 
 | 5. Reactors | |
 | :--- | ---: |
+| PVT Calculations for Non-Ideal Gases | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Hydrogen_Storage_for_a_Fuel_Cell_Vehicle.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Hydrogen_Storage_for_a_Fuel_Cell_Vehicle.ipynb) |
+| Hydrogen Storage for a Fuel Cell Vehicle | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Hydrogen_Storage_for_a_Fuel_Cell_Vehicle.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Hydrogen_Storage_for_a_Fuel_Cell_Vehicle.ipynb) |
+|<img width=500/>| |
+
+| 6. Vapors and Gases | |
+| :--- | ---: |
 | Steam Reforming of Methane | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb) |
 |<img width=500/>| |
 
-| 6. Vapor/Liquid Equilibrium | |
+| 7. Vapor/Liquid Equilibrium | |
 | :--- | ---: |
 | Gases with One Condensable Component | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Gases_with_One_Condensable_Component.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Gases_with_One_Condensable_Component.ipynb) |
 | Vapor-Liquid Equilibrium for Pure Components | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid_Equilibrium_for_Pure_Components.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid_Equilibrium_for_Pure_Components.ipynb) |
@@ -63,7 +69,7 @@ Pull requests for corrections and additions to these materials are welcome.
 | Binary Distillation with McCabe-Thiele | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Binary%20Distillation%20with%20McCabe-Thiele.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Binary%20Distillation%20with%20McCabe-Thiele.ipynb) |
 |<img width=500/>| |
 
-| 7. Energy Balances | |
+| 8. Energy Balances | |
 | :--- | ---: |
 | Humidity and Psychrometrics | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Humidity%20and%20Psychrometrics.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Humidity%20and%20Psychrometrics.ipynb) |
 | Adiabatic Flame Temperature | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Adiabatic%20Flame%20Temperature.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Adiabatic%20Flame%20Temperature.ipynb) |
