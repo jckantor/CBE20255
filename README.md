@@ -17,14 +17,14 @@ Pull requests for corrections and additions to these materials are welcome.
 
 ## 1. Units, Quantities, and Engineering Calculations
 
-* Getting Started with Units and Engineering Calculations [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Engineering_Calculations.ipynb) [[nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Engineering_Calculations.ipynb)]
-* Units and Conversions - Home Heating Example [[Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Conversions_Home_Heating_Example.ipynb)] [nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Conversions_Home_Heating_Example.ipynb)
+* Getting Started with Units and Engineering Calculations [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Engineering_Calculations.ipynb) [nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Engineering_Calculations.ipynb)
+* Units and Conversions - Home Heating Example [Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Conversions_Home_Heating_Example.ipynb) [nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Conversions_Home_Heating_Example.ipynb)
 
 ## 2. Stoichiometry
 
-* Balancing Reactions [[Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
-] [nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
-* Generation-Consumption Analysis for Ammonia Production [[Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Generation_Consumption_Analysis_for_Ammonia_Production.ipynb)] [nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Generation_Consumption_Analysis_for_Ammonia_Production.ipynb)
+* Balancing Reactions [Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
+ [nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
+* Generation-Consumption Analysis for Ammonia Production [Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Generation_Consumption_Analysis_for_Ammonia_Production.ipynb) [nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Generation_Consumption_Analysis_for_Ammonia_Production.ipynb)
 
 ## 3. Process Flows and Balances
 
