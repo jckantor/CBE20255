@@ -12,7 +12,7 @@ Pull requests for corrections and additions to these materials are welcome.
 
 ## 0. Getting Started
 
-* [Getting Started with Jupyter Notebooks and Python](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Getting_Started_with_Jupyter_Notebooks_and_Python.ipynb) [[Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Getting_Started_with_Jupyter_Notebooks_and_Python.ipynb)[nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Getting_Started_with_Jupyter_Notebooks_and_Python.ipynb)]
+* [Getting Started with Jupyter Notebooks and Python](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Getting_Started_with_Jupyter_Notebooks_and_Python.ipynb) [[Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Getting_Started_with_Jupyter_Notebooks_and_Python.ipynb)][[nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Getting_Started_with_Jupyter_Notebooks_and_Python.ipynb)]
 
 * [Solving Linear Equations with Sympy](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Solving_Linear_Equations_with_Sympy.ipynb)
 
