@@ -25,7 +25,7 @@ Pull requests for corrections and additions to these materials are welcome.
 * Balancing Reactions [[Colaboratory](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
 ][[nbviewer](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
 ]
-* Generation-Consumption Analysis for Ammonia Production [[Colaboratory](https://colab.research.google.com/jckantor/CBE20255/blob/master/notebooks/Generation%20Consumption%20Analysis%20for%20Ammonia%20Production.ipynb)][[nbviewer](https://nbviewer.jupyter.org/jckantor/CBE20255/blob/master/notebooks/Generation%20Consumption%20Analysis%20for%20Ammonia%20Production.ipynb)]
+* Generation-Consumption Analysis for Ammonia Production [[Colaboratory](https://colab.research.google.com/jckantor/CBE20255/blob/master/notebooks/Generation-Consumption_Analysis_for_Ammonia_Production.ipynb)][[nbviewer](https://nbviewer.jupyter.org/jckantor/CBE20255/blob/master/notebooks/Generation-Consumption_Analysis_for_Ammonia_Production.ipynb.ipynb)]
 
 ## 3. Process Flows and Balances
 
