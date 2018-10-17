@@ -15,39 +15,37 @@ Pull requests for corrections and additions to these materials are welcome.
 | **0. Getting Started** |
 | Getting Started with Jupyter Notebooks and Python | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Getting_Started_with_Jupyter_Notebooks_and_Python.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Getting_Started_with_Jupyter_Notebooks_and_Python.ipynb) |
 | Solving Linear Equations with Sympy | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Solving_Linear_Equations_with_Sympy.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Solving_Linear_Equations_with_Sympy.ipynb)|
+| |
 | **1. Units, Quantities, and Engineering Calculations** |
 | Getting Started with Units and Engineering Calculations | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Engineering_Calculations.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Engineering_Calculations.ipynb) |
 | Units and Conversions - Home Heating Example | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Conversions_Home_Heating_Example.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Units_and_Conversions_Home_Heating_Example.ipynb) |
+| |
 | **2. Stoichiometry** |
-
-* Balancing Reactions [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
+| Balancing Reactions [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
  [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Balancing%20Reactions.ipynb)
-* Generation-Consumption Analysis for Ammonia Production [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Generation_Consumption_Analysis_for_Ammonia_Production.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Generation_Consumption_Analysis_for_Ammonia_Production.ipynb)
-
-## 3. Process Flows and Balances
-
-* Global CO<sub>2</sub> Budget [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Global%20CO2%20Budget.ipynb)
+| Generation-Consumption Analysis for Ammonia Production [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Generation_Consumption_Analysis_for_Ammonia_Production.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Generation_Consumption_Analysis_for_Ammonia_Production.ipynb)
+| |
+| **3. Process Flows and Balances** |
+| Global CO<sub>2</sub> Budget [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Global%20CO2%20Budget.ipynb)
  [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Global%20CO2%20Budget.ipynb)
-* CO2 Production by Automobiles [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/CO2%20Production%20by%20Automobiles.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/CO2%20Production%20by%20Automobiles.ipynb)
-* General Mass Balance on a Single Tank [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb)
-* Separating Milk [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Separating_Milk.ipynb)
+| CO2 Production by Automobiles [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/CO2%20Production%20by%20Automobiles.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/CO2%20Production%20by%20Automobiles.ipynb)
+| General Mass Balance on a Single Tank [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb)
+| Separating Milk [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Separating_Milk.ipynb)
  [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Separating_Milk.ipynb)
 * Adipic Acid Flowsheet [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Adipic%20Acid%20Flowsheet.ipynb)
  [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Adipic%20Acid%20Flowsheet.ipynb)
-
-## 4. Material Balances
-
-* Lean NOx Trap [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Lean%20NOx%20Trap.ipynb)
+| |
+| **4. Material Balances** |
+| Lean NOx Trap [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Lean%20NOx%20Trap.ipynb)
  [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Lean%20NOx%20Trap.ipynb)
-* Ethylene Oxide Flowsheet [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Ethylene%20Oxide%20Flowsheet.ipynb)
+| Ethylene Oxide Flowsheet [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Ethylene%20Oxide%20Flowsheet.ipynb)
  [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Ethylene%20Oxide%20Flowsheet.ipynb)
-* General Mass Balance on a Single Tank [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb)
-* Unsteady-State Material Balances [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Unsteady-State%20Material%20Balances.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Unsteady-State%20Material%20Balances.ipynb)
-
-## 5. Reactors
-
-* Steam Reforming of Methane [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb)
-
+| General Mass Balance on a Single Tank [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/General%20Mass%20Balance%20on%20a%20Single%20Tank.ipynb)
+| Unsteady-State Material Balances [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Unsteady-State%20Material%20Balances.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Unsteady-State%20Material%20Balances.ipynb)
+| |
+| **5. Reactors** |
+| Steam Reforming of Methane | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Steam%20Reforming%20of%20Methane.ipynb) |
+| |
 ## 6. Vapor/Liquid Equilibrium
 
 * Vapor-Liquid Equilibrium for Pure Components [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid%20Equilibrium%20for%20a%20Pure%20Component.ipynb) [![nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/Vapor-Liquid%20Equilibrium%20for%20a%20Pure%20Component.ipynb)
