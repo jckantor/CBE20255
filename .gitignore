@@ -3,6 +3,9 @@
 .texpadtmp/
 matlab/html/
 notebooks/.ipynb_checkpoints/
+in_development/
+homework/
+exams/
 *.aux
 *.log
 *.m~
