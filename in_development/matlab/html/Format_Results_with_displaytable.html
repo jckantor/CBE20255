@@ -1,0 +1,181 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>Format Results with displaytable</title><meta name="generator" content="MATLAB 8.3"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2014-09-27"><meta name="DC.source" content="Format_Results_with_displaytable.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h1>Format Results with displaytable</h1><!--introduction--><p>A time consuming aspect of using Matlab for routine homework solution is formatting tablular results for display.  The function <tt>displaytable.m</tt> saves time by allowng you to easily format and label numerical results for display, or for export to a spreadsheet, a document, or html.</p><p><tt>displaytable</tt> is used in many of the following Matlab scripts.</p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Downloading and Installing</a></li><li><a href="#2">Examples</a></li></ul></div><h2>Downloading and Installing<a name="1"></a></h2><p><tt>displaytable.m</tt> can be viewed and downloaded from <a href="https://gist.github.com/jckantor/8436117">https://gist.github.com/jckantor/8436117</a>. Move to your Matlab directory and it is ready to use.</p><h2>Examples<a name="2"></a></h2><p>1. Display a simple table</p><pre class="codeinput">A = magic(4);
+displaytable(A);
+</pre><pre class="codeoutput">16   2   3  13
+ 5  11  10   8
+ 9   7   6  12
+ 4  14  15   1
+
+</pre><p>2. Annotate a simple result</p><pre class="codeinput">displaytable(pi,<span class="string">'Pi = '</span>);
+</pre><pre class="codeoutput">Pi =   3.1416
+
+</pre><p>3. Display a table with row and column headings</p><pre class="codeinput">displaytable(A,<span class="string">'Row'</span>,<span class="string">'Col'</span>)
+</pre><pre class="codeoutput">        Col(1)  Col(2)  Col(3)  Col(4)
+Row(1)      16       2       3      13
+Row(2)       5      11      10       8
+Row(3)       9       7       6      12
+Row(4)       4      14      15       1
+
+</pre><p>4. Create a table of molecular weights</p><pre class="codeinput">s = {<span class="string">'CH4'</span>,<span class="string">'C2H6'</span>,<span class="string">'C3H8'</span>}';
+mw = [16.04; 30.07; 44.1];
+displaytable(mw,s,<span class="string">'Mol. Wt.'</span>);
+</pre><pre class="codeoutput">      Mol. Wt.
+CH4      16.04
+C2H6     30.07
+C3H8      44.1
+
+</pre><p>5. Format a stream table.</p><pre class="codeinput">strms = {<span class="string">'Feed'</span>,<span class="string">'Rctr. Eff.'</span>,<span class="string">'Recycle'</span>,<span class="string">'Purge'</span>,<span class="string">'Product'</span>};
+comps = {<span class="string">'Ethylene'</span>,<span class="string">'O2'</span>,<span class="string">'N2'</span>,<span class="string">'EO'</span>};
+flows = 1000*rand(4,5);
+displaytable(flows,comps,strms);
+</pre><pre class="codeoutput">                Feed  Rctr. Eff.     Recycle       Purge     Product
+Ethylene      183.91      902.72      337.72      780.25      96.455
+O2            239.95      944.79      900.05      389.74      131.97
+N2            417.27      490.86      369.25      241.69      942.05
+EO            49.654      489.25       111.2      403.91      956.13
+
+</pre><p>6. Format a table of molecular weights to include in a web page.</p><pre class="codeinput">displaytable(mw,s,<span class="string">'Mol. Wt.'</span>,<span class="string">''</span>,<span class="string">'html'</span>);
+</pre><pre class="codeoutput">&lt;table border=0 cellpadding=4 cellspacing=4&gt;
+  &lt;tr bgcolor="#EFEFEF"&gt;
+    &lt;td align="left"&gt; &lt;/td&gt;
+    &lt;th align="center"&gt;Mol. Wt.&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr bgcolor="#EFEFEF"&gt;
+    &lt;td align="left"&gt;CH4&lt;/td&gt;
+    &lt;td align="right"&gt;   16.04&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr bgcolor="#EFEFEF"&gt;
+    &lt;td align="left"&gt;C2H6&lt;/td&gt;
+    &lt;td align="right"&gt;   30.07&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr bgcolor="#EFEFEF"&gt;
+    &lt;td align="left"&gt;C3H8&lt;/td&gt;
+    &lt;td align="right"&gt;    44.1&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2014a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% Format Results with displaytable
+%
+% A time consuming aspect of using Matlab for routine homework
+% solution is formatting tablular results for display.  The function
+% |displaytable.m| saves time by allowng you to easily format and label 
+% numerical results for display, or for export to a spreadsheet, a
+% document, or html.
+%
+% |displaytable| is used in many of the following Matlab scripts.
+
+%% Downloading and Installing
+%
+% |displaytable.m| can be viewed and downloaded from 
+% <https://gist.github.com/jckantor/8436117>. Move to your Matlab directory
+% and it is ready to use.
+%
+%% Examples
+%
+% 1. Display a simple table
+
+A = magic(4);
+displaytable(A);
+
+%%
+% 2. Annotate a simple result
+
+displaytable(pi,'Pi = ');
+
+%%
+% 3. Display a table with row and column headings
+
+displaytable(A,'Row','Col')
+
+%%
+% 4. Create a table of molecular weights
+
+s = {'CH4','C2H6','C3H8'}';
+mw = [16.04; 30.07; 44.1];
+displaytable(mw,s,'Mol. Wt.');
+
+%%
+% 5. Format a stream table.
+
+strms = {'Feed','Rctr. Eff.','Recycle','Purge','Product'};
+comps = {'Ethylene','O2','N2','EO'};
+flows = 1000*rand(4,5);
+displaytable(flows,comps,strms);
+
+%%
+% 6. Format a table of molecular weights to include in a web page.
+
+displaytable(mw,s,'Mol. Wt.','','html');
+
+
+
+##### SOURCE END #####
+--></body></html>

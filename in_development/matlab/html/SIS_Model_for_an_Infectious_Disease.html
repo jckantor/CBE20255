@@ -1,0 +1,168 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>SIS Model for an Infectious Disease</title><meta name="generator" content="MATLAB 8.3"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2014-09-29"><meta name="DC.source" content="SIS_Model_for_an_Infectious_Disease.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h1>SIS Model for an Infectious Disease</h1><!--introduction--><p>The SIS model is a simple epidemilogical modeling for the transmission of an infectious disease without significant morbidity, such as the common cold or influenza, for which victims do not exhibit long-term immunity.</p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">SIS compartment model</a></li><li><a href="#2">Paramter Values</a></li><li><a href="#3">Anonymous function for the Differential Equation</a></li><li><a href="#4">Solving the Differential Equation</a></li><li><a href="#5">Plotting the Result</a></li><li><a href="#6">Exercises</a></li></ul></div><h2>SIS compartment model<a name="1"></a></h2><p>An isolated and fixed population of <img src="SIS_Model_for_an_Infectious_Disease_eq05153.png" alt="$N$"> individuals is divided into two components. The first is a population of <img src="SIS_Model_for_an_Infectious_Disease_eq35427.png" alt="$I$"> individuals infected with a contagious disease, and the other comprises the <img src="SIS_Model_for_an_Infectious_Disease_eq29035.png" alt="$S = N - I$"> individuals who are susceptible to the disease.</p><pre>        _______________   alpha*I  _______________
+       |               |&lt;---------|               |
+       |  Susceptible  |          |    Infected   |
+       |_______________|---------&gt;|_______________|
+                         beta*S*I</pre><p>In any given period (we'll use a week as our basic unit of time), we assume a fraction <img src="SIS_Model_for_an_Infectious_Disease_eq87919.png" alt="$\alpha$"> of the infected individuals will recover and return to the susceptible state. So the number of infected indivduals returning to the susceptible state is <img src="SIS_Model_for_an_Infectious_Disease_eq41039.png" alt="$\alpha I$">.</p><p>During that same period, each infected individual will encounter other individuals. The probability that an individual is susceptible is S/N, and the probability of infecting a susceptible individual will be denoted by <img src="SIS_Model_for_an_Infectious_Disease_eq42727.png" alt="$\beta$">. Thus the average number of susceptible individuals becoming infected during the time period is <img src="SIS_Model_for_an_Infectious_Disease_eq21794.png" alt="$\beta S I$">.</p><p>Writing this as a pair of differential equations for <img src="SIS_Model_for_an_Infectious_Disease_eq68961.png" alt="$S$"> and <img src="SIS_Model_for_an_Infectious_Disease_eq35427.png" alt="$I$">, we find</p><p><img src="SIS_Model_for_an_Infectious_Disease_eq76949.png" alt="$$\frac{dS}{dt} = \alpha I - \beta S I$$"></p><p><img src="SIS_Model_for_an_Infectious_Disease_eq56574.png" alt="$$\frac{dI}{dt} = -\alpha I + \beta S I $$"></p><p>This can be simplified because <img src="SIS_Model_for_an_Infectious_Disease_eq10723.png" alt="$N = S + I$">. Solving for <img src="SIS_Model_for_an_Infectious_Disease_eq68961.png" alt="$S$"> and substituting into the second equaton gives</p><p><img src="SIS_Model_for_an_Infectious_Disease_eq31384.png" alt="$$\frac{dI}{dt} = -\alpha I + \beta (N-I) I $$"></p><p>This is a single equation to be solved for <img src="SIS_Model_for_an_Infectious_Disease_eq35427.png" alt="$I$">.</p><h2>Paramter Values<a name="2"></a></h2><pre class="codeinput">N = 20000;      <span class="comment">% Population size</span>
+alpha = 1;      <span class="comment">% Fraction of infected individuals recovering in one period</span>
+beta = 5/N;     <span class="comment">% Fraction of susceptible people infected by one person</span>
+</pre><h2>Anonymous function for the Differential Equation<a name="3"></a></h2><pre class="codeinput">dI = @(t,I) - alpha*I + beta*I*(N-I);
+</pre><h2>Solving the Differential Equation<a name="4"></a></h2><pre class="codeinput">I_initial = 100;   <span class="comment">% Number of infected individuals at t_initial</span>
+t_initial = 0;     <span class="comment">% Initial time</span>
+t_final = 15;      <span class="comment">% Final time</span>
+
+[t,I] = ode45(dIdt,[t_initial t_final],I_initial);
+</pre><h2>Plotting the Result<a name="5"></a></h2><pre class="codeinput">plot(t,I,t,N-I);
+grid;
+xlabel(<span class="string">'Time [weeks]'</span>);
+ylabel(<span class="string">'Infected Population'</span>);
+legend(<span class="string">'Infected'</span>,<span class="string">'Susceptable'</span>);
+</pre><img vspace="5" hspace="5" src="SIS_Model_for_an_Infectious_Disease_01.png" alt=""> <h2>Exercises<a name="6"></a></h2><p>1. Repeat the simulation with different values for the initially infected population. What happens if <img src="SIS_Model_for_an_Infectious_Disease_eq52613.png" alt="$I = 0$">?  If <img src="SIS_Model_for_an_Infectious_Disease_eq10937.png" alt="$I = 1$">?  If <img src="SIS_Model_for_an_Infectious_Disease_eq62276.png" alt="$I = N$">?</p><p>2. Public health efforts can reduce the probability of infection <img src="SIS_Model_for_an_Infectious_Disease_eq42727.png" alt="$\beta$">. Use simulation to determine a target value for <img src="SIS_Model_for_an_Infectious_Disease_eq42727.png" alt="$\beta$">. Is it possible to reduce the number of infected individuals be reduced to zero?</p><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2014a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% SIS Model for an Infectious Disease
+%
+% The SIS model is a simple epidemilogical modeling for the transmission 
+% of an infectious disease without significant morbidity, such as the 
+% common cold or influenza, for which victims do not exhibit long-term 
+% immunity.
+
+%% SIS compartment model
+%
+% An isolated and fixed population of $N$ individuals is divided into two
+% components. The first is a population of $I$ individuals infected with a
+% contagious disease, and the other comprises the $S = N - I$ individuals 
+% who are susceptible to the disease.
+%
+%          _______________   alpha*I  _______________
+%         |               |<REPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASH-|               |
+%         |  Susceptible  |          |    Infected   |
+%         |_______________|REPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASH->|_______________|
+%                           beta*S*I
+%
+% In any given period (we'll use a week as our basic unit of time), we 
+% assume a fraction $\alpha$ of the infected individuals will recover and 
+% return to the susceptible state. So the number of infected indivduals
+% returning to the susceptible state is $\alpha I$.
+%
+% During that same period, each infected individual will encounter other
+% individuals. The probability that an individual is susceptible is S/N,
+% and the probability of infecting a susceptible individual will be denoted
+% by $\beta$. Thus the average number of susceptible individuals becoming
+% infected during the time period is $\beta S I$.
+%
+% Writing this as a pair of differential equations for $S$ and $I$, we find
+%
+% $$\frac{dS}{dt} = \alpha I - \beta S I$$
+%
+% $$\frac{dI}{dt} = -\alpha I + \beta S I $$
+%
+% This can be simplified because $N = S + I$. Solving for $S$ and
+% substituting into the second equaton gives
+%
+% $$\frac{dI}{dt} = -\alpha I + \beta (N-I) I $$
+%
+% This is a single equation to be solved for $I$.
+
+%% Paramter Values
+
+N = 20000;      % Population size
+alpha = 1;      % Fraction of infected individuals recovering in one period
+beta = 5/N;     % Fraction of susceptible people infected by one person
+
+%% Anonymous function for the Differential Equation
+
+dI = @(t,I) - alpha*I + beta*I*(N-I);
+
+%% Solving the Differential Equation
+
+I_initial = 100;   % Number of infected individuals at t_initial
+t_initial = 0;     % Initial time
+t_final = 15;      % Final time
+
+[t,I] = ode45(dIdt,[t_initial t_final],I_initial);
+
+%% Plotting the Result
+
+plot(t,I,t,N-I);
+grid;
+xlabel('Time [weeks]');
+ylabel('Infected Population');
+legend('Infected','Susceptable');
+
+%% Exercises
+%
+% 1. Repeat the simulation with different values for the initially infected
+% population. What happens if $I = 0$?  If $I = 1$?  If $I = N$?
+%
+% 2. Public health efforts can reduce the probability of infection $\beta$.
+% Use simulation to determine a target value for $\beta$. Is it possible to 
+% reduce the number of infected individuals be reduced to zero?
+##### SOURCE END #####
+--></body></html>
