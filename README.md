@@ -10,6 +10,7 @@ Most notebooks are 3-5 pages in length covering a single topic. Notebooks marked
 
 **License Requirements.** The materials in this repository are available at [http://github.com/jckantor/CBE20255](http://github.com/jckantor/CBE20255) for noncommercial use under terms of the [Creative Commons Attribution Noncommericial ShareAlike License](http://creativecommons.org/licenses/by-nc-sa/4.0/). You are invited to fork this repository, and to use, adapt, remix these material for non-commericial purposes. The license terms require you to give attribution and share your work under the same terms. Pull requests for corrections and additions to these materials are most welcome.
 
+**Acknowledgements.** Several notebooks embed videos from [LearnChemE](http://www.learncheme.com/), an NSF sponsored project hosted at the University of Colorado at Boulder. Permission to use these videos is gratefully acknowledged.
 
 | 0. Getting Started | |
 | :--- | ---: |
