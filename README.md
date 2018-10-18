@@ -1,14 +1,12 @@
 # Introduction to Chemical Engineering Analysis
 
-_Introduction to Chemical Engineering Analysis_ demonstrates the use of mass and energy balances for the analysis of chemical processes and products. These notebooks in the repository show how to prepare and analyze conceptual flowsheets for chemical processes, perform generation-consumption analysis, and perform basic engineering calculations for stoichiometry, reactor performance, separations, and energy analysis. Study of these topics prepares students for subsequent coursework in Chemical and Biomolecular Engineering.
+_Introduction to Chemical Engineering Analysis_ demonstrates the use of mass and energy balances for the analysis of chemical processes and products. The notebooks in the repository show how to prepare and analyze conceptual flowsheets for chemical processes, perform generation-consumption analysis, and perform basic engineering calculations for stoichiometry, reactor performance, separations, and energy analysis. Study of these topics prepares students for subsequent coursework in Chemical and Biomolecular Engineering.
 
-The notebooks include executable Python 3 code demonstrating basic chemical engineering calculations. Clicking the Colaboratory link to a notebooks opens it in a browser window (either Google Chrome, Mozilla Firefox, or Apple Safari) hosted by Google CoLaboratory. Google CoLaboratory and a web browser is all you need to execute these notebooks, there is no need to download and install any other software. 
+The notebooks include executable Python 3 code demonstrating basic chemical engineering calculations. Clicking the open in Colaboratory link to a notebooks opens it in a browser window (either Google Chrome, Mozilla Firefox, or Apple Safari) hosted by Google CoLaboratory. Google CoLaboratory and a web browser is all you need to execute these notebooks, there is no need to download and install any other software. 
 
-Alternatively, the nbviewer link allows notebooks to be downloaded and executed in a Python development environment installed on your own computer. In particular, these notebooks were developed and tested using the [Anaconda distribution](https://www.anaconda.com/download/).
+Alternatively, the render in nbviewer link allows notebooks to be downloaded and executed in a Python development environment installed on your own computer. In particular, these notebooks were developed and tested using the [Anaconda distribution](https://www.anaconda.com/download/).
 
-The materials in this repository are available at [http://github.com/jckantor/CBE20255](http://github.com/jckantor/CBE20255) for noncommercial use under terms of the [Creative Commons Attribution Noncommericial ShareAlike License](http://creativecommons.org/licenses/by-nc-sa/4.0/). You are invited to fork this repository, and to use, download, share, adapt, remix these material for non-commericial purposes. The terms require you to give attribution and share your work under the same terms. 
-
-Pull requests for corrections and additions to these materials are welcome.
+The materials in this repository are available at [http://github.com/jckantor/CBE20255](http://github.com/jckantor/CBE20255) for noncommercial use under terms of the [Creative Commons Attribution Noncommericial ShareAlike License](http://creativecommons.org/licenses/by-nc-sa/4.0/). You are invited to fork this repository, and to use, download, share, adapt, remix these material for non-commericial purposes. The terms require you to give attribution and share your work under the same terms. Pull requests for corrections and additions to these materials are welcome.
 
 | 0. Getting Started | |
 | :--- | ---: |
