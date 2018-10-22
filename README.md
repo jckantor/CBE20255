@@ -2,7 +2,7 @@
 
 _Introduction to Chemical Engineering Analysis_ demonstrates the use of mass and energy balances for the analysis of chemical processes and products. The notebooks in the repository show how to prepare and analyze conceptual flowsheets for chemical processes, perform generation-consumption analysis, and perform basic engineering calculations for stoichiometry, reactor performance, separations, and energy analysis.
 
-The notebooks demonstrate basic chemical engineering calculations in Python. The `open in colab` opens notebooks directly in Google Colaboratory where they can be run, edited, shared, and saved to your Google Drive. All you need is a browser (either Google Chrome, Mozilla Firefox, or Apple Safari) using Google Colaboratory. Alternatively, the `render in nbviewer` link allows notebooks to be downloaded and executed in a Python development distribution installed on your computer. These notebooks were developed and tested using the [Anaconda](https://www.anaconda.com/download/) distribution.
+The notebooks demonstrate basic chemical engineering calculations in Python. The `open in colab` opens notebooks directly in Google Colaboratory where they can be run, edited, shared, and saved to your Google Drive. All you need is a browser, either Google Chrome, Mozilla Firefox, or Apple Safari. Alternatively, the `render in nbviewer` link allows notebooks to be downloaded and executed in a Python development distribution installed on your computer. These notebooks were developed and tested using the [Anaconda](https://www.anaconda.com/download/) distribution.
 
 Most notebooks are 3-5 pages in length covering a single topic. Notebooks marked as examples are shorter, and present one or more problem statements with solutions.
 
