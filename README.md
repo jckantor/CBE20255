@@ -40,7 +40,7 @@ one or more problem statements with solutions.
 ### [Chapter 4. Material Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.00-Material-Balances.ipynb)
 - [4.1 Lean $NO_x$ Trap](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.01-Lean-NOx-Trap.ipynb)
 - [4.2 Ethylene Oxide Flowsheet](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb)
-- [4.3 General Mass Balance on a Single Tank](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.03-General-Mass-Balance-on-a-Single Tank.ipynb)
+- [4.3 General Mass Balance on a Single Tank](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.03-General-Mass-Balance-on-a-Single-Tank.ipynb)
 - [4.4 Unsteady-State Material Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.04-Unsteady-State-Material-Balances.ipynb)
 
 ### [Chapter 5. Reactors](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/05.00-Reactors.ipynb)
@@ -78,7 +78,7 @@ one or more problem statements with solutions.
 - [A.3 Flameless Cooking](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.03-Flameless-Cooking.ipynb)
 
 ### [Appendix B. Projects: Process Systems Analysis](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.00-Projects-Process-Systems-Analysis.ipynb)
-- [B.1 West Virginia Chemical Spill](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.01-West-Virginia-Chemical Spill.ipynb)
+- [B.1 West Virginia Chemical Spill](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.01-West-Virginia-Chemical-Spill.ipynb)
 - [B.2 Ajka Alumina Plant Spill](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.02-Ajka-Alumina-Plant-Spill.ipynb)
 
 **Note on the use of Python.** The Python used in these notebooks is deliberately limited to a core set of language 
