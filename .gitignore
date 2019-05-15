@@ -1,12 +1,16 @@
-*/.DS_Store
-.DS_Store/
-.ipynb_checkpoints/
-.texpadtmp/
-matlab/html/
-notebooks/.ipynb_checkpoints/
+# do not publish directories reserved for homework, exams, or development
 in_development/
 homework/
 exams/
+
+# working files and directories
+.idea
+notebooks/.DS_Store
+images/.DS_Store
+.ipynb_checkpoints/
+.texpadtmp/
 *.aux
 *.log
 *.m~
+.idea/workspace.xml
+*.xml
