@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a3c02a9-e1be-4750-9ab9-050412520c63" name="Default Changelist" comment="" />
+    <list default="true" id="1a3c02a9-e1be-4750-9ab9-050412520c63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/tools/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/__main__.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tools/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="258">
+              <caret line="21" lean-forward="true" selection-start-line="17" selection-end-line="21" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -74,8 +76,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
-    <option name="y" value="70" />
+    <option name="x" value="13" />
+    <option name="y" value="24" />
     <option name="width" value="1508" />
     <option name="height" value="919" />
   </component>
@@ -90,6 +92,11 @@
             <path>
               <item name="CBE20255" type="b2602c69:ProjectViewProjectNode" />
               <item name="CBE20255" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CBE20255" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CBE20255" type="462c0819:PsiDirectoryNode" />
+              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CBE20255" type="b2602c69:ProjectViewProjectNode" />
@@ -138,16 +145,18 @@
       <workItem from="1557847420029" duration="707000" />
       <workItem from="1557860467223" duration="10049000" />
       <workItem from="1557885021864" duration="480000" />
+      <workItem from="1557885996821" duration="750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11753000" />
+    <option name="totallyTimeSpent" value="12503000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="198" width="1508" height="919" extended-state="0" />
+    <frame x="13" y="24" width="1508" height="919" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26261938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -182,6 +191,7 @@
     <entry file="file://$PROJECT_DIR$/tools/add_course_info.py" />
     <entry file="file://$PROJECT_DIR$/tools/add_navigation.py" />
     <entry file="file://$PROJECT_DIR$/tools/generate_contents.py" />
+    <entry file="file://$PROJECT_DIR$/notebooks/04.03-General-Mass-Balance-on-a-Single Tank.ipynb" />
     <entry file="file://$PROJECT_DIR$/DEVELOPMENT.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -209,13 +219,10 @@
     <entry file="file://$PROJECT_DIR$/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/notebooks/04.03-General-Mass-Balance-on-a-Single Tank.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="258">
+          <caret line="21" lean-forward="true" selection-start-line="17" selection-end-line="21" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
