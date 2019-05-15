@@ -29,7 +29,7 @@ one or more problem statements with solutions.
 """
 
 README_FOOTER = """
-<p>
+
 **Note on the use of Python.** The Python used in these notebooks is deliberately limited to a core set of language 
 features.  These notebooks use scalar variables and lists of scalar variables to represent data. Also used are 
 arithmetic, math, print, and plotting functions from the `matplotlib.pyplot` library. Functions created with `def` 
