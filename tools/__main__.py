@@ -141,7 +141,7 @@ def iter_navbars():
         navbar += COLAB_LINK.format(notebook_filename=os.path.basename(nb))
         yield os.path.join(NOTEBOOK_DIR, nb), navbar
 
-def write_navbars():
+def add_navbars():
     for nb_name, navbar in iter_navbars():
         nb = nbformat.read(nb_name, as_version=4)
         nb_file = os.path.basename(nb_name)
@@ -158,9 +158,9 @@ def write_navbars():
         nbformat.write(nb, nb_name)
 
 # functions to create Readme and Index files
-def gen_contents(directory=None):
+def gen_contents(remote_directory=None):
     for nb_file in iter_notebooks():
-        nb_url = os.path.join(directory, nb_file) if directory else nb_file
+        nb_url = os.path.join(directory, nb_file) if remote_directory else nb_file
         chapter, section, name = REG.match(nb_file).groups()
         if chapter.isdigit():
             chapter = int(chapter)
@@ -172,15 +172,15 @@ def gen_contents(directory=None):
             fmt = "\n### [Appendix {0}. {2}]({3})" if section in '00' else "- [{0}.{1} {2}]({3})"
         yield fmt.format(chapter, int(section), get_notebook_title(nb_file), nb_url)
 
-def write_contents(FILE, HEADER, FOOTER=None, directory=None):
+def write_contents(FILE, HEADER, FOOTER=None, remote_directory=None):
     with open(FILE, 'w') as f:
         f.write(HEADER)
-        f.write('\n'.join(gen_contents(directory)))
+        f.write('\n'.join(gen_contents(remote_directory)))
         if FOOTER:
             f.write(FOOTER)
 
 add_course_info()
-write_navbars()
+add_navbars()
+write_contents(README_FILE, README_HEADER, README_FOOTER, NOTEBOOK_DIR_REMOTE)
 write_contents(INDEX_FILE, INDEX_HEADER, None, NOTEBOOK_DIR_REMOTE)
 os.system(' '.join(['notedown', INDEX_FILE, '>', INDEX_NB]))
-write_contents(README_FILE, README_HEADER, README_FOOTER, NOTEBOOK_DIR_REMOTE)
