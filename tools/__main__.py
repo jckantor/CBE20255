@@ -70,6 +70,10 @@ COLAB_LINK = """
 <img align="left" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open in Google Colaboratory"></a>
 """
 
+# location of remote notebook directory
+NOTEBOOK_DIR_REMOTE = 'http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/'
+
+
 ### DO NOT EDIT BELOW THIS LINE
 
 # location of the README.md file in the local repository
@@ -77,9 +81,6 @@ README_FILE = os.path.join(os.path.dirname(__file__), '..', 'README.md')
 
 # find location of notebook directory in the local repository
 NOTEBOOK_DIR = os.path.join(os.path.dirname(__file__), '..', 'notebooks')
-
-# location of remote notebook directory
-NOTEBOOK_DIR_REMOTE = 'http://nbviewer.jupyter.org/github/jckantor/CBE30338/blob/master/notebooks/'
 
 # location of the index file in the local respository
 INDEX_FILE = os.path.join(NOTEBOOK_DIR, 'index.md')
