@@ -24,8 +24,10 @@ one or more problem statements with solutions.
 ### [Chapter 1. Units, Quantities, and Engineering Calculations](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.00-Units-Quantities-and-Engineering-Calculations.ipynb)
 
 ### [Chapter 2. Stoichiometry](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.00-Stoichiometry.ipynb)
+- [2.1 Balancing Reactions](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.01-Balancing-Reactions.ipynb)
 
 ### [Chapter 3. Process Flows and Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.00-Process-Flows-and-Balances.ipynb)
+- [3.5 Adipic Acid Flowsheet](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.05-Adipic-Acid-Flowsheet.ipynb)
 
 ### [Chapter 4. Material Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.00-Material-Balances.ipynb)
 
@@ -34,12 +36,17 @@ one or more problem statements with solutions.
 ### [Chapter 6. Vapors and Gases](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.00-Vapors-and-Gases.ipynb)
 
 ### [Chapter 7. Vapor/Liquid Equilibrium](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.00-Vapor-Liquid-Equilibrium.ipynb)
+- [7.10 Binary Distillation with McCabe-Thiele](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.10-Binary-Distillation-with-McCabe-Thiele.ipynb)
 
 ### [Chapter 8. Energy Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.00-Energy-Balances.ipynb)
+- [8.3 Basic Energy Computations](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.03-Basic-Energy-Calculations.ipynb)
+- [8.6 Adiabatic Flame Temperature](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.06-Adiabatic-Flame-Temperature.ipynb)
+- [8.6 Binary Phase Diagrams for Ideal Mixtures](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.06-Binary-Phase-Diagrams-for-Ideal-Mixtures.ipynb)
 
 ### [Appendix A. Products: Product Design and Analysis](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.00-Projects-Product-Design-and-Analysis.ipynb)
 
 ### [Appendix B. Projects: Process Systems Analysis](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.00-Projects-Process-Systems-Analysis.ipynb)
+- [B.2 Ajka Alumina Plant Spill](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.02-Ajka-Alumina-Plant-Spill.ipynb)
 **Note on the use of Python.** The Python used in these notebooks is deliberately limited to a core set of language 
 features.  These notebooks use scalar variables and lists of scalar variables to represent data. Also used are 
 arithmetic, math, print, and plotting functions from the `matplotlib.pyplot` library. Functions created with `def` 
