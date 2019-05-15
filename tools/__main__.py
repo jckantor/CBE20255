@@ -20,8 +20,6 @@ directly in Google Colaboratory where they can be run, edited, shared, and saved
 the notebooks can be downloaded and executed on your computer. These notebooks
 were developed and tested using the [Anaconda](https://www.anaconda.com/download/) distribution.
 
-Most notebooks are 3-5 pages in length covering a single topic.
-
 ## Contents
 ---
 """
@@ -57,6 +55,7 @@ INDEX_HEADER = """
 
 # header to be inserted at the top of each notebook
 COURSE_INFO_HEADER = """
+
 *This notebook contains course material from [CBE 20255 Introduction to Chemical Engineering Analysis](http://jckantor.github.io/CBE20255/) 
 by Jeffrey Kantor (jeff at nd.edu); the content is available [on GitHub](https://github.com/jckantor/CBE20255).
 The text is released under the [CC-BY-NC-ND-4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode),
@@ -94,6 +93,7 @@ COURSE_INFO = COURSE_COMMENT + COURSE_INFO_HEADER
 
 # regular expression that matches notebook filenames to be included in the TOC
 REG = re.compile(r'(\d\d|[A-Z])\.(\d\d)-(.*)\.ipynb')
+
 def iter_notebooks():
     """Return list of notebooks matched by regular expression"""
     return sorted(nb_file for nb_file in os.listdir(NOTEBOOK_DIR) if REG.match(nb_file))
@@ -111,26 +111,24 @@ def add_course_info():
     for nb_name in iter_notebooks():
         nb_file = os.path.join(NOTEBOOK_DIR, nb_name)
         nb = nbformat.read(nb_file, as_version=4)
-
         if nb.cells[0].source.startswith(COURSE_COMMENT):
             print('- amending comment for: {0}'.format(nb_name))
             nb.cells[0].source = COURSE_INFO
         else:
             print('- inserting comment for {0}'.format(nb_name))
             nb.cells.insert(0, new_markdown_cell(COURSE_INFO))
-        print('        notebook title: {0}'.format(get_notebook_title(nb_name)))
         nbformat.write(nb, nb_file)
 
 # functions to create Nav bar
-def prev_this_next(it):
-    a, b, c = itertools.tee(it, 3)
-    next(c)
-    return zip(itertools.chain([None], a), b, itertools.chain(c, [None]))
-
 PREV_TEMPLATE = "< [{title}]({url}) "
 CONTENTS = "| [Contents](index.ipynb) |"
 NEXT_TEMPLATE = " [{title}]({url}) >"
 NAV_COMMENT = "<!--NAVIGATION-->\n"
+
+def prev_this_next(it):
+    a, b, c = itertools.tee(it, 3)
+    next(c)
+    return zip(itertools.chain([None], a), b, itertools.chain(c, [None]))
 
 def iter_navbars():
     for prev_nb, nb, next_nb in prev_this_next(iter_notebooks()):
@@ -172,7 +170,6 @@ def gen_contents(directory=None):
                 fmt = "\n### [Chapter {0}. {2}]({3})" if section in '00' else "- [{0}.{1} {2}]({3})"
         else:
             fmt = "\n### [Appendix {0}. {2}]({3})" if section in '00' else "- [{0}.{1} {2}]({3})"
-
         yield fmt.format(chapter, int(section), get_notebook_title(nb_file), nb_url)
 
 def write_contents(FILE, HEADER, FOOTER=None, directory=None):

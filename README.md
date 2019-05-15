@@ -11,8 +11,6 @@ directly in Google Colaboratory where they can be run, edited, shared, and saved
 the notebooks can be downloaded and executed on your computer. These notebooks
 were developed and tested using the [Anaconda](https://www.anaconda.com/download/) distribution.
 
-Most notebooks are 3-5 pages in length covering a single topic.
-
 ## Contents
 ---
 
