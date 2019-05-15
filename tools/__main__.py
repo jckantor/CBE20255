@@ -160,7 +160,7 @@ def add_navbars():
 # functions to create Readme and Index files
 def gen_contents(remote_directory=None):
     for nb_file in iter_notebooks():
-        nb_url = os.path.join(directory, nb_file) if remote_directory else nb_file
+        nb_url = os.path.join(remote_directory, nb_file) if remote_directory else nb_file
         chapter, section, name = REG.match(nb_file).groups()
         if chapter.isdigit():
             chapter = int(chapter)

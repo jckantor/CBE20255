@@ -27,7 +27,6 @@ were developed and tested using the [Anaconda](https://www.anaconda.com/download
 - [2.2 Generation Consumption Analysis for Ammonia Production](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.02-Generation-Consumption-Analysis-for-Ammonia-Production.ipynb)
 
 ### [Chapter 3. Process Flows and Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.00-Process-Flows-and-Balances.ipynb)
-- [3.1 Global CO<sub>2</sub> Budget](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.01-Global-CO2-Budget-2.ipynb)
 - [3.1 Global CO<sub>2</sub> Budget](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.01-Global-CO2-Budget.ipynb)
 - [3.2 $CO_2$ Production by Automobiles](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.02-CO2-Production-by-Automobiles.ipynb)
 - [3.4 Separating Milk](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.04-Separating-Milk.ipynb)
