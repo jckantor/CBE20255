@@ -11,7 +11,7 @@ directly in Google Colaboratory where they can be run, edited, shared, and saved
 the notebooks can be downloaded and executed on your computer. These notebooks
 were developed and tested using the [Anaconda](https://www.anaconda.com/download/) distribution.
 
-### [Table of Contents](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/index.ipynb?flush=True)
+### [Table of Contents](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/index.ipynb?flush=true)
 
 ### [Getting Started](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.00-Getting-Started.ipynb)
 - [Jupyter Notebooks, Python, and Google Colaboratory](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.01-Getting-Started-with-Jupyter-Notebooks-and-Python.ipynb)
@@ -23,11 +23,11 @@ were developed and tested using the [Anaconda](https://www.anaconda.com/download
 
 ### [Chapter 2. Stoichiometry](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.00-Stoichiometry.ipynb)
 - [2.1 Balancing Reactions](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.01-Balancing-Reactions.ipynb)
-- [2.2 Generation Consumption Analysis for Ammonia Production](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.02-Generation-Consumption-Analysis-for-Ammonia-Production.ipynb)
+- [2.2 Generation Consumption Analysis](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.02-Generation-Consumption-Analysis-for-Ammonia-Production.ipynb)
 
 ### [Chapter 3. Process Flows and Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.00-Process-Flows-and-Balances.ipynb)
 - [3.1 Global CO<sub>2</sub> Budget](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.01-Global-CO2-Budget.ipynb)
-- [3.2 $CO_2$ Production by Automobiles](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.02-CO2-Production-by-Automobiles.ipynb)
+- [3.2 CO<sub>2</sub> Production by Automobiles](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.02-CO2-Production-by-Automobiles.ipynb)
 - [3.4 Separating Milk](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.04-Separating-Milk.ipynb)
 - [3.5 Adipic Acid Flowsheet](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.05-Adipic-Acid-Flowsheet.ipynb)
 
