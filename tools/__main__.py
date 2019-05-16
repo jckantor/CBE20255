@@ -21,6 +21,8 @@ the notebooks can be downloaded and executed on your computer. These notebooks
 were developed and tested using the [Anaconda](https://www.anaconda.com/download/) distribution.
 
 ## Notebooks
+
+### [Table of Contents](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/index.ipynb?flush=True)
 ---
 """
 
@@ -50,7 +52,6 @@ Permission to use these videos is gratefully acknowledged.</p>
 INDEX_HEADER = """
 # [Introduction to Chemical Engineering Analysis](http://jckantor.github.io/CBE20255/)
 
-## Table of Contents
 """
 
 # header to be inserted at the top of each notebook
