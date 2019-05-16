@@ -7,7 +7,7 @@ import itertools
 from configure import *
 
 # Header on index page pointing back to github.io
-INDEX_HEADER = "[{0}]({1})".format(DESC, PAGE)
+INDEX_HEADER = "# [{0}]({1})".format(DESC, PAGE)
 
 # location of remote notebook directory
 NBVIEWER_BASE_URL = "http://nbviewer.jupyter.org/github/{0}/{1}/blob/master/notebooks/".format(USER, REPO)
