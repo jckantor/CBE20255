@@ -32,7 +32,7 @@ TOC_HEADER = """
 ### [Table of Contents](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/index.ipynb?flush=true)
 """
 
-TOC_HEADER = "### [Table of Contents]({0}index.ipynb?flush=true".format(NBVIEWER_BASE_URL)
+TOC_HEADER = "### [Table of Contents]({0}index.ipynb?flush=true)".format(NBVIEWER_BASE_URL)
 
 # header to be inserted at the top of each notebook
 COURSE_INFO_HEADER = """
