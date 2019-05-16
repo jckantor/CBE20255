@@ -155,11 +155,11 @@ class notebook():
         if self.chapter.isdigit():
             self.chapter = int(self.chapter)
             if self.chapter == 0:
-                fmt = "### [{2}]({3})" if self.section in '00' else "- [{2}]({3})"
+                fmt = "\n### [{2}]({3})" if self.section in '00' else "- [{2}]({3})"
             else:
-                fmt = "### [Chapter {0}. {2}]({3})" if self.section in '00' else "- [{0}.{1} {2}]({3})"
+                fmt = "\n### [Chapter {0}. {2}]({3})" if self.section in '00' else "- [{0}.{1} {2}]({3})"
         else:
-            fmt = "### [Appendix {0}. {2}]({3})" if self.section in '00' else "- [{0}.{1} {2}]({3})"
+            fmt = "\n### [Appendix {0}. {2}]({3})" if self.section in '00' else "- [{0}.{1} {2}]({3})"
         return fmt.format(self.chapter, int(self.section), self.title, self.url)
 
     def get_toc(self):

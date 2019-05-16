@@ -2,6 +2,7 @@
 # [Introduction to Chemical Engineering Analysis](http://jckantor.github.io/CBE20255/)
 
 ## Table of Contents
+
 ### [Getting Started](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.00-Getting-Started.ipynb)
 - [Getting Started with Jupyter Notebooks, Python, and Google Colaboratory](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.01-Getting-Started-with-Jupyter-Notebooks-and-Python.ipynb)
     - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.01-Getting-Started-with-Jupyter-Notebooks-and-Python.ipynb#Summary)
@@ -19,6 +20,7 @@
     - [Problem Statement](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.02-Solving-Linear-Equations-with-Sympy.ipynb#Problem-Statement)
     - [Solving linear equations using Sympy](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.02-Solving-Linear-Equations-with-Sympy.ipynb#Solving-linear-equations-using-Sympy)
     - [Exercise](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.02-Solving-Linear-Equations-with-Sympy.ipynb#Exercise)
+
 ### [Chapter 1. Units, Quantities, and Engineering Calculations](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.00-Units-Quantities-and-Engineering-Calculations.ipynb)
 - [1.1 Units and Engineering Calculations](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.01-Units-and-Engineering-Calculations.ipynb)
     - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.01-Units-and-Engineering-Calculations.ipynb#Summary)
@@ -52,6 +54,7 @@
     - [Problem](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.02-Units-and-Conversions-for-Home-Heating.ipynb#Problem)
     - [Problem](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.02-Units-and-Conversions-for-Home-Heating.ipynb#Problem)
     - [Problem](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.02-Units-and-Conversions-for-Home-Heating.ipynb#Problem)
+
 ### [Chapter 2. Stoichiometry](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.00-Stoichiometry.ipynb)
 - [2.1 Balancing Reactions](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.01-Balancing-Reactions.ipynb)
     - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.01-Balancing-Reactions.ipynb#Summary)
@@ -69,6 +72,7 @@
     - [Background](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.02-Generation-Consumption-Analysis-for-Ammonia-Production.ipynb#Background)
     - [Problem Statement](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.02-Generation-Consumption-Analysis-for-Ammonia-Production.ipynb#Problem-Statement)
     - [Solution](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.02-Generation-Consumption-Analysis-for-Ammonia-Production.ipynb#Solution)
+
 ### [Chapter 3. Process Flows and Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.00-Process-Flows-and-Balances.ipynb)
 - [3.1 Global CO<sub>2</sub> Budget](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.01-Global-CO2-Budget.ipynb)
     - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.01-Global-CO2-Budget.ipynb#Summary)
@@ -98,6 +102,7 @@
         - [Specifications](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.05-Adipic-Acid-Flowsheet.ipynb#Specifications)
         - [Material Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.05-Adipic-Acid-Flowsheet.ipynb#Material-Balances)
         - [Solution](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.05-Adipic-Acid-Flowsheet.ipynb#Solution)
+
 ### [Chapter 4. Material Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.00-Material-Balances.ipynb)
 - [4.1 Lean $NO_x$ Trap](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.01-Lean-NOx-Trap.ipynb)
     - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.01-Lean-NOx-Trap.ipynb#Summary)
@@ -149,6 +154,7 @@
         - [Derivatives](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.04-Unsteady-State-Material-Balances.ipynb#Derivatives)
         - [Solve](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.04-Unsteady-State-Material-Balances.ipynb#Solve)
         - [Plot](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.04-Unsteady-State-Material-Balances.ipynb#Plot)
+
 ### [Chapter 5. Reactors](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/05.00-Reactors.ipynb)
 - [5.1 Dehydrogenation of Propane](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/05.01-Dehydrogenation-of-Propane.ipynb)
     - [Process Model](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/05.01-Dehydrogenation-of-Propane.ipynb#Process-Model)
@@ -171,6 +177,7 @@
         - [Equilibrium Composition](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/05.02-Steam-Reforming-of-Methane.ipynb#Equilibrium-Composition)
         - [Methane Conversion](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/05.02-Steam-Reforming-of-Methane.ipynb#Methane-Conversion)
     - [Exercises](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/05.02-Steam-Reforming-of-Methane.ipynb#Exercises)
+
 ### [Chapter 6. Vapors and Gases](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.00-Vapors-and-Gases.ipynb)
 - [6.1 PVT Computations for Non-ideal Gases](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.01-PVT-Calculations-for-Non-Ideal-Gases.ipynb)
     - [Problem Statement](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.01-PVT-Calculations-for-Non-Ideal-Gases.ipynb#Problem-Statement)
@@ -195,6 +202,7 @@
         - [Solution using SRK equation of state.](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.02-Hydrogen-Storage-for-a-Fuel-Cell-Vehicle.ipynb#Solution-using-SRK-equation-of-state.)
     - [Problem 3. Python function to estimate hydrogen mass.](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.02-Hydrogen-Storage-for-a-Fuel-Cell-Vehicle.ipynb#Problem-3.-Python-function-to-estimate-hydrogen-mass.)
     - [Problem 4. Limit on tank leak rate.](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.02-Hydrogen-Storage-for-a-Fuel-Cell-Vehicle.ipynb#Problem-4.-Limit-on-tank-leak-rate.)
+
 ### [Chapter 7. Vapor/Liquid Equilibrium](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.00-Vapor-Liquid-Equilibrium.ipynb)
 - [7.1 Gases with One Condensable Component](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.01-Gases-with-One-Condensable-Component.ipynb)
     - [Example: Boiling Water](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.01-Gases-with-One-Condensable-Component.ipynb#Example:-Boiling-Water)
@@ -271,6 +279,7 @@
         - [Construct Txy Diagram](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.10-Binary-Distillation-with-McCabe-Thiele.ipynb#Construct-Txy-Diagram)
         - [Analysis](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.10-Binary-Distillation-with-McCabe-Thiele.ipynb#Analysis)
     - [x-y Data](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.10-Binary-Distillation-with-McCabe-Thiele.ipynb#x-y-Data)
+
 ### [Chapter 8. Energy Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.00-Energy-Balances.ipynb)
 - [8.1 Energy Balances on a Classroom](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.01-Energy-Balances-on-a-Classroom.ipynb)
     - [Heat Requirement](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.01-Energy-Balances-on-a-Classroom.ipynb#Heat-Requirement)
@@ -339,6 +348,7 @@
         - [Gibb's Free Energy](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.07-Torpedo-Propulsion.ipynb#Gibb's-Free-Energy)
         - [Energy Requirement](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.07-Torpedo-Propulsion.ipynb#Energy-Requirement)
         - [Battery Requirement](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.07-Torpedo-Propulsion.ipynb#Battery-Requirement)
+
 ### [Appendix A. Products: Product Design and Analysis](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.00-Projects-Product-Design-and-Analysis.ipynb)
 - [A.1 Diesel Engine Emissions Control](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.01-Diesel-Engine-Emissions-Control.ipynb)
     - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.01-Diesel-Engine-Emissions-Control.ipynb#Summary)
@@ -359,6 +369,7 @@
     - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.03-Flameless-Cooking.ipynb#Summary)
     - [Overview](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.03-Flameless-Cooking.ipynb#Overview)
     - [Goals](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.03-Flameless-Cooking.ipynb#Goals)
+
 ### [Appendix B. Projects: Process Systems Analysis](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.00-Projects-Process-Systems-Analysis.ipynb)
 - [B.1 West Virginia Chemical Spill](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.01-West-Virginia-Chemical-Spill.ipynb)
     - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.01-West-Virginia-Chemical-Spill.ipynb#Summary)
