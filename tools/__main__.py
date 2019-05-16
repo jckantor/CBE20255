@@ -11,19 +11,15 @@ from configure import *
 # location of the README.md file in the local repository
 README_FILE = os.path.join(os.path.dirname(__file__), '..', 'README.md')
 
-# find location of notebook directory in the local repository
+# location of notebook directory in the local repository
 NOTEBOOK_DIR = os.path.join(os.path.dirname(__file__), '..', 'notebooks')
 
-# location of the index file in the local respository
+# location of the index files in the local respository
 INDEX_FILE = os.path.join(NOTEBOOK_DIR, 'index.md')
-
-# location of the index notebook in the local repository
 INDEX_NB = os.path.join(NOTEBOOK_DIR, 'index.ipynb')
 
 # html comment used to tag the location of the course information in each notebook
 COURSE_COMMENT = "<!--COURSE_INFORMATION-->"
-
-# course information header to be inserted into each notebook
 COURSE_INFO = COURSE_COMMENT + COURSE_INFO_HEADER
 
 # regular expression that matches notebook filenames to be included in the TOC
@@ -135,7 +131,7 @@ for n in notebooks:
 with open(README_FILE, 'w') as f:
     f.write(README_HEADER)
     f.write('\n'.join([n.toc_entry for n in notebooks]))
-    f.write(README_FOOTER)
+    f.write('n' + README_FOOTER)
 
 with open(INDEX_FILE, 'w') as f:
     f.write(INDEX_HEADER)
