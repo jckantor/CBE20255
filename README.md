@@ -32,7 +32,7 @@ were developed and tested using the [Anaconda](https://www.anaconda.com/download
 - [3.5 Adipic Acid Flowsheet](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.05-Adipic-Acid-Flowsheet.ipynb)
 
 ### [Chapter 4. Material Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.00-Material-Balances.ipynb)
-- [4.1 Lean $NO_x$ Trap](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.01-Lean-NOx-Trap.ipynb)
+- [4.1 Lean NO<sub>x</sub> Trap](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.01-Lean-NOx-Trap.ipynb)
 - [4.2 Ethylene Oxide Flowsheet](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb)
 - [4.3 General Mass Balance on a Single Tank](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.03-General-Mass-Balance-on-a-Single-Tank.ipynb)
 - [4.4 Unsteady-State Material Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.04-Unsteady-State-Material-Balances.ipynb)
