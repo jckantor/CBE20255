@@ -20,7 +20,7 @@ directly in Google Colaboratory where they can be run, edited, shared, and saved
 the notebooks can be downloaded and executed on your computer. These notebooks
 were developed and tested using the [Anaconda](https://www.anaconda.com/download/) distribution.
 
-## Contents
+## Notebooks
 ---
 """
 
@@ -56,7 +56,8 @@ INDEX_HEADER = """
 # header to be inserted at the top of each notebook
 COURSE_INFO_HEADER = """
 
-*This notebook contains course material from [CBE 20255 Introduction to Chemical Engineering Analysis](http://jckantor.github.io/CBE20255/) 
+*This notebook contains course material from 
+[CBE 20255 Introduction to Chemical Engineering Analysis](http://jckantor.github.io/CBE20255/) 
 by Jeffrey Kantor (jeff at nd.edu); the content is available [on GitHub](https://github.com/jckantor/CBE20255).
 The text is released under the [CC-BY-NC-ND-4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode),
 and code is released under the [MIT license](https://opensource.org/licenses/MIT).*
@@ -69,7 +70,7 @@ COLAB_LINK = """
 """
 
 # location of remote notebook directory
-NOTEBOOK_DIR_REMOTE = 'http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/'
+NBVIEWER_BASE_URL = 'http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/'
 
 ### DO NOT EDIT BELOW THIS LINE
 
@@ -94,93 +95,121 @@ COURSE_INFO = COURSE_COMMENT + COURSE_INFO_HEADER
 # regular expression that matches notebook filenames to be included in the TOC
 REG = re.compile(r'(\d\d|[A-Z])\.(\d\d)-(.*)\.ipynb')
 
-def iter_notebooks():
-    """Return list of notebooks matched by regular expression"""
-    return sorted(nb_file for nb_file in os.listdir(NOTEBOOK_DIR) if REG.match(nb_file))
-
-def get_notebook_title(nb_file):
-    """Returns notebook title header if it exists, else None"""
-    nb = nbformat.read(os.path.join(NOTEBOOK_DIR, nb_file), as_version=4)
-    for cell in nb.cells:
-        if cell.cell_type == "markdown":
-            if cell.source.startswith('#'):
-                return cell.source[1:].splitlines()[0].strip()
-
-def add_course_info():
-    """Inserts COURSE_INFO_HEADER as the first cell in each notebook"""
-    for nb_name in iter_notebooks():
-        nb_file = os.path.join(NOTEBOOK_DIR, nb_name)
-        nb = nbformat.read(nb_file, as_version=4)
-        if nb.cells[0].source.startswith(COURSE_COMMENT):
-            print('- amending comment for: {0}'.format(nb_name))
-            nb.cells[0].source = COURSE_INFO
-        else:
-            print('- inserting comment for {0}'.format(nb_name))
-            nb.cells.insert(0, new_markdown_cell(COURSE_INFO))
-        nbformat.write(nb, nb_file)
-
 # functions to create Nav bar
 PREV_TEMPLATE = "< [{title}]({url}) "
 CONTENTS = "| [Contents](index.ipynb) |"
 NEXT_TEMPLATE = " [{title}]({url}) >"
 NAV_COMMENT = "<!--NAVIGATION-->\n"
 
-def prev_this_next(it):
-    a, b, c = itertools.tee(it, 3)
-    next(c)
-    return zip(itertools.chain([None], a), b, itertools.chain(c, [None]))
+FMT = {   '##':'    - [{0}]({1})',
+         '###':'        - [{0}]({1})',
+        '####':'            - [{0}]({1})',
+       '#####':'                - [{0}]({1})'}
 
-def iter_navbars():
-    for prev_nb, nb, next_nb in prev_this_next(iter_notebooks()):
-        navbar = NAV_COMMENT
-        if prev_nb:
-            navbar += PREV_TEMPLATE.format(title=get_notebook_title(prev_nb), url=prev_nb)
-        navbar += CONTENTS
-        if next_nb:
-            navbar += NEXT_TEMPLATE.format(title=get_notebook_title(next_nb), url=next_nb)
-        navbar += COLAB_LINK.format(notebook_filename=os.path.basename(nb))
-        yield os.path.join(NOTEBOOK_DIR, nb), navbar
 
-def add_navbars():
-    for nb_name, navbar in iter_navbars():
-        nb = nbformat.read(nb_name, as_version=4)
-        nb_file = os.path.basename(nb_name)
-        if nb.cells[1].source.startswith(NAV_COMMENT):
-            print("- amending navbar for {0}".format(nb_file))
-            nb.cells[1].source = navbar
+class notebook():
+    def __init__(self, filename):
+        self.filename = filename
+        self.path = os.path.join(NOTEBOOK_DIR, filename)
+        self.chapter, self.section, _ = REG.match(filename).groups()
+        self.url = os.path.join(NBVIEWER_BASE_URL, filename)
+        self.colab_link = COLAB_LINK.format(notebook_filename=os.path.basename(self.filename))
+        self.nb = nbformat.read(self.path, as_version=4)
+        self.title = self.read_title()
+        self.navbar = None
+        self.toc_entry = self.get_toc_entry()
+        self.toc = self.get_toc()
+
+    def read_title(self):
+        title = None
+        for cell in self.nb.cells:
+            if cell.cell_type == "markdown":
+                if cell.source.startswith('#'):
+                    title = cell.source[1:].splitlines()[0].strip()
+                    break
+        return title
+
+    def write_course_info(self):
+        if self.nb.cells[0].source.startswith(COURSE_COMMENT):
+            print('- amending comment for: {0}'.format(self.filename))
+            self.nb.cells[0].source = COURSE_INFO
         else:
-            print("- inserting navbar for {0}".format(nb_file))
-            nb.cells.insert(1, new_markdown_cell(source=navbar))
-        if nb.cells[-1].source.startswith(NAV_COMMENT):
-            nb.cells[-1].source = navbar
-        else:
-            nb.cells.append(new_markdown_cell(source=navbar))
-        nbformat.write(nb, nb_name)
+            print('- inserting comment for {0}'.format(self.filename))
+            self.nb.cells.insert(0, new_markdown_cell(COURSE_INFO))
+        nbformat.write(self.nb, self.path)
 
-# functions to create Readme and Index files
-def gen_contents(remote_directory=None):
-    for nb_file in iter_notebooks():
-        nb_url = os.path.join(remote_directory, nb_file) if remote_directory else nb_file
-        chapter, section, name = REG.match(nb_file).groups()
-        if chapter.isdigit():
-            chapter = int(chapter)
-            if chapter == 0:
-                fmt = "\n### [{2}]({3})" if section in '00' else "- [{2}]({3})"
+    def write_navbar(self):
+        if self.nb.cells[1].source.startswith(NAV_COMMENT):
+            print("- amending navbar for {0}".format(self.filename))
+            self.nb.cells[1].source = self.navbar
+        else:
+            print("- inserting navbar for {0}".format(self.filename))
+            self.nb.cells.insert(1, new_markdown_cell(source=self.navbar))
+        if self.nb.cells[-1].source.startswith(NAV_COMMENT):
+            self.nb.cells[-1].source = self.navbar
+        else:
+            self.nb.cells.append(new_markdown_cell(source=self.navbar))
+        nbformat.write(self.nb, self.path)
+
+    def get_toc_entry(self):
+        if self.chapter.isdigit():
+            self.chapter = int(self.chapter)
+            if self.chapter == 0:
+                fmt = "### [{2}]({3})" if self.section in '00' else "- [{2}]({3})"
             else:
-                fmt = "\n### [Chapter {0}. {2}]({3})" if section in '00' else "- [{0}.{1} {2}]({3})"
+                fmt = "### [Chapter {0}. {2}]({3})" if self.section in '00' else "- [{0}.{1} {2}]({3})"
         else:
-            fmt = "\n### [Appendix {0}. {2}]({3})" if section in '00' else "- [{0}.{1} {2}]({3})"
-        yield fmt.format(chapter, int(section), get_notebook_title(nb_file), nb_url)
+            fmt = "### [Appendix {0}. {2}]({3})" if self.section in '00' else "- [{0}.{1} {2}]({3})"
+        return fmt.format(self.chapter, int(self.section), self.title, self.url)
 
-def write_contents(FILE, HEADER, FOOTER=None, remote_directory=None):
-    with open(FILE, 'w') as f:
-        f.write(HEADER)
-        f.write('\n'.join(gen_contents(remote_directory)))
-        if FOOTER:
-            f.write(FOOTER)
+    def get_toc(self):
+        toc = []
+        for cell in self.nb.cells:
+            if cell.cell_type == "markdown":
+                if cell.source.startswith('##'):
+                    header = cell.source.splitlines()[0].strip().split()
+                    txt = ' '.join(header[1:])
+                    url = '#'.join([self.url, '-'.join(header[1:])])
+                    toc.append(FMT[header[0]].format(txt, url))
+        return toc
 
-add_course_info()
-add_navbars()
-write_contents(README_FILE, README_HEADER, README_FOOTER, NOTEBOOK_DIR_REMOTE)
-write_contents(INDEX_FILE, INDEX_HEADER, None, NOTEBOOK_DIR_REMOTE)
+    def __gt__(self, nb):
+        return self.filename > nb.filename
+
+    def __str__(self):
+        return self.filename
+
+
+def set_navbars(notebooks):
+    a, b, c = itertools.tee(notebooks, 3)
+    next (c)
+    for prev_nb, this_nb, next_nb in zip(itertools.chain([None], a), b, itertools.chain(c, [None])):
+        this_nb.navbar = NAV_COMMENT
+        this_nb.navbar += PREV_TEMPLATE.format(title=prev_nb.title, url=prev_nb.url) if prev_nb else ''
+        this_nb.navbar += CONTENTS
+        this_nb.navbar += NEXT_TEMPLATE.format(title=next_nb.title, url=next_nb.url) if next_nb else ''
+        this_nb.navbar += this_nb.colab_link
+
+notebooks = sorted([notebook(filename) for filename in os.listdir(NOTEBOOK_DIR) if REG.match(filename)])
+
+set_navbars(notebooks)
+
+for n in notebooks:
+    n.write_course_info()
+    n.write_navbar()
+
+with open(README_FILE, 'w') as f:
+    f.write(README_HEADER)
+    f.write('\n'.join([n.toc_entry for n in notebooks]))
+    f.write(README_FOOTER)
+
+with open(INDEX_FILE, 'w') as f:
+    f.write(INDEX_HEADER)
+    f.write('\n'.join(['\n'.join([n.toc_entry, *n.toc]) for n in notebooks]))
+
 os.system(' '.join(['notedown', INDEX_FILE, '>', INDEX_NB]))
+
+
+
+
+
