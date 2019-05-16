@@ -1,38 +1,9 @@
 
 # Edit the following string variables to customize tools to a new notebook repository
-
-#
 USER = "jckantor"
 REPO = "CBE20255"
 DESC = "Introduction to Chemical Engineering Analysis"
 PAGE = "http://jckantor.github.io/CBE20255/"
-
-# location of remote notebook directory
-NBVIEWER_BASE_URL = "http://nbviewer.jupyter.org/github/{0}/{1}/blob/master/notebooks/".format(USER, REPO)
-COLAB_BASE_URL = "https://colab.research.google.com/github/{0}/{1}/blob.master/notebooks/".format(USER, REPO)
-#NBVIEWER_BASE_URL = 'http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/'
-
-# template for link to open notebooks in Google colaboratory
-COLAB_TEMPLATE = """
-<p><a href="https://colab.research.google.com/github/{0}/{1}/blob/master/notebooks/{2}">
-<img align="left" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open in Google Colaboratory"></a>
-"""
-
-COLAB_LINK = COLAB_TEMPLATE.format(USER, REPO, "{notebook_filename}")
-
-
-# header for the index file and notebook
-INDEX_HEADER = """
-# [Introduction to Chemical Engineering Analysis](http://jckantor.github.io/CBE20255/)
-"""
-INDEX_HEADER = "[{0}]({1})".format(DESC, PAGE)
-
-# table of contents header
-TOC_HEADER = """
-### [Table of Contents](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/index.ipynb?flush=true)
-"""
-
-TOC_HEADER = "### [Table of Contents]({0}index.ipynb?flush=true)".format(NBVIEWER_BASE_URL)
 
 # header to be inserted at the top of each notebook
 COURSE_INFO_HEADER = """

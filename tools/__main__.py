@@ -6,7 +6,20 @@ import itertools
 
 from configure import *
 
-### DO NOT EDIT BELOW THIS LINE
+# Header on index page pointing back to github.io
+INDEX_HEADER = "[{0}]({1})".format(DESC, PAGE)
+
+# location of remote notebook directory
+NBVIEWER_BASE_URL = "http://nbviewer.jupyter.org/github/{0}/{1}/blob/master/notebooks/".format(USER, REPO)
+
+# Header point to Table of Contents page viewed on nbviewer
+TOC_HEADER = "### [Table of Contents]({0}index.ipynb?flush=true)".format(NBVIEWER_BASE_URL)
+
+# template for link to open notebooks in Google colaboratory
+COLAB_TEMPLATE = """
+<p><a href="https://colab.research.google.com/github/{0}/{1}/blob/master/notebooks/{2}"><img align="left" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open in Google Colaboratory"></a>
+"""
+COLAB_LINK = COLAB_TEMPLATE.format(USER, REPO, "{notebook_filename}")
 
 # location of the README.md file in the local repository
 README_FILE = os.path.join(os.path.dirname(__file__), '..', 'README.md')
