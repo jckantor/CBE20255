@@ -1,9 +1,23 @@
 
 # Edit the following string variables to customize tools to a new notebook repository
 
+# location of remote notebook directory
+NBVIEWER_BASE_URL = 'http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/'
+
+# template for link to open notebooks in Google colaboratory
+COLAB_LINK = """
+<p><a href="https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/{notebook_filename}">
+<img align="left" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open in Google Colaboratory"></a>
+"""
+
 # header for the index file and notebook
 INDEX_HEADER = """
 # [Introduction to Chemical Engineering Analysis](http://jckantor.github.io/CBE20255/)
+"""
+
+# table of contents header
+TOC_HEADER = """
+### [Table of Contents](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/index.ipynb?flush=true)
 """
 
 # header to be inserted at the top of each notebook
@@ -14,15 +28,6 @@ by Jeffrey Kantor (jeff at nd.edu); the content is available [on GitHub](https:/
 The text is released under the [CC-BY-NC-ND-4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode),
 and code is released under the [MIT license](https://opensource.org/licenses/MIT).*
 """
-
-# template for link to open notebooks in Google colaboratory
-COLAB_LINK = """
-<p><a href="https://colab.research.google.com/github/jckantor/CBE20255/blob/master/notebooks/{notebook_filename}">
-<img align="left" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open in Google Colaboratory"></a>
-"""
-
-# location of remote notebook directory
-NBVIEWER_BASE_URL = 'http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/'
 
 # header for README.md
 README_HEADER = """
@@ -37,8 +42,6 @@ The notebooks demonstrate these basic chemical engineering calculations using Py
 directly in Google Colaboratory where they can be run, edited, shared, and saved to your Google Drive. Alternatively,
 the notebooks can be downloaded and executed on your computer. These notebooks
 were developed and tested using the [Anaconda](https://www.anaconda.com/download/) distribution.
-
-### [Table of Contents](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/index.ipynb?flush=true)
 """
 
 README_FOOTER = """
