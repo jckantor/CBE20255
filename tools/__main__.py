@@ -131,7 +131,7 @@ for n in notebooks:
 with open(README_FILE, 'w') as f:
     f.write(README_HEADER)
     f.write('\n'.join([n.toc_entry for n in notebooks]))
-    f.write('n' + README_FOOTER)
+    f.write('\n' + README_FOOTER)
 
 with open(INDEX_FILE, 'w') as f:
     f.write(INDEX_HEADER)
