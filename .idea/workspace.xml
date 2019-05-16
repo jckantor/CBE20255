@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a3c02a9-e1be-4750-9ab9-050412520c63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/notebooks/00.01-Getting-Started-with-Jupyter-Notebooks-and-Python.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/00.01-Getting-Started-with-Jupyter-Notebooks-and-Python.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/01.01-Units-and-Engineering-Calculations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/01.01-Units-and-Engineering-Calculations.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tools/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/__main__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tools/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="141" column="49" lean-forward="true" selection-start-line="141" selection-start-column="49" selection-end-line="141" selection-end-column="49" />
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -149,12 +147,12 @@
       <workItem from="1557885021864" duration="480000" />
       <workItem from="1557885996821" duration="2660000" />
       <workItem from="1557950656562" duration="7768000" />
-      <workItem from="1557971847966" duration="16878000" />
+      <workItem from="1557971847966" duration="17125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39059000" />
+    <option name="totallyTimeSpent" value="39306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="198" y="178" width="1508" height="919" extended-state="0" />
@@ -225,8 +223,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="141" column="49" lean-forward="true" selection-start-line="141" selection-start-column="49" selection-end-line="141" selection-end-column="49" />
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
