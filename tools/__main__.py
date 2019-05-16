@@ -20,8 +20,6 @@ directly in Google Colaboratory where they can be run, edited, shared, and saved
 the notebooks can be downloaded and executed on your computer. These notebooks
 were developed and tested using the [Anaconda](https://www.anaconda.com/download/) distribution.
 
-## Notebooks
-
 ### [Table of Contents](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/index.ipynb?flush=True)
 """
 
