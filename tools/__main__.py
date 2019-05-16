@@ -23,7 +23,6 @@ were developed and tested using the [Anaconda](https://www.anaconda.com/download
 ## Notebooks
 
 ### [Table of Contents](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/index.ipynb?flush=True)
----
 """
 
 README_FOOTER = """

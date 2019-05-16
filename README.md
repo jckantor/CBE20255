@@ -14,7 +14,6 @@ were developed and tested using the [Anaconda](https://www.anaconda.com/download
 ## Notebooks
 
 ### [Table of Contents](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/index.ipynb?flush=True)
----
 
 ### [Getting Started](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.00-Getting-Started.ipynb)
 - [Getting Started with Jupyter Notebooks, Python, and Google Colaboratory](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.01-Getting-Started-with-Jupyter-Notebooks-and-Python.ipynb)
