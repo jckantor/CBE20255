@@ -2,7 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a3c02a9-e1be-4750-9ab9-050412520c63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tools/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/00.00-Getting-Started.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/00.00-Getting-Started.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/00.01-Getting-Started-with-Jupyter-Notebooks-and-Python.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/00.01-Getting-Started-with-Jupyter-Notebooks-and-Python.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/00.02-Solving-Linear-Equations-with-Sympy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/00.02-Solving-Linear-Equations-with-Sympy.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/01.00-Units-Quantities-and-Engineering-Calculations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/01.00-Units-Quantities-and-Engineering-Calculations.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/01.01-Units-and-Engineering-Calculations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/01.01-Units-and-Engineering-Calculations.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/01.02-Units-and-Conversions-for-Home-Heating.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/01.02-Units-and-Conversions-for-Home-Heating.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/02.00-Stoichiometry.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/02.00-Stoichiometry.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/02.01-Balancing-Reactions.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/02.01-Balancing-Reactions.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/02.02-Generation-Consumption-Analysis-for-Ammonia-Production.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/02.02-Generation-Consumption-Analysis-for-Ammonia-Production.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/03.00-Process-Flows-and-Balances.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/03.00-Process-Flows-and-Balances.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/03.01-Global-CO2-Budget.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/03.01-Global-CO2-Budget.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/03.02-CO2-Production-by-Automobiles.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/03.02-CO2-Production-by-Automobiles.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/03.04-Separating-Milk.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/03.04-Separating-Milk.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/03.05-Adipic-Acid-Flowsheet.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/03.05-Adipic-Acid-Flowsheet.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/04.00-Material-Balances.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/04.00-Material-Balances.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/04.01-Lean-NOx-Trap.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/04.01-Lean-NOx-Trap.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/04.03-General-Mass-Balance-on-a-Single-Tank.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/04.03-General-Mass-Balance-on-a-Single-Tank.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/04.04-Unsteady-State-Material-Balances.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/04.04-Unsteady-State-Material-Balances.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/05.00-Reactors.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/05.00-Reactors.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/05.01-Dehydrogenation-of-Propane.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/05.01-Dehydrogenation-of-Propane.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/05.02-Steam-Reforming-of-Methane.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/05.02-Steam-Reforming-of-Methane.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/06.00-Vapors-and-Gases.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/06.00-Vapors-and-Gases.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/06.01-PVT-Calculations-for-Non-Ideal-Gases.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/06.01-PVT-Calculations-for-Non-Ideal-Gases.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/06.02-Hydrogen-Storage-for-a-Fuel-Cell-Vehicle.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/06.02-Hydrogen-Storage-for-a-Fuel-Cell-Vehicle.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/07.00-Vapor-Liquid-Equilibrium.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/07.00-Vapor-Liquid-Equilibrium.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/07.01-Gases-with-One-Condensable-Component.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/07.01-Gases-with-One-Condensable-Component.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/07.02-Vapor-Liquid-Equilibrium-for-Pure-Components.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/07.02-Vapor-Liquid-Equilibrium-for-Pure-Components.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/07.04-Raoult's-Law-for-Ideal-Mixtures.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/07.04-Raoult's-Law-for-Ideal-Mixtures.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/07.05-Henry's-Law-Constants.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/07.05-Henry's-Law-Constants.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/07.06-Binary-Phase-Diagrams-for-Ideal-Mixtures.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/07.06-Binary-Phase-Diagrams-for-Ideal-Mixtures.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/07.07-Bubble-and-Dew-Points-for-Binary-Mixtures.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/07.07-Bubble-and-Dew-Points-for-Binary-Mixtures.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/07.08-Bubble-and-Dew-Points-for-Multicomponent-Mixtures.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/07.08-Bubble-and-Dew-Points-for-Multicomponent-Mixtures.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/07.09-Isothermal-Flash-and-the-Rachford-Rice-Equation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/07.09-Isothermal-Flash-and-the-Rachford-Rice-Equation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/07.10-Binary-Distillation-with-McCabe-Thiele.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/07.10-Binary-Distillation-with-McCabe-Thiele.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/08.00-Energy-Balances.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/08.00-Energy-Balances.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/08.01-Energy-Balances-on-a-Classroom.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/08.01-Energy-Balances-on-a-Classroom.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/08.02-Water-and-Steam-Calculator.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/08.02-Water-and-Steam-Calculator.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/08.03-Basic-Energy-Calculations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/08.03-Basic-Energy-Calculations.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/08.04-Energy-Balances-for-a-Steam-Turbine.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/08.04-Energy-Balances-for-a-Steam-Turbine.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/08.05-Humidity-and-Psychrometrics.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/08.05-Humidity-and-Psychrometrics.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/08.06-Adiabatic-Flame-Temperature.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/08.06-Adiabatic-Flame-Temperature.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/08.07-Torpedo-Propulsion.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/08.07-Torpedo-Propulsion.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/A.00-Projects-Product-Design-and-Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/A.00-Projects-Product-Design-and-Analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/A.01-Diesel-Engine-Emissions-Control.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/A.01-Diesel-Engine-Emissions-Control.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/A.02-Pyrotechnic-Design-for-Airbags.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/A.02-Pyrotechnic-Design-for-Airbags.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/A.03-Flameless-Cooking.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/A.03-Flameless-Cooking.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/B.00-Projects-Process-Systems-Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/B.00-Projects-Process-Systems-Analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/B.01-West-Virginia-Chemical-Spill.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/B.01-West-Virginia-Chemical-Spill.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/B.02-Ajka-Alumina-Plant-Spill.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/B.02-Ajka-Alumina-Plant-Spill.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/index.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tools/configure.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/configure.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="132" column="22" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
+            <state relative-caret-position="405">
+              <caret line="121" selection-start-line="121" selection-end-line="121" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -55,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tools/configure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="96" selection-start-line="43" selection-start-column="96" selection-end-line="43" selection-end-column="96" />
+            <state relative-caret-position="454">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -81,14 +133,14 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tools/__init__.py" />
         <option value="$PROJECT_DIR$/tools/add_navigation.py" />
-        <option value="$PROJECT_DIR$/tools/configure.py" />
         <option value="$PROJECT_DIR$/tools/__main__.py" />
+        <option value="$PROJECT_DIR$/tools/configure.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="219" />
-    <option name="y" value="27" />
+    <option name="x" value="66" />
+    <option name="y" value="40" />
     <option name="width" value="1508" />
     <option name="height" value="919" />
   </component>
@@ -159,15 +211,15 @@
       <workItem from="1557885996821" duration="2660000" />
       <workItem from="1557950656562" duration="7768000" />
       <workItem from="1557971847966" duration="17367000" />
-      <workItem from="1558022330491" duration="1482000" />
+      <workItem from="1558022330491" duration="3320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41030000" />
+    <option name="totallyTimeSpent" value="42868000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="219" y="27" width="1508" height="919" extended-state="0" />
+    <frame x="66" y="40" width="1508" height="919" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27626193" />
@@ -233,20 +285,20 @@
     <entry file="file://$PROJECT_DIR$/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/configure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="96" selection-start-line="43" selection-start-column="96" selection-end-line="43" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="132" column="22" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
+        <state relative-caret-position="405">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/configure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
