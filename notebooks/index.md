@@ -53,9 +53,10 @@
         - [Estimation](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.01-Units-and-Engineering-Calculations.ipynb#Estimation)
 - [1.2 Units and Conversions for Home Heating](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.02-Units-and-Conversions-for-Home-Heating.ipynb)
     - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.02-Units-and-Conversions-for-Home-Heating.ipynb#Summary)
-    - [Example: Heating with Electricity](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.02-Units-and-Conversions-for-Home-Heating.ipynb#Example:-Heating-with-Electricity)
-    - [Example: Heating with Natural Gas](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.02-Units-and-Conversions-for-Home-Heating.ipynb#Example:-Heating-with-Natural-Gas)
-    - [Example: Sizing a Propane Storage Tank](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.02-Units-and-Conversions-for-Home-Heating.ipynb#Example:-Sizing-a-Propane-Storage-Tank)
+    - [Examples](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.02-Units-and-Conversions-for-Home-Heating.ipynb#Examples)
+        - [Heating with Electricity](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.02-Units-and-Conversions-for-Home-Heating.ipynb#Heating-with-Electricity)
+        - [Heating with Natural Gas](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.02-Units-and-Conversions-for-Home-Heating.ipynb#Heating-with-Natural-Gas)
+        - [Sizing a Propane Storage Tank](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.02-Units-and-Conversions-for-Home-Heating.ipynb#Sizing-a-Propane-Storage-Tank)
 
 ### [Chapter 2. Stoichiometry](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.00-Stoichiometry.ipynb)
 - [2.1 Balancing Reactions](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.01-Balancing-Reactions.ipynb)
