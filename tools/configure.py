@@ -8,7 +8,7 @@ DESC = "Introduction to Chemical Engineering Analysis"
 PAGE = "http://jckantor.github.io/CBE20255/"
 
 # location of remote notebook directory
-NBVIEWER_BASE_URL = "http://nbviewer.jupyter.org/github/{0}/{1}/blob.master/notebooks/".format(USER, REPO)
+NBVIEWER_BASE_URL = "http://nbviewer.jupyter.org/github/{0}/{1}/blob/master/notebooks/".format(USER, REPO)
 COLAB_BASE_URL = "https://colab.research.google.com/github/{0}/{1}/blob.master/notebooks/".format(USER, REPO)
 #NBVIEWER_BASE_URL = 'http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/'
 

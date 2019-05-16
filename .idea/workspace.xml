@@ -57,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tools/configure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+            <state relative-caret-position="109">
+              <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -158,12 +158,12 @@
       <workItem from="1557885996821" duration="2660000" />
       <workItem from="1557950656562" duration="7768000" />
       <workItem from="1557971847966" duration="17367000" />
-      <workItem from="1558022330491" duration="3374000" />
+      <workItem from="1558022330491" duration="3423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42922000" />
+    <option name="totallyTimeSpent" value="42971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="40" width="1508" height="919" extended-state="0" />
@@ -244,8 +244,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/configure.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+        <state relative-caret-position="109">
+          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
         </state>
       </provider>
     </entry>
