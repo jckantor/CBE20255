@@ -74,7 +74,6 @@ were developed and tested using the [Anaconda](https://www.anaconda.com/download
 ### [Appendix B. Projects: Process Systems Analysis](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.00-Projects-Process-Systems-Analysis.ipynb)
 - [B.1 West Virginia Chemical Spill](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.01-West-Virginia-Chemical-Spill.ipynb)
 - [B.2 Ajka Alumina Plant Spill](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.02-Ajka-Alumina-Plant-Spill.ipynb)
-
 **Note on the use of Python.** The Python used in these notebooks is deliberately limited to a core set of language 
 features.  These notebooks use scalar variables and lists of scalar variables to represent data. Also used are 
 arithmetic, math, print, and plotting functions from the `matplotlib.pyplot` library. Functions created with `def` 
