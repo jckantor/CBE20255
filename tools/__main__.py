@@ -99,9 +99,9 @@ CONTENTS = "| [Contents](index.ipynb) |"
 NEXT_TEMPLATE = " [{title}]({url}) >"
 NAV_COMMENT = "<!--NAVIGATION-->\n"
 
-FMT = {   '##':'    - [{0}]({1})',
-         '###':'        - [{0}]({1})',
-        '####':'            - [{0}]({1})',
+FMT = {'##':   '    - [{0}]({1})',
+       '###':  '        - [{0}]({1})',
+       '####': '            - [{0}]({1})',
        '#####':'                - [{0}]({1})'}
 
 
@@ -206,8 +206,3 @@ with open(INDEX_FILE, 'w') as f:
     f.write('\n'.join(['\n'.join([n.toc_entry, *n.toc]) for n in notebooks]))
 
 os.system(' '.join(['notedown', INDEX_FILE, '>', INDEX_NB]))
-
-
-
-
-

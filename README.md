@@ -14,7 +14,7 @@ were developed and tested using the [Anaconda](https://www.anaconda.com/download
 ### [Table of Contents](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/index.ipynb?flush=True)
 
 ### [Getting Started](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.00-Getting-Started.ipynb)
-- [Getting Started with Jupyter Notebooks, Python, and Google Colaboratory](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.01-Getting-Started-with-Jupyter-Notebooks-and-Python.ipynb)
+- [Jupyter Notebooks, Python, and Google Colaboratory](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.01-Getting-Started-with-Jupyter-Notebooks-and-Python.ipynb)
 - [Solving Linear Equations with Simpy](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.02-Solving-Linear-Equations-with-Sympy.ipynb)
 
 ### [Chapter 1. Units, Quantities, and Engineering Calculations](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.00-Units-Quantities-and-Engineering-Calculations.ipynb)
