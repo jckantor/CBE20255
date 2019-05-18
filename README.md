@@ -1,7 +1,7 @@
 
-# Introduction to Chemical Engineering Analysis
+# CBE 20255 Introduction to Chemical Engineering Analysis
 
-*Introduction to Chemical Engineering Analysis* demonstrates the use of mass and energy balances for the analysis of 
+**CBE 20255 Introduction to Chemical Engineering Analysis** demonstrates the use of mass and energy balances for the analysis of 
 chemical processes and products. The notebooks in the repository show how to prepare and analyze conceptual flowsheets 
 for chemical processes, perform generation-consumption analysis, and perform basic engineering calculations for 
 stoichiometry, reactor performance, separations, and energy analysis.
@@ -10,7 +10,7 @@ The notebooks demonstrate these basic chemical engineering calculations using Py
 directly in Google Colaboratory where they can be run, edited, shared, and saved to your Google Drive. Alternatively,
 the notebooks can be downloaded and executed on your computer. These notebooks
 were developed and tested using the [Anaconda](https://www.anaconda.com/download/) distribution.
-### [Table of Contents](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/index.ipynb?flush=true)
+### [Table of Contents](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/toc.ipynb?flush=true)
 ### [Getting Started](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.00-Getting-Started.ipynb)
 - [Jupyter Notebooks, Python, and Google Colaboratory](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.01-Getting-Started-with-Jupyter-Notebooks-and-Python.ipynb)
 - [Solving Linear Equations with Simpy](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.02-Solving-Linear-Equations-with-Sympy.ipynb)
@@ -82,7 +82,8 @@ result is more readable code. The `Sympy` library for symbolic math is used exte
  use of Python, such as dictionaries, are marked with an asterisk.
 
 **License Requirements.** The materials in this repository are available at 
-[http://github.com/jckantor/CBE20255](http://github.com/jckantor/CBE20255) for noncommercial use under terms of the 
+[https://github.com/jckantor/CBE20255](https://github.com/jckantor/CBE20255) 
+for noncommercial use under terms of the 
 [Creative Commons Attribution Noncommericial ShareAlike License](http://creativecommons.org/licenses/by-nc-sa/4.0/). 
 You are invited to fork this repository, and to use, adapt, remix these material for non-commericial purposes. The 
 license terms require you to give attribution and share your work under the same terms. Pull requests for corrections 
