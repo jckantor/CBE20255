@@ -5,6 +5,8 @@ exams/
 
 # working files and directories
 .idea
+.DS_Store
+
 notebooks/.DS_Store
 images/.DS_Store
 .ipynb_checkpoints/
