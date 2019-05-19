@@ -154,7 +154,7 @@
 
 ### [3.2 CO<sub>2</sub> Production by Automobiles](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.02-CO2-Production-by-Automobiles.ipynb)
 - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.02-CO2-Production-by-Automobiles.ipynb#Summary)
-- [Problem Statement](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.02-CO2-Production-by-Automobiles.ipynb#Problem-Statement)
+- [Examples](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.02-CO2-Production-by-Automobiles.ipynb#Examples)
     - [How much CO<sub>2</sub> is generated per mile driven with an ICE?](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.02-CO2-Production-by-Automobiles.ipynb#How-much-CO<sub>2</sub>-is-generated-per-mile-driven-with-an-ICE?)
     - [How much CO<sub>2</sub> is generated per mile driven by an electric car?](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.02-CO2-Production-by-Automobiles.ipynb#How-much-CO<sub>2</sub>-is-generated-per-mile-driven-by-an-electric-car?)
 * Links
@@ -193,6 +193,9 @@
 - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.01-Lean-NOx-Trap.ipynb#Summary)
 - [Problem Statement](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.01-Lean-NOx-Trap.ipynb#Problem-Statement)
 - [Solution](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.01-Lean-NOx-Trap.ipynb#Solution)
+    - [Part a. Degree of Freedom Analysis](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.01-Lean-NOx-Trap.ipynb#Part-a.-Degree-of-Freedom-Analysis)
+    - [Part b. Material Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.01-Lean-NOx-Trap.ipynb#Part-b.-Material-Balances)
+    - [Part c. The rate of consumption of $BaO$](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.01-Lean-NOx-Trap.ipynb#Part-c.-The-rate-of-consumption-of-$BaO$)
 * Figures
     - [figures/LeanNOxTrap.png](figures/LeanNOxTrap.png)
     - [figures/LeanNOxTrap2.png](figures/LeanNOxTrap2.png)
@@ -206,9 +209,12 @@
 - [Problem Statement (Murphy 2005, Example 3.19)](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb#Problem-Statement-(Murphy-2005,-Example-3.19))
 - [Solution](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb#Solution)
     - [Variables](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb#Variables)
+        - [Stream Variables](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb#Stream-Variables)
         - [Extent of Reaction](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb#Extent-of-Reaction)
     - [Equations](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb#Equations)
+        - [Material Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb#Material-Balances)
         - [Specifications](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb#Specifications)
+    - [Degree of Freedom Analysis](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb#Degree-of-Freedom-Analysis)
     - [Solution](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb#Solution)
         - [Production and Purity](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb#Production-and-Purity)
         - [Discussion Questions](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb#Discussion-Questions)
@@ -326,6 +332,7 @@
 
 ### [6.2 Hydrogen Storage in a Fuel Cell Vehicle](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.02-Hydrogen-Storage-for-a-Fuel-Cell-Vehicle.ipynb)
 - [Data](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.02-Hydrogen-Storage-for-a-Fuel-Cell-Vehicle.ipynb#Data)
+- [Problem 1. Required Tank Volume](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.02-Hydrogen-Storage-for-a-Fuel-Cell-Vehicle.ipynb#Problem-1.-Required-Tank-Volume)
     - [Solution using Ideal Gas Law](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.02-Hydrogen-Storage-for-a-Fuel-Cell-Vehicle.ipynb#Solution-using-Ideal-Gas-Law)
     - [Solution using Compressibility Charts](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.02-Hydrogen-Storage-for-a-Fuel-Cell-Vehicle.ipynb#Solution-using-Compressibility-Charts)
         - [Newton's Correction](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.02-Hydrogen-Storage-for-a-Fuel-Cell-Vehicle.ipynb#Newton's-Correction)
