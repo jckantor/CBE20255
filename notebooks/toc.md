@@ -311,13 +311,13 @@
     - [[Compressiblity Charts](http://eon.sdsu.edu/testhome/Test/solve/basics/tables/tablesRG/zNO.html)](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.01-PVT-Calculations-for-Non-Ideal-Gases.ipynb#[Compressiblity-Charts](http://eon.sdsu.edu/testhome/Test/solve/basics/tables/tablesRG/zNO.html))
     - [Virial Model](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.01-PVT-Calculations-for-Non-Ideal-Gases.ipynb#Virial-Model)
     - [van der Waals Equation of State](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.01-PVT-Calculations-for-Non-Ideal-Gases.ipynb#van-der-Waals-Equation-of-State)
-    - [Soave-Redlich-Kwong (SRK) Equation of **State**](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.01-PVT-Calculations-for-Non-Ideal-Gases.ipynb#Soave-Redlich-Kwong-(SRK)-Equation-of-**State**)
+    - [Soave-Redlich-Kwong Equation of State](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.01-PVT-Calculations-for-Non-Ideal-Gases.ipynb#Soave-Redlich-Kwong-Equation-of-State)
     - [Reference Data from NIST Webbook](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.01-PVT-Calculations-for-Non-Ideal-Gases.ipynb#Reference-Data-from-NIST-Webbook)
     - [Comparison of Estimates](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.01-PVT-Calculations-for-Non-Ideal-Gases.ipynb#Comparison-of-Estimates)
 - [Non-Ideal Behavior](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.01-PVT-Calculations-for-Non-Ideal-Gases.ipynb#Non-Ideal-Behavior)
 - [Discussion Points](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.01-PVT-Calculations-for-Non-Ideal-Gases.ipynb#Discussion-Points)
 * Figures
-    - [alt text](http://eon.sdsu.edu/testhome/Test/solve/basics/tables/tablesRG/zNO7.png)
+    - [Generalized Compressibility Chart](http://eon.sdsu.edu/testhome/Test/solve/basics/tables/tablesRG/zNO7.png)
 * Links
     - [Compressiblity Charts](http://eon.sdsu.edu/testhome/Test/solve/basics/tables/tablesRG/zNO.html)
     - [principle of corresponding states](https://pubs.acs.org/doi/abs/10.1021/ed081p142)
@@ -488,14 +488,23 @@
 - [Saturation Conditions at a Specified Temperature](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.02-Water-and-Steam-Calculator.ipynb#Saturation-Conditions-at-a-Specified-Temperature)
 
 ### [8.3 Basic Energy Computations](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.03-Basic-Energy-Calculations.ipynb)
-- [Example: Pumping a Fluid](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.03-Basic-Energy-Calculations.ipynb#Example:-Pumping-a-Fluid)
-- [Example: Phenol](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.03-Basic-Energy-Calculations.ipynb#Example:-Phenol)
+- [Computing Enthalpy and Internal Energy Changes for Common Situations](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.03-Basic-Energy-Calculations.ipynb#Computing-Enthalpy-and-Internal-Energy-Changes-for-Common-Situations)
+- [Examples](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.03-Basic-Energy-Calculations.ipynb#Examples)
+    - [Pumping a Fluid](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.03-Basic-Energy-Calculations.ipynb#Pumping-a-Fluid)
+- [Exercises](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.03-Basic-Energy-Calculations.ipynb#Exercises)
+    - [Vaporization of Phenol](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.03-Basic-Energy-Calculations.ipynb#Vaporization-of-Phenol)
 
 ### [8.4 Energy Balances for a Steam Turbine](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.04-Energy-Balances-for-a-Steam-Turbine.ipynb)
 - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.04-Energy-Balances-for-a-Steam-Turbine.ipynb#Summary)
 - [Problem Statement](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.04-Energy-Balances-for-a-Steam-Turbine.ipynb#Problem-Statement)
+- [Solution](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.04-Energy-Balances-for-a-Steam-Turbine.ipynb#Solution)
+    - [Part a. What is the pump work?](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.04-Energy-Balances-for-a-Steam-Turbine.ipynb#Part-a.-What-is-the-pump-work?)
+    - [Part b. What is the temperature of the steam produced by the boiler?](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.04-Energy-Balances-for-a-Steam-Turbine.ipynb#Part-b.-What-is-the-temperature-of-the-steam-produced-by-the-boiler?)
+    - [Part c. How much turbine work is produced?](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.04-Energy-Balances-for-a-Steam-Turbine.ipynb#Part-c.-How-much-turbine-work-is-produced?)
+    - [Part d. What is the thermal efficiency, i.e., net work out/net heat in, for this system?](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.04-Energy-Balances-for-a-Steam-Turbine.ipynb#Part-d.-What-is-the-thermal-efficiency,-i.e.,-net-work-out/net-heat-in,-for-this-system?)
 * Figures
-    - [https://github.com/jckantor/CBE20255/blob/master/notebooks/images/Energy-Balances-for-a-Steam-Turbine-Flowsheet.svg?raw=1](https://github.com/jckantor/CBE20255/blob/master/notebooks/images/Energy-Balances-for-a-Steam-Turbine-Flowsheet.svg?raw=1)
+    - [Energy-Balances-for-a-Steam-Turbine-Flowsheet.png](https://github.com/jckantor/CBE20255/blob/master/notebooks/figures/Energy-Balances-for-a-Steam-Turbine-Flowsheet.png?raw=true)
+    - [Energy-Balances-for-a-Steam-Turbine-Flowsheet-2.png](https://github.com/jckantor/CBE20255/blob/master/notebooks/figures/Energy-Balances-for-a-Steam-Turbine-Flowsheet-2.png?raw=1)
 
 ### [8.5 Humidity and Psychrometrics](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.05-Humidity-and-Psychrometrics.ipynb)
 - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.05-Humidity-and-Psychrometrics.ipynb#Summary)
@@ -524,7 +533,7 @@
     - [Snowmaking](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.05-Humidity-and-Psychrometrics.ipynb#Snowmaking)
     - [WaterSeer](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.05-Humidity-and-Psychrometrics.ipynb#WaterSeer)
 * Figures
-    - [../images/20160618_090132.jpg](../images/20160618_090132.jpg)
+    - [20160618_090132.jpg](https://raw.githubusercontent.com/jckantor/CBE20255/master/notebooks/figures/20160618_090132.jpg?raw=true)
 * Links
     - [Wagner and Pru&#223;](http://thermophysics.ru/pdf_doc/IAPWS_1995.pdf)
     - [iapws](https://pypi.python.org/pypi/iapws)
@@ -559,7 +568,6 @@
     - [Energy Requirement](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.07-Torpedo-Propulsion.ipynb#Energy-Requirement)
     - [Battery Requirement](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.07-Torpedo-Propulsion.ipynb#Battery-Requirement)
 * Links
-    - [Jupyter notebook](http://jupyter.org/notebook.html)
     - [Torpedo technology](https://www.youtube.com/watch?v=RV8MF-440xg)
     - [drag force on a torpedo](http://tglang.com/uploads/Hydrodynamic_Drag_of_Torpedoes.pdf)
     - [density of Otto fuel](http://www.copperheadchemical.com/Defense/OTTOFuelII_0106.pdf)
@@ -599,7 +607,6 @@
 - [Problem 3](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.02-Pyrotechnic-Design-for-Airbags.ipynb#Problem-3)
 - [Problem 4](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.02-Pyrotechnic-Design-for-Airbags.ipynb#Problem-4)
 * Links
-    - [Jupyter notebook](http://jupyter.org/notebook.html)
     - [With proper design](http://youtu.be/BmH_eIhHLX8)
 
 ### [A.3 Flameless Cooking](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.03-Flameless-Cooking.ipynb)
@@ -607,7 +614,6 @@
 - [Overview](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.03-Flameless-Cooking.ipynb#Overview)
 - [Goals](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.03-Flameless-Cooking.ipynb#Goals)
 * Links
-    - [Jupyter notebook](http://jupyter.org/notebook.html)
     - [MagicCook](http://www.magiccook.net/)
     - [BaroCook](http://www.barocook.net/eng/)
     - [MealSpec](http://www.campingsurvival.com/meflmrehe.html)
@@ -637,7 +643,6 @@
 - [Problem 7](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.02-Ajka-Alumina-Plant-Spill.ipynb#Problem-7)
 - [Problem 8](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.02-Ajka-Alumina-Plant-Spill.ipynb#Problem-8)
 * Links
-    - [Jupyter notebook](http://jupyter.org/notebook.html)
     - [Ajka, Hungary](http://www.theatlantic.com/infocus/2011/09/a-flood-of-red-sludge-one-year-later/100158/)
     - [New York Times](http://www.nytimes.com/2010/10/06/world/europe/06hungary.html)
     - [bauxite ore](http://en.wikipedia.org/wiki/Bauxite)
