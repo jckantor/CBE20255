@@ -1,0 +1,135 @@
+% Flowsheet for Ethylene Glycol Process, P3.50, Murphy
+
+\documentclass[tikz]{standalone}
+\usepackage{helvet}
+\usepackage[T1]{sansmath}
+\usepackage{chemfig}
+\usepackage{mhchem}
+
+\renewcommand{\familydefault}{\sfdefault}
+\normalfont
+
+\begin{document}
+
+\begin{sansmath}
+\tikzstyle{unit} = [
+  draw, thick, minimum height = 1.8cm, minimum width = 2cm,
+  fill = blue!10, rectangle, rounded corners, text centered]
+
+\begin{tikzpicture}[node distance = 2cm, auto, very thick,
+                    text height=1.5ex,text depth=0.25ex]
+  %\draw[help lines] (0,0) grid (22,16);
+  
+  \draw (4.5,10) node [unit] (R-1) {R-1};
+  \draw (8,10) node [unit] (A-1) {A-1};
+  \draw (12,10) node [unit] (D-1) {D-1};
+  \draw (15,7) node [unit] (A-2) {A-2};
+  \draw (7,3) node [unit] (D-3) {D-3};
+  \draw (11,3) node [unit] (D-2) {D-2};
+  \draw (15,3) node [unit] (R-2) {R-2};
+  \draw (2,10) node [circle,draw,fill=blue!10] (mixer) {};
+  \draw (4,13) node [circle,draw,fill=blue!10] (purge) {};
+  
+  \draw (4.5,8.5) node {$E + \frac{1}{2} O \longrightarrow EO$};
+  \draw (4.5,7.75) node {$E + 3 O \longrightarrow 2 C + 2 W$};
+  \draw (15,1.5) node {$EO + W \longrightarrow EG$};
+  \draw (15,0.75) node {$EG + EO \longrightarrow ED$};
+ 
+  \draw [<-] (mixer) -- ++(-2,0) 
+    node [below,midway,circle,draw] {1}
+    node [above,midway] {$E_1$}
+    node [left] {Ethylene};
+
+  \draw [<-] (mixer) -- ++(0,-2) 
+    node [left,midway,circle,draw] {2}
+    node [right,midway] {$O_2$,$N_2$}
+    node [below] {Air};
+    
+  \draw [->] (mixer) -- (R-1)
+    node [below,midway,circle,draw] {3}
+    node [above,midway] {\shortstack{$E_3$\\$O_3$\\$N_3$}};
+
+  \draw [->] (R-1) -- (A-1)
+    node [above,midway] {\shortstack{$E_4$\\$N_4$\\$EO_4$\\$C_4$\\$W_4$}}
+    node [below,midway,circle,draw] {4};
+    
+  \draw [<-] (A-1) ++(-0.5,0.9) -- ++(0,1) 
+    node [left,midway,circle,draw] {5}
+    node [right,midway] {$W_5$}
+    node [above] {\ce{H2O}};
+    
+  \draw [->] (A-1) ++ (0.5,0.9) -- ++(0,2.1) -- (purge)
+    node [above,midway] {\shortstack{$E_6$\\$N_6$}}
+    node [below,midway,circle,draw] {6};
+    
+  \draw [->] (purge) -- ++ (-2,0) -- (mixer)
+    node [right,midway] {$E_7$,$N_7$}
+    node [left,midway,circle,draw] {7};
+    
+  \draw [->] (purge) -- ++ (0,2) 
+    node [left,midway,circle,draw] {8}
+    node [right,midway] {$E_8$,$N_8$}
+    node [above] {Purge};
+    
+  \draw [->] (A-1) -- (D-1)
+    node [above,midway] {\shortstack{$EO_9$\\$C_9$\\$W_9$}}
+    node [below,midway,circle,draw] {9};
+    
+  \draw [->] (D-1) -- ++(0,-2) 
+    node [right,midway] {$W_{10}$}
+    node [left,midway,circle,draw] {10}
+    node [below] {\ce{H2O}};
+    
+  \draw [->] (D-1) -- ++(3,0)
+    node [above,midway] {\shortstack{$EO_{11}$\\$C_{11}$}}
+    node [below,midway,circle,draw] {11}  -- (A-2);
+    
+  \draw [->] (A-2) ++(1,0.5) -- ++(1.5,0)
+    node [below,midway] {$C_{12}$,$T_{12}$}
+    node [above,midway,circle,draw] {12}
+    node [right] {\ce{CO2},TEA};
+    
+  \draw [<-] (A-2) ++(1,-0.5) -- ++(1.5,0)
+    node [above,midway] {$T_{13}$}
+    node [below,midway,circle,draw]{13}
+    node [right] {TEA};
+    
+  \draw [->] (A-2) -- (R-2)
+    node [right,midway] {$EO_{14}$}
+    node [left,midway,circle,draw] {14};
+    
+  \draw [<-] (R-2) -- ++(2.5,0)
+    node [above,midway] {$W_{15}$}
+    node [below,midway,circle,draw] {15}
+    node [right] {\ce{H2O}};
+    
+  \draw [->] (R-2) -- (D-2)
+    node [above,midway] {\shortstack{$EG_{16}$\\$ED_{16}$\\$W_{16}$}}
+    node [below,midway,circle,draw] {16};
+    
+  \draw [->] (D-2) -- ++(0,2)
+    node [right,midway] {$W_{17}$}
+    node [left,midway,circle,draw] {17}
+    node [above] {\ce{H2O}};
+    
+  \draw [->] (D-2) -- (D-3)
+    node [above,midway] {\shortstack{$EG_{18}$\\$ED_{18}$}}
+    node [below,midway,circle,draw] {18};
+    
+  \draw [->] (D-3) ++(-1,0.5) -- ++(-1,0)
+    node [below,midway] {$EG_{19}$}
+    node [above,midway,circle,draw] {19}
+    node [left] {Ethylene Glycol};
+    
+  \draw [->] (D-3) ++(-1,-0.5) -- ++(-1,0)
+    node [above,midway] {$EE_{20}$}
+    node [below,midway,circle,draw] {20}
+    node [left] {Ethylene Diglycol};
+    
+
+\end{tikzpicture}
+\end{sansmath}
+\end{document}
+
+
+

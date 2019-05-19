@@ -1,0 +1,174 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>Ammonia Synthesis Reactor</title><meta name="generator" content="MATLAB 8.3"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2014-09-29"><meta name="DC.source" content="Ammonia_Synthesis_Reactor.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h1>Ammonia Synthesis Reactor</h1><!--introduction--><p>This script demonstrates a degree of freedom analysis and solution of material balances for a simple model of an ammonia synthesis reactor. The problem is quoted from Example 2.8, page 108, of Murphy (2005).</p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Required Functions</a></li><li><a href="#2">Problem Statement (Murphy, Example 2.8, page 108)</a></li><li><a href="#3">Flow Diagram</a></li><li><a href="#4">CVX Model</a></li><li><a href="#5">Display Stream Table</a></li></ul></div><h2>Required Functions<a name="1"></a></h2><div><ul><li><tt>CVX</tt></li><li><tt>displaytable.m</tt></li></ul></div><h2>Problem Statement (Murphy, Example 2.8, page 108)<a name="2"></a></h2><p>"A gas mixture of hydrogen and nitrogen is fed to a reactor, where they react to form ammonia, <img src="Ammonia_Synthesis_Reactor_eq40183.png" alt="$NH_3$">. The <img src="Ammonia_Synthesis_Reactor_eq97989.png" alt="$N_2$"> flowrate into the reactor is 150 gmol/h and the hydrogen is fed at a ratio of 4 gmol <img src="Ammonia_Synthesis_Reactor_eq02851.png" alt="$H_2$"> per gmol <img src="Ammonia_Synthesis_Reactor_eq97989.png" alt="$N_2$">. The balanced chemical reaction is</p><p><img src="Ammonia_Synthesis_Reactor_eq86947.png" alt="$$N_2 + 3H_2 \longrightarrow 2NH_3$$"></p><p>Of the nitrogen fed to the reactor, 30% leaves in the reactor outlet stream; the rest is consumed by reaction. The reactor operates at steady state. Determine the DOF."</p><h2>Flow Diagram<a name="3"></a></h2><pre>             ______________
+   H1       |              |     H2
+       ----&gt;| 3H + N -&gt; 2A |---&gt; N2
+   N1       |______________|     A2</pre><h2>CVX Model<a name="4"></a></h2><p>The CVX modell demonstrate identifies 6 variables, and 6 equations. Therefore there are 0 degrees of freedom.</p><pre class="codeinput">cvx_begin <span class="string">quiet</span>
+
+    <span class="comment">% Stream Variables (5)</span>
+    variables <span class="string">H1</span> <span class="string">N1</span>             <span class="comment">% Stream 1</span>
+    variables <span class="string">H2</span> <span class="string">N2</span> <span class="string">A2</span>          <span class="comment">% Stream 2</span>
+
+    <span class="comment">% System Variables (1)</span>
+    variables <span class="string">X</span>                 <span class="comment">% Extent of reaction</span>
+
+    <span class="comment">% Stream Specifications (3)</span>
+    N1 == 150;                  <span class="comment">% Inlet flow of N2, gmol/h</span>
+    H1 == 4*N1;                 <span class="comment">% 4:1 molar ratio of H2 to N2</span>
+    N2 == (1-0.7)*N1;           <span class="comment">% 70% conversion of N2</span>
+
+    <span class="comment">% Material Balances (3)</span>
+    0 == H1 - H2 - 3*X;         <span class="comment">% Hydrogen</span>
+    0 == N1 - N2 - X;           <span class="comment">% Nitrogen</span>
+    0 ==    - A2 + 2*X;         <span class="comment">% Ammonia</span>
+
+cvx_end
+</pre><h2>Display Stream Table<a name="5"></a></h2><p>This part requires <tt>displaytable.m</tt> to be present in the Matlab path. If necessary, download here <a href="https://raw.githubusercontent.com/jckantor/CBE20255/master/matlab/displaytable.m">https://raw.githubusercontent.com/jckantor/CBE20255/master/matlab/displaytable.m</a> and place in your Matlab directory.</p><pre class="codeinput">species = {<span class="string">'H2'</span>,<span class="string">'N2'</span>,<span class="string">'NH3'</span>};
+S = [H1 H2; N1 N2; 0  A2];
+
+displaytable(S,species,<span class="string">'STRM'</span>);
+</pre><pre class="codeoutput">     STRM(1)  STRM(2)
+H2       600      285
+N2       150       45
+NH3        0      210
+
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2014a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% Ammonia Synthesis Reactor
+%
+% This script demonstrates a degree of freedom analysis and solution of
+% material balances for a simple model of an ammonia synthesis reactor. The
+% problem is quoted from Example 2.8, page 108, of Murphy (2005).
+
+%% Required Functions
+%
+% * |CVX|
+% * |displaytable.m|
+
+%% Problem Statement (Murphy, Example 2.8, page 108)
+%
+% "A gas mixture of hydrogen and nitrogen is fed to a reactor, where they
+% react to form ammonia, $NH_3$. The $N_2$ flowrate into the reactor is 150
+% gmol/h and the hydrogen is fed at a ratio of 4 gmol $H_2$ per gmol $N_2$.
+% The balanced chemical reaction is
+%
+% $$N_2 + 3H_2 \longrightarrow 2NH_3$$
+%
+% Of the nitrogen fed to the reactor, 30% leaves in the reactor outlet
+% stream; the rest is consumed by reaction. The reactor operates at steady
+% state. Determine the DOF."
+
+%% Flow Diagram
+%
+%               ______________
+%     H1       |              |     H2
+%         REPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASH>| 3H + N -> 2A |REPLACE_WITH_DASH_DASH-> N2
+%     N1       |______________|     A2
+%
+
+%% CVX Model
+% The CVX modell demonstrate identifies 6 variables, and 6 equations.
+% Therefore there are 0 degrees of freedom.
+
+cvx_begin quiet
+
+    % Stream Variables (5)
+    variables H1 N1             % Stream 1
+    variables H2 N2 A2          % Stream 2
+    
+    % System Variables (1)
+    variables X                 % Extent of reaction
+    
+    % Stream Specifications (3)
+    N1 == 150;                  % Inlet flow of N2, gmol/h
+    H1 == 4*N1;                 % 4:1 molar ratio of H2 to N2
+    N2 == (1-0.7)*N1;           % 70% conversion of N2
+    
+    % Material Balances (3)
+    0 == H1 - H2 - 3*X;         % Hydrogen
+    0 == N1 - N2 - X;           % Nitrogen
+    0 ==    - A2 + 2*X;         % Ammonia
+    
+cvx_end
+
+%% Display Stream Table
+% This part requires |displaytable.m| to be present in the Matlab path. If
+% necessary, download here 
+% <https://raw.githubusercontent.com/jckantor/CBE20255/master/matlab/displaytable.m>
+% and place in your Matlab directory.
+
+species = {'H2','N2','NH3'};
+S = [H1 H2; N1 N2; 0  A2];
+ 
+displaytable(S,species,'STRM');
+
+
+
+##### SOURCE END #####
+--></body></html>

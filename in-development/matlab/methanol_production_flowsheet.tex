@@ -1,0 +1,54 @@
+% Methanol Production Flowsheet
+
+\documentclass[tikz]{standalone}
+\usepackage{helvet}
+\usepackage[T1]{sansmath}
+\usepackage{chemfig}
+\usepackage{mhchem}
+
+\renewcommand{\familydefault}{\sfdefault}
+\normalfont
+
+\begin{document}
+\begin{sansmath}
+
+\tikzstyle{box} = [
+  draw, minimum height = 1cm, minimum width = 1.5cm, fill=blue!10,
+  rectangle, rounded corners, text centered]
+\begin{tikzpicture}[auto,thick,node distance = 1cm]
+	%\draw[help lines] (0,1) grid (12,6);
+
+	\draw ( 2.5,3) node [box] (mix2) {\shortstack{Mixer}};
+	\draw ( 5.5,3) node [box] (rctr) {\shortstack{Reactor}};
+	\draw ( 8.5,3) node [box] (sep1) {\shortstack{Condenser}};
+	\draw ( 8.5,5.5) node [box] (purg) {\shortstack{Purge}};
+ 
+	\draw [<-] (mix2) -- ++(-2,0) 
+		node [midway,below] {\shortstack{$\ce{CO}$\\$\ce{H2}$\\$\ce{N2}$}}
+		node [midway,above,draw,circle] {1};
+	\draw [->] (mix2) -- (rctr) 
+		node [midway,below] {\shortstack{$\ce{CO}$\\$\ce{H2}$\\$\ce{N2}$}}
+		node [midway,above,draw,circle] {2};
+	\draw [->] (rctr) -- (sep1)
+		node [midway,below] {\shortstack{$\ce{CO}$\\$\ce{H2}$\\$\ce{N2}$\\$\ce{CH3OH}$}}
+		node [midway,above,draw,circle] {3};
+	\draw [->] (sep1) -- (purg)
+	    node [midway,left,draw,circle] {4};
+	\draw [->] (purg) -- ++(-6,0)
+		node [midway,below] {\shortstack{$\ce{CO}$\\$\ce{H2}$\\$\ce{N2}$}}
+		node [midway,above,draw,circle] {5}
+		-- (mix2);
+	\draw [->] (purg) -- ++(2.5,0)
+	    node [midway,below] {\shortstack{$\ce{CO}$\\$\ce{H2}$\\$\ce{N2}$}}
+	    node [midway,above,draw,circle] {6};
+	\draw [->] (sep1) -- ++(2.5,0)
+		node [midway,below] 
+			{\shortstack{$\ce{CH3OH}$}}
+		node [midway,above,draw,circle] {7};
+\end{tikzpicture}
+
+\end{sansmath}
+\end{document}
+
+
+

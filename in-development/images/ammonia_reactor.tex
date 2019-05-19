@@ -1,0 +1,21 @@
+\documentclass[tikz]{standalone}
+\begin{document}
+
+\tikzstyle{unit} = [
+    draw, minimum height = 2cm, minimum width = 4cm, fill=yellow!40,
+    rectangle, rounded corners, text centered]
+
+\begin{tikzpicture}[auto]
+  %  \draw[help lines] (0,0) grid (10,2);
+    \draw (0,0) {};
+    \draw (10,2) {};
+    \draw (5.5,1) node [unit] (reactor) {$N_{2}+3\, H_{2}\rightleftharpoons2\, NH_{3}$};
+    \draw [->] (0,1.5)--(3.5,1.5) node [above,midway]
+               {$\dot{n}_{N_2}=1000\frac{\mbox{g-mol}}{\mbox{hr}}$};
+    \draw [->] (0,0.5)--(3.5,0.5) node [above,midway]
+               {$\dot{n}_{H_2}=3000\frac{\mbox{g-mol}}{\mbox{hr}}$};
+    \draw [->] (7.5,1.0)--(10,1) node [above,midway]
+               {$\dot{n}_{N_2}$,$\dot{n}_{H_2}$,$\dot{n}_{NH_3}$};
+\end{tikzpicture}
+
+\end{document}
