@@ -470,9 +470,12 @@
 - [Problem Statement](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.10-Binary-Distillation-with-McCabe-Thiele.ipynb#Problem-Statement)
 - [Distillation](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.10-Binary-Distillation-with-McCabe-Thiele.ipynb#Distillation)
 - [Txy Diagram](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.10-Binary-Distillation-with-McCabe-Thiele.ipynb#Txy-Diagram)
+    - [Chemical Property Data](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.10-Binary-Distillation-with-McCabe-Thiele.ipynb#Chemical-Property-Data)
     - [Construct Txy Diagram](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.10-Binary-Distillation-with-McCabe-Thiele.ipynb#Construct-Txy-Diagram)
     - [Analysis](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.10-Binary-Distillation-with-McCabe-Thiele.ipynb#Analysis)
 - [x-y Data](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.10-Binary-Distillation-with-McCabe-Thiele.ipynb#x-y-Data)
+* Figures
+    - [364px-Colonne_distillazione.jpg](https://github.com/jckantor/CBE20255/blob/master/notebooks/figures/364px-Colonne_distillazione.jpg?raw=true)
 
 
 ## [Chapter 8. Energy Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.00-Energy-Balances.ipynb)
