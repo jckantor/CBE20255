@@ -460,6 +460,9 @@
 - [Isothermal Flash of a Binary Mixture](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.09-Isothermal-Flash-and-the-Rachford-Rice-Equation.ipynb#Isothermal-Flash-of-a-Binary-Mixture)
 - [Multicomponent Mixtures](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.09-Isothermal-Flash-and-the-Rachford-Rice-Equation.ipynb#Multicomponent-Mixtures)
 - [Exercises](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.09-Isothermal-Flash-and-the-Rachford-Rice-Equation.ipynb#Exercises)
+    - [Design of a Carbonated Beverage](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.09-Isothermal-Flash-and-the-Rachford-Rice-Equation.ipynb#Design-of-a-Carbonated-Beverage)
+* Figures
+    - [FlashDrumFigure.png](https://raw.githubusercontent.com/jckantor/CBE20255/master/notebooks/figures/FlashDrumFigure.png?raw=true)
 * Links
     - [Jupyter notebook](http://jupyter.org/notebook.html)
     - [learnCheme.com](http://learncheme.ning.com/)
