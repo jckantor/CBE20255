@@ -88,8 +88,12 @@
     - [Agricultural Chemical Calculations](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.01-Units-and-Engineering-Calculations.ipynb#Agricultural-Chemical-Calculations)
     - [Units of Illumination](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.01-Units-and-Engineering-Calculations.ipynb#Units-of-Illumination)
     - [Estimation](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.01-Units-and-Engineering-Calculations.ipynb#Estimation)
+* Figures
+    - [http://physics.nist.gov/cuu/Units/i/SubwayDiagram.gif](http://physics.nist.gov/cuu/Units/i/SubwayDiagram.gif)
+    - [113px-Tire_pressure_gauge.jpg](https://github.com/jckantor/CBE20255/tree/master/notebooks/figures/113px-Tire_pressure_gauge.jpg?raw=true)
 * Links
     - [Jupyter notebook](http://jupyter.org/notebook.html)
+    - [NIST illustrates the relationship among the SI units](http://physics.nist.gov/cuu/Units/SIdiagram.html)
     - [pint](http://pint.readthedocs.org/en/latest/)
 
 ### [1.2 Units and Conversions for Home Heating](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.02-Units-and-Conversions-for-Home-Heating.ipynb)
@@ -428,10 +432,13 @@
 - [Introduction](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.06-Binary-Phase-Diagrams-for-Ideal-Mixtures.ipynb#Introduction)
 - [Antoine's Equation](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.06-Binary-Phase-Diagrams-for-Ideal-Mixtures.ipynb#Antoine's-Equation)
 - [Binary Mixtures](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.06-Binary-Phase-Diagrams-for-Ideal-Mixtures.ipynb#Binary-Mixtures)
-- [Diagrams for Binary Mixtures](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.06-Binary-Phase-Diagrams-for-Ideal-Mixtures.ipynb#Diagrams-for-Binary-Mixtures)
+    - [Exercises](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.06-Binary-Phase-Diagrams-for-Ideal-Mixtures.ipynb#Exercises)
+    - [Exercises](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.06-Binary-Phase-Diagrams-for-Ideal-Mixtures.ipynb#Exercises)
+- [Pxy and Txy Diagrams for Binary Mixtures](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.06-Binary-Phase-Diagrams-for-Ideal-Mixtures.ipynb#Pxy-and-Txy-Diagrams-for-Binary-Mixtures)
+    - [Exercises](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.06-Binary-Phase-Diagrams-for-Ideal-Mixtures.ipynb#Exercises)
 - [Comparison to Experimental Data: Benzene/p-Xylene](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.06-Binary-Phase-Diagrams-for-Ideal-Mixtures.ipynb#Comparison-to-Experimental-Data:-Benzene/p-Xylene)
 - [Flash](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.06-Binary-Phase-Diagrams-for-Ideal-Mixtures.ipynb#Flash)
-- [Exercises](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.06-Binary-Phase-Diagrams-for-Ideal-Mixtures.ipynb#Exercises)
+    - [Exercises](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.06-Binary-Phase-Diagrams-for-Ideal-Mixtures.ipynb#Exercises)
 * Links
     - [LearnChemE](http://learncheme.com/)
     - [video](https://www.youtube.com/watch?v=E_Vuz8cfbEo&feature=youtu.be)

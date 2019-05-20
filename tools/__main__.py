@@ -86,7 +86,7 @@ class nb():
                 links.extend(self.__class__.LINK.findall(cell.source))
         return links
 
-    IMG = re.compile(r'<img')
+    IMG = re.compile(r'<img[^>]*>')
     @property
     def imgs(self):
         imgs = []
@@ -208,7 +208,7 @@ class nbcollection():
     def lint(self):
         for nb in self.notebooks:
             if nb.imgs:
-                print("\nConsider replacing HTML image tags with Markdown links ", nb.filename)
+                print("\n", nb.filename)
                 for img in nb.imgs:
                     print(img)
             if nb.orphan_headers:
