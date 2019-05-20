@@ -1,5 +1,5 @@
 # do not publish directories reserved for homework, exams, or development
-in_development/
+in-development/
 homework/
 exams/
 
