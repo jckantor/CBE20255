@@ -226,6 +226,8 @@
         - [Parametric Analysis: Change the Oxygen Feed Rate](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb#Parametric-Analysis:-Change-the-Oxygen-Feed-Rate)
         - [Discussion Questions](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb#Discussion-Questions)
 - [Conclusions](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.02-Ethylene-Oxide-Flowsheet.ipynb#Conclusions)
+* Figures
+    - [ethylene_oxide_flowsheet.png](https://raw.github.com/jckantor/CBE20255/master/notebooks/figures/ethylene_oxide_flowsheet.png)
 * Links
     - [Jupyter notebook](http://jupyter.org/notebook.html)
     - [symbolic algebra package Sympy](http://sympy.org/en/index.html)
