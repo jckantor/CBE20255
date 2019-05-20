@@ -451,6 +451,8 @@
     - [Bubble Point Curve for a Txy Diagram](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.07-Bubble-and-Dew-Points-for-Binary-Mixtures.ipynb#Bubble-Point-Curve-for-a-Txy-Diagram)
 - [Dew Point Calculations for a Binary Mixture](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.07-Bubble-and-Dew-Points-for-Binary-Mixtures.ipynb#Dew-Point-Calculations-for-a-Binary-Mixture)
     - [Dew Point Curve on the Txy diagram](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.07-Bubble-and-Dew-Points-for-Binary-Mixtures.ipynb#Dew-Point-Curve-on-the-Txy-diagram)
+* Figures
+    - [BubbleDewPointCalculations.png](https://github.com/jckantor/CBE20255/blob/master/notebooks/figures/BubbleDewPointCalculations.png?raw=true)
 * Links
     - [LearnChemE](http://learncheme.ning.com/)
 
@@ -663,6 +665,8 @@
 - [Problem 6](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.02-Ajka-Alumina-Plant-Spill.ipynb#Problem-6)
 - [Problem 7](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.02-Ajka-Alumina-Plant-Spill.ipynb#Problem-7)
 - [Problem 8](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.02-Ajka-Alumina-Plant-Spill.ipynb#Problem-8)
+* Figures
+    - [https://raw.github.com/jckantor/CBE20255/master/notebooks/figures/hungary_sludge_grap_930321a.jpg](https://raw.github.com/jckantor/CBE20255/master/notebooks/figures/hungary_sludge_grap_930321a.jpg)
 * Links
     - [Ajka, Hungary](http://www.theatlantic.com/infocus/2011/09/a-flood-of-red-sludge-one-year-later/100158/)
     - [New York Times](http://www.nytimes.com/2010/10/06/world/europe/06hungary.html)
