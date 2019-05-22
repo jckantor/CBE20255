@@ -68,6 +68,7 @@ were developed and tested using the [Anaconda](https://www.anaconda.com/download
 - [A.1 Diesel Engine Emissions Control](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.01-Diesel-Engine-Emissions-Control.ipynb)
 - [A.2 Pyrotechnic Design for Airbags](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.02-Pyrotechnic-Design-for-Airbags.ipynb)
 - [A.3 Flameless Cooking](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.03-Flameless-Cooking.ipynb)
+- [A.4 Artificial Gills for Underwater Breathing?](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.04-Artificial-Gills-for-Underwater-Breathing?.ipynb)
 
 ### [Appendix B. Projects: Process Systems Analysis](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.00-Projects-Process-Systems-Analysis.ipynb)
 - [B.1 West Virginia Chemical Spill](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.01-West-Virginia-Chemical-Spill.ipynb)

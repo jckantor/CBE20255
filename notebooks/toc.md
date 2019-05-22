@@ -90,7 +90,7 @@
     - [Estimation](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.01-Units-and-Engineering-Calculations.ipynb#Estimation)
 * Figures
     - [http://physics.nist.gov/cuu/Units/i/SubwayDiagram.gif](http://physics.nist.gov/cuu/Units/i/SubwayDiagram.gif)
-    - [113px-Tire_pressure_gauge.jpg](https://github.com/jckantor/CBE20255/tree/master/notebooks/figures/113px-Tire_pressure_gauge.jpg?raw=true)
+    - [Tire_pressure_gauge.jpg](https://raw.githubusercontent.com/jckantor/CBE20255/master/notebooks/figures/Tire_pressure_gauge.jpg)
 * Links
     - [Jupyter notebook](http://jupyter.org/notebook.html)
     - [NIST illustrates the relationship among the SI units](http://physics.nist.gov/cuu/Units/SIdiagram.html)
@@ -112,16 +112,20 @@
 - [Stoichiometric Coefficients](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.01-Balancing-Reactions.ipynb#Stoichiometric-Coefficients)
 - [Examples](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.01-Balancing-Reactions.ipynb#Examples)
     - [Combustion of Methane](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.01-Balancing-Reactions.ipynb#Combustion-of-Methane)
-    - [Hypergolic Reactions](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.01-Balancing-Reactions.ipynb#Hypergolic-Reactions)
+    - [Hypergolic Reaction of Monomethylhydrazine and Nitrogen Tetraoxide](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.01-Balancing-Reactions.ipynb#Hypergolic-Reaction-of-Monomethylhydrazine-and-Nitrogen-Tetraoxide)
     - [Reaction with Charge in Aqueous Solution](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.01-Balancing-Reactions.ipynb#Reaction-with-Charge-in-Aqueous-Solution)
 - [Exercises](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.01-Balancing-Reactions.ipynb#Exercises)
     - [Combustion of Octane](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.01-Balancing-Reactions.ipynb#Combustion-of-Octane)
     - [Hard to Balance Reaction](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.01-Balancing-Reactions.ipynb#Hard-to-Balance-Reaction)
     - [Another Hard to Balance Reaction](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.01-Balancing-Reactions.ipynb#Another-Hard-to-Balance-Reaction)
     - [Reactions with Charge](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.01-Balancing-Reactions.ipynb#Reactions-with-Charge)
+* Figures
+    - [https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Methylhydrazine-3D-balls.png/190px-Methylhydrazine-3D-balls.png](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Methylhydrazine-3D-balls.png/190px-Methylhydrazine-3D-balls.png)
 * Links
     - [Jupyter notebook](http://jupyter.org/notebook.html)
     - [SymPy](http://sympy.org/en/index.html)
+    - [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Methylhydrazine-3D-balls.png)
+    - [monomethylhydrazine (MMH)](https://en.wikipedia.org/wiki/Monomethylhydrazine)
 
 ### [2.2 Generation Consumption Analysis](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.02-Generation-Consumption-Analysis-for-Ammonia-Production.ipynb)
 - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.02-Generation-Consumption-Analysis-for-Ammonia-Production.ipynb#Summary)
@@ -173,8 +177,10 @@
     - [Specifications](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.04-Separating-Milk.ipynb#Specifications)
     - [Finding Feasible Solutions to the Material Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.04-Separating-Milk.ipynb#Finding-Feasible-Solutions-to-the-Material-Balances)
     - [Finding a Solution to Maximize Revenue](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.04-Separating-Milk.ipynb#Finding-a-Solution-to-Maximize-Revenue)
+* Figures
+    - [Gruppo Pieralsi Milk Separator](http://www.pieralisi.com/media/immagini/065_665_mcs_5_g.jpg)
 * Links
-    - [here](http://www.dailydairyreport.com/)
+    - [The Daily Dairy Report](http://www.dailydairyreport.com/)
 
 ### [3.5 Adipic Acid Flowsheet](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.05-Adipic-Acid-Flowsheet.ipynb)
 - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.05-Adipic-Acid-Flowsheet.ipynb#Summary)
@@ -650,6 +656,28 @@
     - [patented product](http://www.google.com/patents/US5611329)
     - [reviewer](http://www.outdoorlife.com/blogs/wringer/gear-review-flameless-portable-cooking-systems-backcountry-camping)
     - [Flameless Ration Heater](http://en.wikipedia.org/wiki/Flameless_ration_heater)
+
+### [A.4 Artificial Gills for Underwater Breathing?](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.04-Artificial-Gills-for-Underwater-Breathing?.ipynb)
+- [Exercises](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.04-Artificial-Gills-for-Underwater-Breathing?.ipynb#Exercises)
+    - [What are the oxygen requirements to sustain underwater activity?](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.04-Artificial-Gills-for-Underwater-Breathing?.ipynb#What-are-the-oxygen-requirements-to-sustain-underwater-activity?)
+    - [How much oxygen is dissolved in seawater?](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.04-Artificial-Gills-for-Underwater-Breathing?.ipynb#How-much-oxygen-is-dissolved-in-seawater?)
+    - [What are the liquid handling requirements?](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.04-Artificial-Gills-for-Underwater-Breathing?.ipynb#What-are-the-liquid-handling-requirements?)
+    - [Evalute Commercial Membrane Contacting Device](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.04-Artificial-Gills-for-Underwater-Breathing?.ipynb#Evalute-Commercial-Membrane-Contacting-Device)
+    - [First Principles Design](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.04-Artificial-Gills-for-Underwater-Breathing?.ipynb#First-Principles-Design)
+    - [What about carbon dioxide?](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.04-Artificial-Gills-for-Underwater-Breathing?.ipynb#What-about-carbon-dioxide?)
+    - [Is this a Feasible Technology?](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/A.04-Artificial-Gills-for-Underwater-Breathing?.ipynb#Is-this-a-Feasible-Technology?)
+* Figures
+    - [James Bond rebreather from Thunderball](https://www.outerplaces.com/images/user_upload/rebreather.jpg)
+* Links
+    - [Quora: Why can’t we take oxygen out of the water so divers have an unlimited supply of oxygen? Fish can do it; why haven’t we figured it out yet?](https://www.quora.com/Why-can-t-we-take-oxygen-out-of-the-water-so-divers-have-an-unlimited-supply-of-oxygen-Fish-can-do-it-why-haven-t-we-figured-it-out-yet)
+    - [Amphibio: A Gill Garmet for our Aquatic Future](http://www.junkamei.com/work#/amphibio/)
+    - [Jeabyun Yeon's Triton](https://www.smithsonianmag.com/innovation/student-claims-have-designed-working-artificial-gills-180949465/)
+    - [Like a fish Underwater Breathing System](http://www.isracast.com/article.aspx?id=63)
+    - [Artificial Human Gills Inpsired by Diving Bettles](https://www.livescience.com/7172-artificial-humans-gills-inspired-diving-beetles.html)
+    - [Sequenced, Hemoglobin Based Artificial Gills](http://archive.rubicon-foundation.org/xmlui/handle/123456789/3675)
+    - [3M sells supported membrances specifically designed for removing dissolved gases from water](https://www.3m.com/3M/en_US/liquicel-us/)
+    - [3M Liqui-Cel product literature](https://www.3m.com/3M/en_US/liquicel-us/resources/data-sheets/)
+    - [Polymeric membrances are generally well suited to gas separation](https://www.sciencedirect.com/science/article/pii/037673889180060J)
 
 
 ## [Appendix B. Projects: Process Systems Analysis](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/B.00-Projects-Process-Systems-Analysis.ipynb)
