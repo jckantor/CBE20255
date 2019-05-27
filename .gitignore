@@ -1,4 +1,5 @@
-# do not publish directories reserved for homework, exams, or development
+# do not publish directories reserved for homework, exams, 
+# development, or intermediate documents
 in-development/
 homework/
 exams/
