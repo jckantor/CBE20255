@@ -394,26 +394,26 @@
     - [By Matthieumarechal, CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=4623701)
     - [NIST Webbook entry for propylene glycol](https://webbook.nist.gov/cgi/cbook.cgi?ID=C57556&Mask=4&Type=ANTOINE&Plot=on)
 
-### [7.3 Operating Limits for a Methanol Lighter](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.03-Operating-Limits-for-a_\-Methanol-Lighter.ipynb)
-- [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.03-Operating-Limits-for-a_\-Methanol-Lighter.ipynb#Summary)
-- [Problem](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.03-Operating-Limits-for-a_\-Methanol-Lighter.ipynb#Problem)
-- [Antoine's Equation for the Saturation Pressure of Methanol](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.03-Operating-Limits-for-a_\-Methanol-Lighter.ipynb#Antoine's-Equation-for-the-Saturation-Pressure-of-Methanol)
-- [Equilibrium Vapor Composition at Room Temperature](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.03-Operating-Limits-for-a_\-Methanol-Lighter.ipynb#Equilibrium-Vapor-Composition-at-Room-Temperature)
-- [Lower Operating Temperature Limit](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.03-Operating-Limits-for-a_\-Methanol-Lighter.ipynb#Lower-Operating-Temperature-Limit)
-- [Exercise](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.03-Operating-Limits-for-a_\-Methanol-Lighter.ipynb#Exercise)
+### [7.3 Operating Limits for a Methanol Lighter](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.03-Operating-Limits-for-a-Methanol-Lighter.ipynb)
+- [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.03-Operating-Limits-for-a-Methanol-Lighter.ipynb#Summary)
+- [Problem](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.03-Operating-Limits-for-a-Methanol-Lighter.ipynb#Problem)
+- [Antoine's Equation for the Saturation Pressure of Methanol](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.03-Operating-Limits-for-a-Methanol-Lighter.ipynb#Antoine's-Equation-for-the-Saturation-Pressure-of-Methanol)
+- [Equilibrium Vapor Composition at Room Temperature](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.03-Operating-Limits-for-a-Methanol-Lighter.ipynb#Equilibrium-Vapor-Composition-at-Room-Temperature)
+- [Lower Operating Temperature Limit](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.03-Operating-Limits-for-a-Methanol-Lighter.ipynb#Lower-Operating-Temperature-Limit)
+- [Exercise](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.03-Operating-Limits-for-a-Methanol-Lighter.ipynb#Exercise)
 * Links
     - [`brentq`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.brentq.html)
     - [root-finding funtions](https://docs.scipy.org/doc/scipy/reference/optimize.html#root-finding)
     - [`scipy.optimize`](https://docs.scipy.org/doc/scipy/reference/optimize.html)
     - [`lambda`](https://www.w3schools.com/python/python_lambda.asp)
 
-### [7.4 Raoult's Law for Ideal Mixtures](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.04-Raoult's-Law-for-Ideal-Mixtures.ipynb)
-- [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.04-Raoult's-Law-for-Ideal-Mixtures.ipynb#Summary)
-- [Introduction](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.04-Raoult's-Law-for-Ideal-Mixtures.ipynb#Introduction)
-- [Vapor Pressure of Pure Components](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.04-Raoult's-Law-for-Ideal-Mixtures.ipynb#Vapor-Pressure-of-Pure-Components)
-- [Vapor Pressure of an Acetone/Ethanol Mixture at a Fixed Temperature](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.04-Raoult's-Law-for-Ideal-Mixtures.ipynb#Vapor-Pressure-of-an-Acetone/Ethanol-Mixture-at-a-Fixed-Temperature)
-- [Comparing Raoult's Law to [Experimental Data](http://www.ddbst.com/en/EED/VLE/VLE%20Acetone%3BEthanol.php)](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.04-Raoult's-Law-for-Ideal-Mixtures.ipynb#Comparing-Raoult's-Law-to-[Experimental-Data](http://www.ddbst.com/en/EED/VLE/VLE%20Acetone%3BEthanol.php))
-- [Deviations from Raoult's Law](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.04-Raoult's-Law-for-Ideal-Mixtures.ipynb#Deviations-from-Raoult's-Law)
+### [7.4 Raoult Law for Ideal Mixtures](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.04-Raoult-Law-for-Ideal-Mixtures.ipynb)
+- [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.04-Raoult-Law-for-Ideal-Mixtures.ipynb#Summary)
+- [Introduction](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.04-Raoult-Law-for-Ideal-Mixtures.ipynb#Introduction)
+- [Vapor Pressure of Pure Components](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.04-Raoult-Law-for-Ideal-Mixtures.ipynb#Vapor-Pressure-of-Pure-Components)
+- [Vapor Pressure of an Acetone/Ethanol Mixture at a Fixed Temperature](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.04-Raoult-Law-for-Ideal-Mixtures.ipynb#Vapor-Pressure-of-an-Acetone/Ethanol-Mixture-at-a-Fixed-Temperature)
+- [Comparing Raoult's Law to Experimental Data](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.04-Raoult-Law-for-Ideal-Mixtures.ipynb#Comparing-Raoult's-Law-to-Experimental-Data)
+- [Deviations from Raoult's Law](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.04-Raoult-Law-for-Ideal-Mixtures.ipynb#Deviations-from-Raoult's-Law)
 * Figures
     - [https://upload.wikimedia.org/wikipedia/commons/d/dc/RaoultDeviationPressureDiagram.png](https://upload.wikimedia.org/wikipedia/commons/d/dc/RaoultDeviationPressureDiagram.png)
 * Links
@@ -428,8 +428,8 @@
     - [NIST ethanol](https://webbook.nist.gov/cgi/cbook.cgi?ID=C64175&Units=SI&Mask=4#Thermo-Phase)
     - [Experimental Data](http://www.ddbst.com/en/EED/VLE/VLE%20Acetone%3BEthanol.php)
 
-### [7.5 Henry's Law Constants](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.05-Henry's-Law-Constants.ipynb)
-- [Henry's Law Calculator](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.05-Henry's-Law-Constants.ipynb#Henry's-Law-Calculator)
+### [7.5 Henry Law Constants](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.05-Henry-Law-Constants.ipynb)
+- [Henry's Law Calculator](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.05-Henry-Law-Constants.ipynb#Henry's-Law-Calculator)
 * Links
     - [IAPSW G7&-04 Guideline on the Henry's Constant and Vapor-Liquid Distribution Constant for Gases in $H_2O$ and $D_2O$ at High Temperatures](http://www.iapws.org/relguide/HenGuide.html)
 
