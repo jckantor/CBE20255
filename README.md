@@ -3,7 +3,7 @@
 
 # CBE20255 Introduction to Chemical Engineering Analysis
 
-**CBE20255 Introduction to Chemical Engineering Analysis ** demonstrates the use of mass and energy balances for the
+**CBE20255 Introduction to Chemical Engineering Analysis** demonstrates the use of mass and energy balances for the
 analysis of chemical processes and products. The notebooks in the repository show how to prepare and analyze conceptual
 flowsheets for chemical processes, perform generation-consumption analysis, and perform basic engineering calculations
 for stoichiometry, reactor performance, separations, and energy analysis.
