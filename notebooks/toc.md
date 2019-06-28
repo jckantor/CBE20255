@@ -1,9 +1,9 @@
-# [CBE 20255 Introduction to Chemical Engineering Analysis](http://jckantor.github.io/CBE20255/)
+# [CBE20255](https://jckantor.github.io/CBE20255)
 
 
 ## [Getting Started](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.00-Getting-Started.ipynb)
 
-### [Jupyter Notebooks, Python, and Google Colaboratory](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.01-Getting-Started-with-Jupyter-Notebooks-and-Python.ipynb)
+### [0.1 Jupyter Notebooks, Python, and Google Colaboratory](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.01-Getting-Started-with-Jupyter-Notebooks-and-Python.ipynb)
 - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.01-Getting-Started-with-Jupyter-Notebooks-and-Python.ipynb#Summary)
 - [Setting up Google Colaboratory and Google Drive](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.01-Getting-Started-with-Jupyter-Notebooks-and-Python.ipynb#Setting-up-Google-Colaboratory-and-Google-Drive)
 - [Python Basics](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.01-Getting-Started-with-Jupyter-Notebooks-and-Python.ipynb#Python-Basics)
@@ -48,7 +48,7 @@
     - [Official Notebook Documentation](http://ipython.org/ipython-doc/stable/interactive/notebook.html)
     - [Matplotlib](http://matplotlib.org/index.html)
 
-### [Solving Linear Equations with Simpy](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.02-Solving-Linear-Equations-with-Sympy.ipynb)
+### [0.2 Solving Linear Equations with Simpy](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.02-Solving-Linear-Equations-with-Sympy.ipynb)
 - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.02-Solving-Linear-Equations-with-Sympy.ipynb#Summary)
 - [Problem Statement](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.02-Solving-Linear-Equations-with-Sympy.ipynb#Problem-Statement)
 - [Solving linear equations using Sympy](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.02-Solving-Linear-Equations-with-Sympy.ipynb#Solving-linear-equations-using-Sympy)
@@ -59,7 +59,7 @@
     - [Sympy](http://sympy.org/en/index.html)
 
 
-## [Chapter 1. Units, Quantities, and Engineering Calculations](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.00-Units-Quantities-and-Engineering-Calculations.ipynb)
+## [Chapter 1.0 Units, Quantities, and Engineering Calculations](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.00-Units-Quantities-and-Engineering-Calculations.ipynb)
 
 ### [1.1 Units and Engineering Calculations](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.01-Units-and-Engineering-Calculations.ipynb)
 - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.01-Units-and-Engineering-Calculations.ipynb#Summary)
@@ -104,7 +104,7 @@
     - [Sizing a Propane Storage Tank](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.02-Units-and-Conversions-for-Home-Heating.ipynb#Sizing-a-Propane-Storage-Tank)
 
 
-## [Chapter 2. Stoichiometry](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.00-Stoichiometry.ipynb)
+## [Chapter 2.0 Stoichiometry](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.00-Stoichiometry.ipynb)
 
 ### [2.1 Balancing Reactions](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.01-Balancing-Reactions.ipynb)
 - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/02.01-Balancing-Reactions.ipynb#Summary)
@@ -139,7 +139,7 @@
     - [War of the Pacific](http://en.wikipedia.org/wiki/War_of_the_Pacific)
 
 
-## [Chapter 3. Process Flows and Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.00-Process-Flows-and-Balances.ipynb)
+## [Chapter 3.0 Process Flows and Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.00-Process-Flows-and-Balances.ipynb)
 
 ### [3.1 Global CO<sub>2</sub> Budget](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.01-Global-CO2-Budget.ipynb)
 - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/03.01-Global-CO2-Budget.ipynb#Summary)
@@ -197,7 +197,7 @@
     - [For example, starting with glucose](http://pubs.acs.org/doi/abs/10.1021/ja00080a057)
 
 
-## [Chapter 4. Material Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.00-Material-Balances.ipynb)
+## [Chapter 4.0 Material Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.00-Material-Balances.ipynb)
 
 ### [4.1 Lean NO<sub>x</sub> Trap](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.01-Lean-NOx-Trap.ipynb)
 - [Summary](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/04.01-Lean-NOx-Trap.ipynb#Summary)
@@ -287,7 +287,7 @@
     - [death rate as 8.0 per year per 1,000](http://data.worldbank.org/indicator/SP.DYN.CDRT.IN)
 
 
-## [Chapter 5. Reactors](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/05.00-Reactors.ipynb)
+## [Chapter 5.0 Reactors](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/05.00-Reactors.ipynb)
 
 ### [5.1 Dehydrogenation of Propane](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/05.01-Dehydrogenation-of-Propane.ipynb)
 - [Process Model](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/05.01-Dehydrogenation-of-Propane.ipynb#Process-Model)
@@ -320,7 +320,7 @@
 - [Exercises](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/05.02-Steam-Reforming-of-Methane.ipynb#Exercises)
 
 
-## [Chapter 6. Vapors and Gases](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.00-Vapors-and-Gases.ipynb)
+## [Chapter 6.0 Vapors and Gases](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.00-Vapors-and-Gases.ipynb)
 
 ### [6.1 PVT Computations for Non-ideal Gases](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.01-PVT-Calculations-for-Non-Ideal-Gases.ipynb)
 - [Problem Statement](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/06.01-PVT-Calculations-for-Non-Ideal-Gases.ipynb#Problem-Statement)
@@ -365,7 +365,7 @@
     - [`scipy.optimize`](https://docs.scipy.org/doc/scipy/reference/optimize.html#root-finding)
 
 
-## [Chapter 7. Vapor/Liquid Equilibrium](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.00-Vapor-Liquid-Equilibrium.ipynb)
+## [Chapter 7.0 Vapor/Liquid Equilibrium](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.00-Vapor-Liquid-Equilibrium.ipynb)
 
 ### [7.1 Gases with One Condensable Component](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.01-Gases-with-One-Condensable-Component.ipynb)
 - [Examples](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/07.01-Gases-with-One-Condensable-Component.ipynb#Examples)
@@ -504,7 +504,7 @@
     - [364px-Colonne_distillazione.jpg](https://github.com/jckantor/CBE20255/blob/master/notebooks/figures/364px-Colonne_distillazione.jpg?raw=true)
 
 
-## [Chapter 8. Energy Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.00-Energy-Balances.ipynb)
+## [Chapter 8.0 Energy Balances](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.00-Energy-Balances.ipynb)
 
 ### [8.1 Energy Balances on a Classroom](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.01-Energy-Balances-on-a-Classroom.ipynb)
 - [Heat Requirement](http://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/08.01-Energy-Balances-on-a-Classroom.ipynb#Heat-Requirement)
